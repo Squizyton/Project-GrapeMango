@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="4072029455" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{5140A5C8-A0D8-ADF7-768F-6CB45F43083C}">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<Media>
+				<File Id="211440783" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430.wav</ShortName>
+					<CachePath>SFX/Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430_89918206.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4277457389" Name="TestAmbience" ObjectPath="\Events\Default Work Unit\TestAmbience" GUID="{6E1928EB-D959-432C-88BA-3EF7D33C0AE9}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="211440783"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{85C30555-1175-BFC5-9DFA-EB6BCACD005D}</FileHash>
+</SoundBanksInfo>
