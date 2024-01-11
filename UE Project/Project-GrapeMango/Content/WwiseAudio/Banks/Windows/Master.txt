@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4277457389	TestAmbience			\Default Work Unit\TestAmbience	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	211440783	TestAmbience	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\ProjectGrapeMango\.cache\Windows\SFX\Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430_89918206.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestAmbience		7286788
+

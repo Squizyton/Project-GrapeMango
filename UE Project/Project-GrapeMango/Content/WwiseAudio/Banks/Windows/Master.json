@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4056684167",
+    "Type": "User",
+    "GUID": "{CC843A05-CB90-41D1-8445-F4970A102764}",
+    "Language": "SFX",
+    "Hash": "{E58F9BEA-FC33-017D-7B49-B44277712A60}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
+    "ShortName": "Master",
+    "Path": "Master.bnk",
+    "Media": [
+     {
+      "Id": "211440783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430.wav",
+      "CachePath": "SFX/Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430_89918206.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4277457389",
+      "Name": "TestAmbience",
+      "ObjectPath": "\\Events\\Default Work Unit\\TestAmbience",
+      "GUID": "{6E1928EB-D959-432C-88BA-3EF7D33C0AE9}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "211440783"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E37F8B83-ECD1-7003-E622-88E3CD789472}"
+ }
+}
