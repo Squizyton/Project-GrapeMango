@@ -1,5 +1,9 @@
-# Visual Studio 2015 user specific files
+# Code editors
 .vs/
+.gradle/
+.vscode/
+.idea/
+
 
 # Compiled Object files
 *.slo
@@ -48,6 +52,7 @@ SourceArt/**/*.tga
 # Binary Files
 Binaries/*
 Plugins/*/Binaries/*
+Plugins/*/*/Binaries/*
 
 # Builds
 Build/*
@@ -69,6 +74,17 @@ Saved/*
 # Compiled source files for the engine to use
 Intermediate/*
 Plugins/*/Intermediate/*
+Plugins/*/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Wwise Project
+Wwise/IncrementalSoundBankData.xml
+Wwise/.cache/
+Wwise/.backup/
+Wwise/*.akd
+Wwise/*.akpk
+Wwise/*.prof
+Wwise/*.validationcache
+Wwise/*.wsettings
