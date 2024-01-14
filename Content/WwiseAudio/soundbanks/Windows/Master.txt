@@ -7,15 +7,26 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 	1834394558	Surface			\Default Work Unit\Surface	
 
 Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	Surface			
 	2058049674	Wood	Surface			
 	2195636714	Dirt	Surface			
 	4248645337	Grass	Surface			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	13128194	Wood_2	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Wood_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Wood\Wood_2		173740
 	52682720	SmallGrassStep_ 6	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\SmallGrassStep_ 6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Grass\SmallGrassStep_ 6		88296
+	138980545	Wood_3	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Wood_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Wood\Wood_3		162716
 	211440783	TestAmbience	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430_89918206.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestAmbience		7286788
 	276180183	SmallGrassStep_ 3	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\SmallGrassStep_ 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Grass\SmallGrassStep_ 3		110348
+	296424511	DirtStep_6	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\DirtStep_6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Dirt\DirtStep_6		133776
+	323572412	Wood_1	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Wood_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Wood\Wood_1		88296
+	478503751	DirtStep_4	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\DirtStep_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Dirt\DirtStep_4		132396
 	485115948	Shoot	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\AK5 7,62mm - FIRING - Small Living Room - Single Shots - 10m Adjacent Room - AB - MKH8020 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Shoot		387840
 	599569791	SmallGrassStep_ 4	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\SmallGrassStep_ 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Grass\SmallGrassStep_ 4		110348
 	630391274	SmallGrassStep_ 8	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\SmallGrassStep_ 8_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Grass\SmallGrassStep_ 8		88296
+	677426750	DirtStep_2	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\DirtStep_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Dirt\DirtStep_2		121372
+	802018755	DirtStep_3	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\DirtStep_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Dirt\DirtStep_3		132396
+	834773314	DirtStep_7	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\DirtStep_7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Dirt\DirtStep_7		215084
+	854689490	DirtStep_1	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\DirtStep_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Dirt\DirtStep_1		165472
+	858704608	DirtStep_5	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\DirtStep_5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Dirt\DirtStep_5		165472
 

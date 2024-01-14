@@ -50,6 +50,12 @@
       "GUID": "{4F332131-822E-43E3-9D9F-4664B5FA6468}",
       "Switches": [
        {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Stone",
+        "GUID": "{9EC73123-F243-4404-BFE8-1C98BC74937A}"
+       },
+       {
         "Id": "2058049674",
         "Name": "Wood",
         "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Wood",
@@ -72,6 +78,6 @@
     ]
    }
   ],
-  "FileHash": "{E19BE2C1-C2FD-EAB8-B041-50754FCD4EE6}"
+  "FileHash": "{218F14DB-9C6F-683B-2352-3D6DE40A5F8E}"
  }
 }

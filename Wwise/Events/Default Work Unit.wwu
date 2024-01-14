@@ -25,13 +25,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{5B6442BE-A8AD-4FF5-9432-FC078F8CEC1D}" ShortID="513947477">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Footsteps_Grass" ID="{7FFB239A-DA1E-4B59-A271-6EE2FDCC87A0}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Flashlight" ID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}">

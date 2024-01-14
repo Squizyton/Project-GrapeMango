@@ -404,23 +404,34 @@
 								<GroupingBehaviorList>
 									<GroupingBehavior>
 										<ItemRef Name="Footsteps_Dirt" ID="{B1265B68-DD9C-4B3E-B9E1-709D72C98998}"/>
-										<PropertyList>
-											<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
-										</PropertyList>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Footsteps_Grass" ID="{7FFB239A-DA1E-4B59-A271-6EE2FDCC87A0}"/>
-										<PropertyList>
-											<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
-										</PropertyList>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Footsteps_Wood" ID="{3A9853DB-E810-4C61-9A8F-8ABEE928E394}"/>
-										<PropertyList>
-											<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
-										</PropertyList>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Grass" ID="{7FFB239A-DA1E-4B59-A271-6EE2FDCC87A0}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{B77D37A7-1FC3-45CF-8702-2A65734E114D}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Wood" ID="{3A9853DB-E810-4C61-9A8F-8ABEE928E394}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Dirt" ID="{A479D1C8-1883-4CBA-89A8-348AD46A5336}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Dirt" ID="{B1265B68-DD9C-4B3E-B9E1-709D72C98998}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<Sound Name="Shoot" ID="{194B8B8C-66C4-4DE9-9DF3-2E8406B37657}" ShortID="247025607">
