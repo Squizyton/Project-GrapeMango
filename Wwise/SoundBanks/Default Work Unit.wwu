@@ -4,10 +4,16 @@
 		<WorkUnit Name="Default Work Unit" ID="{7492E5D1-1A21-41BF-B5DC-58DB936FA96B}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Master" ID="{CC843A05-CB90-41D1-8445-F4970A102764}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>100000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="TestAmbience" ID="{6E1928EB-D959-432C-88BA-3EF7D33C0AE9}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Footsteps" ID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Flashlight" ID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footsteps" ID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Flashlight_Switch" ID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

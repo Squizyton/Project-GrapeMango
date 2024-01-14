@@ -20,11 +20,12 @@
 						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surface\Stone" GUID="{9EC73123-F243-4404-BFE8-1C98BC74937A}"/>
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Surface\Wood" GUID="{B77D37A7-1FC3-45CF-8702-2A65734E114D}"/>
 						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surface\Dirt" GUID="{A479D1C8-1883-4CBA-89A8-348AD46A5336}"/>
+						<Switch Id="3728443364" Name="Catwalk" ObjectPath="\Switches\Default Work Unit\Surface\Catwalk" GUID="{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surface\Grass" GUID="{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{96E5DF42-A724-9EB5-A659-1A9004AAF59C}</FileHash>
+	<FileHash>{B66EC183-4BFE-9356-116F-899D7DF8EFA5}</FileHash>
 </SoundBanksInfo>

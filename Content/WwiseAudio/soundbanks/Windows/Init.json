@@ -68,6 +68,12 @@
         "GUID": "{A479D1C8-1883-4CBA-89A8-348AD46A5336}"
        },
        {
+        "Id": "3728443364",
+        "Name": "Catwalk",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Catwalk",
+        "GUID": "{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"
+       },
+       {
         "Id": "4248645337",
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Grass",
@@ -78,6 +84,6 @@
     ]
    }
   ],
-  "FileHash": "{218F14DB-9C6F-683B-2352-3D6DE40A5F8E}"
+  "FileHash": "{06A9DF6F-4AF9-E126-A201-BABAC642B8D6}"
  }
 }
