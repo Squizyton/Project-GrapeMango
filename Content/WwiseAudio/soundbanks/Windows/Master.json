@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{CC843A05-CB90-41D1-8445-F4970A102764}",
     "Language": "SFX",
-    "Hash": "{E58F9BEA-FC33-017D-7B49-B44277712A60}",
+    "Hash": "{6E5E28CF-9083-1CC4-1792-6438708B871B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
     "Media": [
+     {
+      "Id": "52682720",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SmallGrassStep_ 6.wav",
+      "CachePath": "SFX/SmallGrassStep_ 6_818F3B66.wem"
+     },
      {
       "Id": "211440783",
       "Language": "SFX",
@@ -22,9 +30,78 @@
       "Location": "Memory",
       "ShortName": "Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430.wav",
       "CachePath": "SFX/Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430_89918206.wem"
+     },
+     {
+      "Id": "276180183",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SmallGrassStep_ 3.wav",
+      "CachePath": "SFX/SmallGrassStep_ 3_818F3B66.wem"
+     },
+     {
+      "Id": "485115948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AK5 7,62mm - FIRING - Small Living Room - Single Shots - 10m Adjacent Room - AB - MKH8020 2.wav",
+      "CachePath": "SFX/AK5 7,62mm - FIRING - Small Living Room - Single Shots - 10m Adjacent Room - AB - MKH8020 2_818F3B66.wem"
+     },
+     {
+      "Id": "599569791",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SmallGrassStep_ 4.wav",
+      "CachePath": "SFX/SmallGrassStep_ 4_818F3B66.wem"
+     },
+     {
+      "Id": "630391274",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SmallGrassStep_ 8.wav",
+      "CachePath": "SFX/SmallGrassStep_ 8_818F3B66.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "1167979795",
+      "Name": "Flashlight",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Flashlight",
+      "GUID": "{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0195105",
+      "DurationMax": "2.0195105",
+      "MediaRefs": [
+       {
+        "Id": "485115948"
+       }
+      ]
+     },
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Footsteps",
+      "GUID": "{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.6250113",
+      "MediaRefs": [
+       {
+        "Id": "52682720"
+       },
+       {
+        "Id": "276180183"
+       },
+       {
+        "Id": "599569791"
+       },
+       {
+        "Id": "630391274"
+       }
+      ]
+     },
      {
       "Id": "4277457389",
       "Name": "TestAmbience",
@@ -37,9 +114,37 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1834394558",
+      "Name": "Surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
+      "GUID": "{4F332131-822E-43E3-9D9F-4664B5FA6468}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Wood",
+        "GUID": "{B77D37A7-1FC3-45CF-8702-2A65734E114D}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Dirt",
+        "GUID": "{A479D1C8-1883-4CBA-89A8-348AD46A5336}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Grass",
+        "GUID": "{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{E37F8B83-ECD1-7003-E622-88E3CD789472}"
+  "FileHash": "{FFF9DA83-B300-6B16-3741-6FC46AEFD003}"
  }
 }

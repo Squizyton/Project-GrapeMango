@@ -14,6 +14,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Player" ID="{FD813567-5031-40A4-BD29-A4DD92CD98C7}" ShortID="117205500">
+					<ChildrenList>
+						<Event Name="Footsteps" ID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}">
+							<ChildrenList>
+								<Action Name="" ID="{79B3D302-F153-477E-A141-BC4C8F84DEE5}" ShortID="521230957">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{A57184FA-AFDB-43B8-B788-8ED998BDEC42}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5B6442BE-A8AD-4FF5-9432-FC078F8CEC1D}" ShortID="513947477">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps_Grass" ID="{7FFB239A-DA1E-4B59-A271-6EE2FDCC87A0}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Flashlight" ID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}">
+							<ChildrenList>
+								<Action Name="" ID="{22C2F08C-E361-4A9D-8742-0E3917FCB1DA}" ShortID="225960611">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shoot" ID="{194B8B8C-66C4-4DE9-9DF3-2E8406B37657}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

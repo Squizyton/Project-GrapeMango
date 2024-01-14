@@ -14,7 +14,16 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{4F332131-822E-43E3-9D9F-4664B5FA6468}">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Surface\Wood" GUID="{B77D37A7-1FC3-45CF-8702-2A65734E114D}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surface\Dirt" GUID="{A479D1C8-1883-4CBA-89A8-348AD46A5336}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surface\Grass" GUID="{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2C3EDC1C-BC8F-7233-EB95-9811C8F129AD}</FileHash>
+	<FileHash>{24785E5C-A09B-0F06-4CB2-694B064AEA15}</FileHash>
 </SoundBanksInfo>

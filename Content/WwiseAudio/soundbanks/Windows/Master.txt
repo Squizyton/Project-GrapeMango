@@ -1,6 +1,21 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1167979795	Flashlight			\Default Work Unit\Player\Flashlight	
+	2385628198	Footsteps			\Default Work Unit\Player\Footsteps	
 	4277457389	TestAmbience			\Default Work Unit\TestAmbience	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1834394558	Surface			\Default Work Unit\Surface	
+
+Switch	ID	Name	Switch Group			Notes
+	2058049674	Wood	Surface			
+	2195636714	Dirt	Surface			
+	4248645337	Grass	Surface			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	52682720	SmallGrassStep_ 6	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\SmallGrassStep_ 6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Grass\SmallGrassStep_ 6		88296
 	211440783	TestAmbience	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430_89918206.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestAmbience		7286788
+	276180183	SmallGrassStep_ 3	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\SmallGrassStep_ 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Grass\SmallGrassStep_ 3		110348
+	485115948	Shoot	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\AK5 7,62mm - FIRING - Small Living Room - Single Shots - 10m Adjacent Room - AB - MKH8020 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Shoot		387840
+	599569791	SmallGrassStep_ 4	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\SmallGrassStep_ 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Grass\SmallGrassStep_ 4		110348
+	630391274	SmallGrassStep_ 8	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\SmallGrassStep_ 8_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Grass\SmallGrassStep_ 8		88296
 
