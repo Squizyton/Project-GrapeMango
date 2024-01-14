@@ -9,6 +9,16 @@
 							<ObjectRef Name="System" ID="{FAB90C91-89EB-4E6E-85A0-DAF0B9FF4F1D}" WorkUnitID="{E516C9D1-946C-4448-9FC8-F83F450EF919}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="DiegeticSounds" ID="{8AE29F5C-7522-435F-8CA5-50B289D1F60C}">
+							<ChildrenList>
+								<Bus Name="Ambient" ID="{7DFB4537-A4BF-4C60-9B2A-B64CC56C6C2C}"/>
+								<Bus Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Music" ID="{0B58E619-38CF-4EDB-9E8B-0FFFB8B0716E}"/>
+						<Bus Name="UI" ID="{0EB3C8FB-D504-4BFE-9B0B-C61652FE8A50}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
