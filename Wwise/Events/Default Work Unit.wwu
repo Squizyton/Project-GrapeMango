@@ -3,41 +3,38 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="TestAmbience" ID="{6E1928EB-D959-432C-88BA-3EF7D33C0AE9}">
-					<ChildrenList>
-						<Action Name="" ID="{6A120B1B-9AB2-4FAA-B1F7-B71CBCA203C9}" ShortID="666665243">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TestAmbience" ID="{FEEA4EB9-CFD2-48C9-BB15-41F42E972F55}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Player" ID="{FD813567-5031-40A4-BD29-A4DD92CD98C7}" ShortID="117205500">
 					<ChildrenList>
-						<Event Name="Footsteps" ID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}">
+						<Event Name="Player_Footsteps" ID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}">
 							<ChildrenList>
 								<Action Name="" ID="{79B3D302-F153-477E-A141-BC4C8F84DEE5}" ShortID="521230957">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Footsteps" ID="{A57184FA-AFDB-43B8-B788-8ED998BDEC42}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+											<ObjectRef Name="Player_Footsteps" ID="{A57184FA-AFDB-43B8-B788-8ED998BDEC42}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Flashlight" ID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}">
+						<Event Name="Player_Flashlight_Switch" ID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}">
 							<ChildrenList>
 								<Action Name="" ID="{22C2F08C-E361-4A9D-8742-0E3917FCB1DA}" ShortID="225960611">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Shoot" ID="{194B8B8C-66C4-4DE9-9DF3-2E8406B37657}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+											<ObjectRef Name="Player_Flashlight_Switch" ID="{07A81E44-8629-4D7F-AB2D-BC0B4F871FDD}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambiences" ID="{F90213CA-A212-43F3-985A-4E1015156989}" ShortID="717138038"/>
+				<Folder Name="UI" ID="{B6092B2C-E988-41D2-8E88-3B90C61FE0F8}" ShortID="424429888">
+					<ChildrenList>
+						<Event Name="UI_Click" ID="{172D231E-C8ED-4B10-A12F-FB6BC686447F}"/>
+						<Event Name="UI_Select" ID="{D58F19A2-E456-46D6-A652-477145CB04B7}"/>
+						<Event Name="UI_Back" ID="{B0C643FB-DAC6-45E0-BDD5-ED946B5BBCCD}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

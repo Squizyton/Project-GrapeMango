@@ -9,6 +9,7 @@
 						<Switch Name="Grass" ID="{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"/>
 						<Switch Name="Wood" ID="{B77D37A7-1FC3-45CF-8702-2A65734E114D}"/>
 						<Switch Name="Stone" ID="{9EC73123-F243-4404-BFE8-1C98BC74937A}"/>
+						<Switch Name="Catwalk" ID="{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

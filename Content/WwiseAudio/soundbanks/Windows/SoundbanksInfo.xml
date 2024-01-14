@@ -28,12 +28,13 @@
 						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surface\Stone" GUID="{9EC73123-F243-4404-BFE8-1C98BC74937A}"/>
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Surface\Wood" GUID="{B77D37A7-1FC3-45CF-8702-2A65734E114D}"/>
 						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surface\Dirt" GUID="{A479D1C8-1883-4CBA-89A8-348AD46A5336}"/>
+						<Switch Id="3728443364" Name="Catwalk" ObjectPath="\Switches\Default Work Unit\Surface\Catwalk" GUID="{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surface\Grass" GUID="{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{C1E2CEE2-3CC2-431F-0E28-CEA67EA940C2}">
+		<SoundBank Id="4056684167" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{85116A18-BDE4-789F-8984-687514602CFA}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -49,10 +50,6 @@
 				<File Id="138980545" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wood_3.wav</ShortName>
 					<CachePath>SFX/Wood_3_818F3B66.wem</CachePath>
-				</File>
-				<File Id="211440783" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430.wav</ShortName>
-					<CachePath>SFX/Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430_89918206.wem</CachePath>
 				</File>
 				<File Id="276180183" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SmallGrassStep_ 3.wav</ShortName>
@@ -70,13 +67,13 @@
 					<ShortName>DirtStep_4.wav</ShortName>
 					<CachePath>SFX/DirtStep_4_818F3B66.wem</CachePath>
 				</File>
-				<File Id="485115948" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>AK5 7,62mm - FIRING - Small Living Room - Single Shots - 10m Adjacent Room - AB - MKH8020 2.wav</ShortName>
-					<CachePath>SFX/AK5 7,62mm - FIRING - Small Living Room - Single Shots - 10m Adjacent Room - AB - MKH8020 2_818F3B66.wem</CachePath>
-				</File>
 				<File Id="599569791" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SmallGrassStep_ 4.wav</ShortName>
 					<CachePath>SFX/SmallGrassStep_ 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="610651392" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411.wav</ShortName>
+					<CachePath>SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411_818F3B66.wem</CachePath>
 				</File>
 				<File Id="630391274" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SmallGrassStep_ 8.wav</ShortName>
@@ -102,14 +99,19 @@
 					<ShortName>DirtStep_5.wav</ShortName>
 					<CachePath>SFX/DirtStep_5_818F3B66.wem</CachePath>
 				</File>
+				<File Id="864713889" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412.wav</ShortName>
+					<CachePath>SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="1167979795" Name="Flashlight" ObjectPath="\Events\Default Work Unit\Player\Flashlight" GUID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}" DurationType="OneShot" DurationMin="2.0195105" DurationMax="2.0195105">
+				<Event Id="2101861506" Name="Player_Flashlight_Switch" ObjectPath="\Events\Default Work Unit\Player\Player_Flashlight_Switch" GUID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}" DurationType="OneShot" DurationMin="0.386375" DurationMax="0.42504168">
 					<MediaRefs>
-						<MediaRef Id="485115948"/>
+						<MediaRef Id="610651392"/>
+						<MediaRef Id="864713889"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Player\Footsteps" GUID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}" DurationType="OneShot" DurationMin="0.5" DurationMax="1.2187529">
+				<Event Id="1730208058" Name="Player_Footsteps" ObjectPath="\Events\Default Work Unit\Player\Player_Footsteps" GUID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}" DurationType="OneShot" DurationMin="0.5" DurationMax="1.2187529">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="4248645337" GUID="{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"/>
@@ -142,11 +144,6 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="4277457389" Name="TestAmbience" ObjectPath="\Events\Default Work Unit\TestAmbience" GUID="{6E1928EB-D959-432C-88BA-3EF7D33C0AE9}" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="211440783"/>
-					</MediaRefs>
-				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{4F332131-822E-43E3-9D9F-4664B5FA6468}">
@@ -154,11 +151,12 @@
 						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surface\Stone" GUID="{9EC73123-F243-4404-BFE8-1C98BC74937A}"/>
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Surface\Wood" GUID="{B77D37A7-1FC3-45CF-8702-2A65734E114D}"/>
 						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surface\Dirt" GUID="{A479D1C8-1883-4CBA-89A8-348AD46A5336}"/>
+						<Switch Id="3728443364" Name="Catwalk" ObjectPath="\Switches\Default Work Unit\Surface\Catwalk" GUID="{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surface\Grass" GUID="{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B4003533-007F-DE60-F395-CB5AA88C1B23}</FileHash>
+	<FileHash>{B7734BB2-B15F-DE98-AB86-9A69C06096F8}</FileHash>
 </SoundBanksInfo>
