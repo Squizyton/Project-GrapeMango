@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{CC843A05-CB90-41D1-8445-F4970A102764}",
     "Language": "SFX",
-    "Hash": "{6E5E28CF-9083-1CC4-1792-6438708B871B}",
+    "Hash": "{062227AB-8295-0BBD-AEE2-2F0433FC89CA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
     "Media": [
+     {
+      "Id": "13128194",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_2.wav",
+      "CachePath": "SFX/Wood_2_818F3B66.wem"
+     },
      {
       "Id": "52682720",
       "Language": "SFX",
@@ -24,12 +32,12 @@
       "CachePath": "SFX/SmallGrassStep_ 6_818F3B66.wem"
      },
      {
-      "Id": "211440783",
+      "Id": "138980545",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430.wav",
-      "CachePath": "SFX/Weather, Storm, Thunder, Rain, Downpour, Interior, Window Open 07 SND3430_89918206.wem"
+      "ShortName": "Wood_3.wav",
+      "CachePath": "SFX/Wood_3_818F3B66.wem"
      },
      {
       "Id": "276180183",
@@ -40,12 +48,28 @@
       "CachePath": "SFX/SmallGrassStep_ 3_818F3B66.wem"
      },
      {
-      "Id": "485115948",
+      "Id": "296424511",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "AK5 7,62mm - FIRING - Small Living Room - Single Shots - 10m Adjacent Room - AB - MKH8020 2.wav",
-      "CachePath": "SFX/AK5 7,62mm - FIRING - Small Living Room - Single Shots - 10m Adjacent Room - AB - MKH8020 2_818F3B66.wem"
+      "ShortName": "DirtStep_6.wav",
+      "CachePath": "SFX/DirtStep_6_818F3B66.wem"
+     },
+     {
+      "Id": "323572412",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_1.wav",
+      "CachePath": "SFX/Wood_1_818F3B66.wem"
+     },
+     {
+      "Id": "478503751",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DirtStep_4.wav",
+      "CachePath": "SFX/DirtStep_4_818F3B66.wem"
      },
      {
       "Id": "599569791",
@@ -56,61 +80,169 @@
       "CachePath": "SFX/SmallGrassStep_ 4_818F3B66.wem"
      },
      {
+      "Id": "610651392",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411.wav",
+      "CachePath": "SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411_818F3B66.wem"
+     },
+     {
       "Id": "630391274",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SmallGrassStep_ 8.wav",
       "CachePath": "SFX/SmallGrassStep_ 8_818F3B66.wem"
+     },
+     {
+      "Id": "677426750",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DirtStep_2.wav",
+      "CachePath": "SFX/DirtStep_2_818F3B66.wem"
+     },
+     {
+      "Id": "802018755",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DirtStep_3.wav",
+      "CachePath": "SFX/DirtStep_3_818F3B66.wem"
+     },
+     {
+      "Id": "834773314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DirtStep_7.wav",
+      "CachePath": "SFX/DirtStep_7_818F3B66.wem"
+     },
+     {
+      "Id": "854689490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DirtStep_1.wav",
+      "CachePath": "SFX/DirtStep_1_818F3B66.wem"
+     },
+     {
+      "Id": "858704608",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DirtStep_5.wav",
+      "CachePath": "SFX/DirtStep_5_818F3B66.wem"
+     },
+     {
+      "Id": "864713889",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412.wav",
+      "CachePath": "SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412_818F3B66.wem"
      }
     ],
     "Events": [
      {
-      "Id": "1167979795",
-      "Name": "Flashlight",
-      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Flashlight",
+      "Id": "2101861506",
+      "Name": "Player_Flashlight_Switch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Flashlight_Switch",
       "GUID": "{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}",
       "DurationType": "OneShot",
-      "DurationMin": "2.0195105",
-      "DurationMax": "2.0195105",
+      "DurationMin": "0.386375",
+      "DurationMax": "0.42504168",
       "MediaRefs": [
        {
-        "Id": "485115948"
+        "Id": "610651392"
+       },
+       {
+        "Id": "864713889"
        }
       ]
      },
      {
-      "Id": "2385628198",
-      "Name": "Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Footsteps",
+      "Id": "1730208058",
+      "Name": "Player_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Footsteps",
       "GUID": "{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}",
       "DurationType": "OneShot",
       "DurationMin": "0.5",
-      "DurationMax": "0.6250113",
-      "MediaRefs": [
+      "DurationMax": "1.2187529",
+      "SwitchContainers": [
        {
-        "Id": "52682720"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "4248645337",
+         "GUID": "{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "52682720"
+         },
+         {
+          "Id": "276180183"
+         },
+         {
+          "Id": "599569791"
+         },
+         {
+          "Id": "630391274"
+         }
+        ]
        },
        {
-        "Id": "276180183"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "2058049674",
+         "GUID": "{B77D37A7-1FC3-45CF-8702-2A65734E114D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "13128194"
+         },
+         {
+          "Id": "138980545"
+         },
+         {
+          "Id": "323572412"
+         }
+        ]
        },
        {
-        "Id": "599569791"
-       },
-       {
-        "Id": "630391274"
-       }
-      ]
-     },
-     {
-      "Id": "4277457389",
-      "Name": "TestAmbience",
-      "ObjectPath": "\\Events\\Default Work Unit\\TestAmbience",
-      "GUID": "{6E1928EB-D959-432C-88BA-3EF7D33C0AE9}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "211440783"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "2195636714",
+         "GUID": "{A479D1C8-1883-4CBA-89A8-348AD46A5336}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "296424511"
+         },
+         {
+          "Id": "478503751"
+         },
+         {
+          "Id": "677426750"
+         },
+         {
+          "Id": "802018755"
+         },
+         {
+          "Id": "834773314"
+         },
+         {
+          "Id": "854689490"
+         },
+         {
+          "Id": "858704608"
+         }
+        ]
        }
       ]
      }
@@ -122,6 +254,12 @@
       "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
       "GUID": "{4F332131-822E-43E3-9D9F-4664B5FA6468}",
       "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Stone",
+        "GUID": "{9EC73123-F243-4404-BFE8-1C98BC74937A}"
+       },
        {
         "Id": "2058049674",
         "Name": "Wood",
@@ -135,6 +273,12 @@
         "GUID": "{A479D1C8-1883-4CBA-89A8-348AD46A5336}"
        },
        {
+        "Id": "3728443364",
+        "Name": "Catwalk",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Catwalk",
+        "GUID": "{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"
+       },
+       {
         "Id": "4248645337",
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Grass",
@@ -145,6 +289,6 @@
     ]
    }
   ],
-  "FileHash": "{FFF9DA83-B300-6B16-3741-6FC46AEFD003}"
+  "FileHash": "{C84BD0CF-3ADA-0607-37EB-C7BDEDBBD597}"
  }
 }
