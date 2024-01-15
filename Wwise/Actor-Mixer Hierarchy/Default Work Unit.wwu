@@ -393,6 +393,18 @@
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
+										<SwitchRef Name="Stone" ID="{9EC73123-F243-4404-BFE8-1C98BC74937A}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Dirt" ID="{B1265B68-DD9C-4B3E-B9E1-709D72C98998}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Catwalk" ID="{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Dirt" ID="{B1265B68-DD9C-4B3E-B9E1-709D72C98998}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
 										<SwitchRef Name="Grass" ID="{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"/>
 										<ItemList>
 											<ItemRef Name="Footsteps_Grass" ID="{7FFB239A-DA1E-4B59-A271-6EE2FDCC87A0}"/>
