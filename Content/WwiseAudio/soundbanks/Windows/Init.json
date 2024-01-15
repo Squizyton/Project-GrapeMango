@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{23DFD993-3491-1736-CB9B-6A023B2E8AEA}",
+    "Hash": "{FBE61F68-BA0C-0C2E-DAAB-574BFAD0E595}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -72,6 +72,42 @@
       "GUID": "{8AE29F5C-7522-435F-8CA5-50B289D1F60C}"
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "254409923",
+      "Name": "Battery_level",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Battery_level",
+      "GUID": "{85E52567-E1CF-4E10-A789-60D1102E486D}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2782712965",
+      "Name": "Level",
+      "ObjectPath": "\\States\\Default Work Unit\\Level",
+      "GUID": "{B221EB0A-6250-47EE-835E-E9C6ACE3067B}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Level\\None",
+        "GUID": "{1FC575E7-43EA-4EC0-AD0E-8DCB287E4794}"
+       },
+       {
+        "Id": "2901545865",
+        "Name": "Lighthouse_Top",
+        "ObjectPath": "\\States\\Default Work Unit\\Level\\Lighthouse_Top",
+        "GUID": "{8DC5F0CC-525A-4ECE-81DD-57156709E079}"
+       },
+       {
+        "Id": "3533817249",
+        "Name": "Lighthouse_Bottom",
+        "ObjectPath": "\\States\\Default Work Unit\\Level\\Lighthouse_Bottom",
+        "GUID": "{CD8040ED-C666-45A1-A3C3-97DD9EA79352}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "1834394558",
@@ -79,6 +115,12 @@
       "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
       "GUID": "{4F332131-822E-43E3-9D9F-4664B5FA6468}",
       "Switches": [
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Sand",
+        "GUID": "{14BE5BD4-93B2-4522-BBF4-BAF3085F368F}"
+       },
        {
         "Id": "1216965916",
         "Name": "Stone",
@@ -98,6 +140,12 @@
         "GUID": "{A479D1C8-1883-4CBA-89A8-348AD46A5336}"
        },
        {
+        "Id": "2449969375",
+        "Name": "Glass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Glass",
+        "GUID": "{7B19B83C-3B27-47B3-A410-E171608BEC4A}"
+       },
+       {
         "Id": "3728443364",
         "Name": "Catwalk",
         "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Catwalk",
@@ -114,6 +162,6 @@
     ]
    }
   ],
-  "FileHash": "{ED02601D-1F95-3BFE-EB7B-D89B8ECAB17C}"
+  "FileHash": "{012694FC-AB4C-C7A3-5272-02A8AC39567C}"
  }
 }

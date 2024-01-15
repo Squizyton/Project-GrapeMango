@@ -10,6 +10,8 @@
 						<Switch Name="Wood" ID="{B77D37A7-1FC3-45CF-8702-2A65734E114D}"/>
 						<Switch Name="Stone" ID="{9EC73123-F243-4404-BFE8-1C98BC74937A}"/>
 						<Switch Name="Catwalk" ID="{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"/>
+						<Switch Name="Glass" ID="{7B19B83C-3B27-47B3-A410-E171608BEC4A}"/>
+						<Switch Name="Sand" ID="{14BE5BD4-93B2-4522-BBF4-BAF3085F368F}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
