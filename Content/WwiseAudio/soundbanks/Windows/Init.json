@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B6CBD692-12EC-CDBA-0932-48F63C40C91F}",
+    "Hash": "{23DFD993-3491-1736-CB9B-6A023B2E8AEA}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,10 +36,40 @@
     },
     "Busses": [
      {
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DiegeticSounds\\Ambient",
+      "GUID": "{7DFB4537-A4BF-4C60-9B2A-B64CC56C6C2C}"
+     },
+     {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DiegeticSounds\\SFX",
+      "GUID": "{6574157F-C9F7-443D-BAB2-453625FBFC01}"
+     },
+     {
+      "Id": "1551306167",
+      "Name": "UI",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\UI",
+      "GUID": "{0EB3C8FB-D504-4BFE-9B0B-C61652FE8A50}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music",
+      "GUID": "{0B58E619-38CF-4EDB-9E8B-0FFFB8B0716E}"
+     },
+     {
+      "Id": "4270912699",
+      "Name": "DiegeticSounds",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DiegeticSounds",
+      "GUID": "{8AE29F5C-7522-435F-8CA5-50B289D1F60C}"
      }
     ],
     "SwitchGroups": [
@@ -84,6 +114,6 @@
     ]
    }
   ],
-  "FileHash": "{06A9DF6F-4AF9-E126-A201-BABAC642B8D6}"
+  "FileHash": "{ED02601D-1F95-3BFE-EB7B-D89B8ECAB17C}"
  }
 }
