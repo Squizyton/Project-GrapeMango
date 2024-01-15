@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{36A8334B-6748-417B-922B-AF20DBDA6184}" SchemaVersion="119">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{36A8334B-6748-417B-922B-AF20DBDA6184}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{36A8334B-6748-417B-922B-AF20DBDA6184}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Battery_level" ID="{85E52567-E1CF-4E10-A789-60D1102E486D}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
