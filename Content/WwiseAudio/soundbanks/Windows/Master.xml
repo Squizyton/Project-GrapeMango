@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{062227AB-8295-0BBD-AEE2-2F0433FC89CA}">
+		<SoundBank Id="4056684167" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{770821DD-8F08-E1F8-D7FE-325B1709D89B}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -115,9 +115,11 @@
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{4F332131-822E-43E3-9D9F-4664B5FA6468}">
 					<Switches>
+						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\Surface\Sand" GUID="{14BE5BD4-93B2-4522-BBF4-BAF3085F368F}"/>
 						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surface\Stone" GUID="{9EC73123-F243-4404-BFE8-1C98BC74937A}"/>
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Surface\Wood" GUID="{B77D37A7-1FC3-45CF-8702-2A65734E114D}"/>
 						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surface\Dirt" GUID="{A479D1C8-1883-4CBA-89A8-348AD46A5336}"/>
+						<Switch Id="2449969375" Name="Glass" ObjectPath="\Switches\Default Work Unit\Surface\Glass" GUID="{7B19B83C-3B27-47B3-A410-E171608BEC4A}"/>
 						<Switch Id="3728443364" Name="Catwalk" ObjectPath="\Switches\Default Work Unit\Surface\Catwalk" GUID="{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surface\Grass" GUID="{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"/>
 					</Switches>
@@ -125,5 +127,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9399DB9B-6650-2535-570E-D17F5D51D353}</FileHash>
+	<FileHash>{9B1EF495-A412-54F1-D672-658697030D3B}</FileHash>
 </SoundBanksInfo>
