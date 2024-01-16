@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{AEC1B06D-C147-4097-06D4-32DA82BF9AB5}">
+		<SoundBank Id="4056684167" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{FDB457CB-1C9E-477D-0D37-15A6832B01E5}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -105,6 +105,10 @@
 				<File Id="964747123" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-004.wav</ShortName>
 					<CachePath>SFX/Player_FS_Dirt-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="966137033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1.wav</ShortName>
+					<CachePath>SFX/Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="972351290" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Wood-004.wav</ShortName>
@@ -222,6 +226,16 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="3239612480" Name="Player_Lighthouse_Teleport_Door" ObjectPath="\Events\Default Work Unit\Player\Player_Lighthouse_Teleport_Door" GUID="{FD5E4DEA-7CED-4AD2-BC9E-98F3D2565733}" DurationType="OneShot" DurationMin="1.2165416" DurationMax="1.2165416">
+					<MediaRefs>
+						<MediaRef Id="966137033"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3318329073" Name="Player_Lighthouse_Teleport_TrapDoor" ObjectPath="\Events\Default Work Unit\Player\Player_Lighthouse_Teleport_TrapDoor" GUID="{2BDCEB94-73DC-4FA8-BA1A-4AA5695F1F89}" DurationType="OneShot" DurationMin="1.2165416" DurationMax="1.2165416">
+					<MediaRefs>
+						<MediaRef Id="966137033"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2024222415" Name="UI_Back" ObjectPath="\Events\Default Work Unit\UI\UI_Back" GUID="{B0C643FB-DAC6-45E0-BDD5-ED946B5BBCCD}" DurationType="OneShot" DurationMin="0.645" DurationMax="0.645">
 					<MediaRefs>
 						<MediaRef Id="945164537"/>
@@ -258,5 +272,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1C62AD76-B0F4-D29C-BC01-1B8FF4B270F0}</FileHash>
+	<FileHash>{C003515E-1877-98A8-B6A8-7122A4061203}</FileHash>
 </SoundBanksInfo>
