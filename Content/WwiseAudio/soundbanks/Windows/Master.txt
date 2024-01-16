@@ -1,6 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1730208058	Player_Footsteps			\Default Work Unit\Player\Player_Footsteps	
+	2024222415	UI_Back			\Default Work Unit\UI\UI_Back	
 	2101861506	Player_Flashlight_Switch			\Default Work Unit\Player\Player_Flashlight_Switch	
+	2249769530	UI_Click			\Default Work Unit\UI\UI_Click	
+	2774129122	UI_Select			\Default Work Unit\UI\UI_Select	
+	4077676294	UI_PlayGame			\Default Work Unit\UI\UI_PlayGame	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1834394558	Surface			\Default Work Unit\Surface	
@@ -18,8 +22,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	76431582	Player_FS_Dirt-003	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-003		31086
 	77804803	Player_FS_Stone-006	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Stone\Player_FS_Stone-006_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Stone\Player_FS_Stone-006		22496
 	246971568	Player_FS_Sand-002	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Sand\Player_FS_Sand-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Sand\Player_FS_Sand-002		44896
+	358116301	App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Select\App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4		33216
 	364880872	Player_FS_Sand-006	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Sand\Player_FS_Sand-006_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Sand\Player_FS_Sand-006		32096
 	372056298	Player_FS_Wood-001	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Wood-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Wood\Player_FS_Wood-001		22496
+	372493363	App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Click\App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2		56736
 	448818932	Player_FS_Stone-002	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Stone\Player_FS_Stone-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Stone\Player_FS_Stone-002		22496
 	472242906	Player_FS_Wood-005	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Wood-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Wood\Player_FS_Wood-005		22496
 	491586114	Player_FS_Stone-004	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Stone\Player_FS_Stone-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Stone\Player_FS_Stone-004		22496
@@ -36,6 +42,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	878599703	Player_FS_Dirt-006	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-006_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-006		31086
 	895910144	Player_FS_Dirt-001	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-001		31086
 	923511576	Player_FS_Dirt-005	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-005		31086
+	945164537	App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Back\App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3		62016
 	964747123	Player_FS_Dirt-004	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-004		31086
 	972351290	Player_FS_Wood-004	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Wood-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Wood\Player_FS_Wood-004		22496
 	976887921	Player_FS_Stone-005	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Stone\Player_FS_Stone-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Stone\Player_FS_Stone-005		22496
