@@ -65,6 +65,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="UI_PlayGame" ID="{1BCBA729-82D6-494C-ABAB-7A670275F989}">
+							<ChildrenList>
+								<Action Name="" ID="{5C2DED53-09C9-45D8-90E4-126B9270DA7B}" ShortID="68211179">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{54A8C9B3-0F5D-4CB7-91BD-5A1CC2B55CBA}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
