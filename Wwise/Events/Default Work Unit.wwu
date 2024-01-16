@@ -27,6 +27,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Player_Lighthouse_Teleport_Door" ID="{FD5E4DEA-7CED-4AD2-BC9E-98F3D2565733}">
+							<ChildrenList>
+								<Action Name="" ID="{DA4E6865-9C66-4F63-B5D4-198721B58C56}" ShortID="174177288">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1" ID="{3C174976-254C-459F-AC2A-8A23E5093A43}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Lighthouse_Teleport_TrapDoor" ID="{2BDCEB94-73DC-4FA8-BA1A-4AA5695F1F89}">
+							<ChildrenList>
+								<Action Name="" ID="{23F80BAC-9758-4D2F-A713-B3903EEC2C4C}" ShortID="873172066">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1" ID="{3C174976-254C-459F-AC2A-8A23E5093A43}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambiences" ID="{F90213CA-A212-43F3-985A-4E1015156989}" ShortID="717138038"/>

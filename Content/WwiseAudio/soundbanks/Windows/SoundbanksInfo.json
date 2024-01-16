@@ -174,7 +174,7 @@
     "Type": "User",
     "GUID": "{CC843A05-CB90-41D1-8445-F4970A102764}",
     "Language": "SFX",
-    "Hash": "{AEC1B06D-C147-4097-06D4-32DA82BF9AB5}",
+    "Hash": "{FDB457CB-1C9E-477D-0D37-15A6832B01E5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -378,6 +378,14 @@
       "Location": "Memory",
       "ShortName": "Player_FS_Dirt-004.wav",
       "CachePath": "SFX/Player_FS_Dirt-004_818F3B66.wem"
+     },
+     {
+      "Id": "966137033",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1.wav",
+      "CachePath": "SFX/Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1_818F3B66.wem"
      },
      {
       "Id": "972351290",
@@ -664,6 +672,34 @@
       ]
      },
      {
+      "Id": "3239612480",
+      "Name": "Player_Lighthouse_Teleport_Door",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Lighthouse_Teleport_Door",
+      "GUID": "{FD5E4DEA-7CED-4AD2-BC9E-98F3D2565733}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2165416",
+      "DurationMax": "1.2165416",
+      "MediaRefs": [
+       {
+        "Id": "966137033"
+       }
+      ]
+     },
+     {
+      "Id": "3318329073",
+      "Name": "Player_Lighthouse_Teleport_TrapDoor",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Lighthouse_Teleport_TrapDoor",
+      "GUID": "{2BDCEB94-73DC-4FA8-BA1A-4AA5695F1F89}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2165416",
+      "DurationMax": "1.2165416",
+      "MediaRefs": [
+       {
+        "Id": "966137033"
+       }
+      ]
+     },
+     {
       "Id": "2024222415",
       "Name": "UI_Back",
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_Back",
@@ -774,6 +810,6 @@
     ]
    }
   ],
-  "FileHash": "{EC87D5F7-7A73-FC82-0FF3-8CAA79286119}"
+  "FileHash": "{74E57FE4-9345-BBEC-0791-8B9A4B5A54B3}"
  }
 }
