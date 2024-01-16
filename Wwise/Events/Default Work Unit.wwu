@@ -32,9 +32,39 @@
 				<Folder Name="Ambiences" ID="{F90213CA-A212-43F3-985A-4E1015156989}" ShortID="717138038"/>
 				<Folder Name="UI" ID="{B6092B2C-E988-41D2-8E88-3B90C61FE0F8}" ShortID="424429888">
 					<ChildrenList>
-						<Event Name="UI_Click" ID="{172D231E-C8ED-4B10-A12F-FB6BC686447F}"/>
-						<Event Name="UI_Select" ID="{D58F19A2-E456-46D6-A652-477145CB04B7}"/>
-						<Event Name="UI_Back" ID="{B0C643FB-DAC6-45E0-BDD5-ED946B5BBCCD}"/>
+						<Event Name="UI_Click" ID="{172D231E-C8ED-4B10-A12F-FB6BC686447F}">
+							<ChildrenList>
+								<Action Name="" ID="{39677192-0D4B-4646-A50B-C36FBC245CCE}" ShortID="783893970">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{54A8C9B3-0F5D-4CB7-91BD-5A1CC2B55CBA}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Select" ID="{D58F19A2-E456-46D6-A652-477145CB04B7}">
+							<ChildrenList>
+								<Action Name="" ID="{83C295C7-2BA3-42AD-8151-E30B50C9C3D5}" ShortID="223068293">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4" ID="{4E817656-C82B-4A6A-A267-958470EF4966}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Back" ID="{B0C643FB-DAC6-45E0-BDD5-ED946B5BBCCD}">
+							<ChildrenList>
+								<Action Name="" ID="{21273A05-088B-41C2-9A25-CC7DD8906301}" ShortID="994932072">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3" ID="{0F506503-89A0-446C-A147-AE4138F0673A}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
