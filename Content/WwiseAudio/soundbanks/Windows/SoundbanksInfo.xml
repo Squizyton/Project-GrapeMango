@@ -53,7 +53,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{4A1ABCF3-41DA-728E-E027-E63E651A1A93}">
+		<SoundBank Id="4056684167" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{FDB457CB-1C9E-477D-0D37-15A6832B01E5}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -70,6 +70,10 @@
 					<ShortName>Player_FS_Sand\Player_FS_Sand-002.wav</ShortName>
 					<CachePath>SFX/Player_FS_Sand/Player_FS_Sand-002_818F3B66.wem</CachePath>
 				</File>
+				<File Id="358116301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4.wav</ShortName>
+					<CachePath>SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4_818F3B66.wem</CachePath>
+				</File>
 				<File Id="364880872" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Sand\Player_FS_Sand-006.wav</ShortName>
 					<CachePath>SFX/Player_FS_Sand/Player_FS_Sand-006_818F3B66.wem</CachePath>
@@ -77,6 +81,10 @@
 				<File Id="372056298" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Wood-001.wav</ShortName>
 					<CachePath>SFX/Player_FS_Wood-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="372493363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2.wav</ShortName>
+					<CachePath>SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="448818932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-002.wav</ShortName>
@@ -142,9 +150,17 @@
 					<ShortName>Player_FS_Dirt-005.wav</ShortName>
 					<CachePath>SFX/Player_FS_Dirt-005_818F3B66.wem</CachePath>
 				</File>
+				<File Id="945164537" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3.wav</ShortName>
+					<CachePath>SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3_818F3B66.wem</CachePath>
+				</File>
 				<File Id="964747123" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-004.wav</ShortName>
 					<CachePath>SFX/Player_FS_Dirt-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="966137033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1.wav</ShortName>
+					<CachePath>SFX/Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="972351290" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Wood-004.wav</ShortName>
@@ -262,6 +278,36 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="3239612480" Name="Player_Lighthouse_Teleport_Door" ObjectPath="\Events\Default Work Unit\Player\Player_Lighthouse_Teleport_Door" GUID="{FD5E4DEA-7CED-4AD2-BC9E-98F3D2565733}" DurationType="OneShot" DurationMin="1.2165416" DurationMax="1.2165416">
+					<MediaRefs>
+						<MediaRef Id="966137033"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3318329073" Name="Player_Lighthouse_Teleport_TrapDoor" ObjectPath="\Events\Default Work Unit\Player\Player_Lighthouse_Teleport_TrapDoor" GUID="{2BDCEB94-73DC-4FA8-BA1A-4AA5695F1F89}" DurationType="OneShot" DurationMin="1.2165416" DurationMax="1.2165416">
+					<MediaRefs>
+						<MediaRef Id="966137033"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2024222415" Name="UI_Back" ObjectPath="\Events\Default Work Unit\UI\UI_Back" GUID="{B0C643FB-DAC6-45E0-BDD5-ED946B5BBCCD}" DurationType="OneShot" DurationMin="0.645" DurationMax="0.645">
+					<MediaRefs>
+						<MediaRef Id="945164537"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2249769530" Name="UI_Click" ObjectPath="\Events\Default Work Unit\UI\UI_Click" GUID="{172D231E-C8ED-4B10-A12F-FB6BC686447F}" DurationType="OneShot" DurationMin="0.59" DurationMax="0.59">
+					<MediaRefs>
+						<MediaRef Id="372493363"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4077676294" Name="UI_PlayGame" ObjectPath="\Events\Default Work Unit\UI\UI_PlayGame" GUID="{1BCBA729-82D6-494C-ABAB-7A670275F989}" DurationType="OneShot" DurationMin="0.59" DurationMax="0.59">
+					<MediaRefs>
+						<MediaRef Id="372493363"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2774129122" Name="UI_Select" ObjectPath="\Events\Default Work Unit\UI\UI_Select" GUID="{D58F19A2-E456-46D6-A652-477145CB04B7}" DurationType="OneShot" DurationMin="0.345" DurationMax="0.345">
+					<MediaRefs>
+						<MediaRef Id="358116301"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{4F332131-822E-43E3-9D9F-4664B5FA6468}">
@@ -278,5 +324,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8A96188C-772A-08A2-DC07-904CF84DBA05}</FileHash>
+	<FileHash>{88EE1A36-7908-3DBA-A49F-7A9393D70BC6}</FileHash>
 </SoundBanksInfo>

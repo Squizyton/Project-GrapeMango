@@ -842,9 +842,63 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Folder Name="LighthouseTeleport" ID="{C088755E-AF76-4DB8-9482-8BAC239CD19E}" ShortID="850306573">
+							<ChildrenList>
+								<ActorMixer Name="Player_Lighthouse_Teleport" ID="{930009F9-E7EC-492B-B2F0-142A2A54D99D}" ShortID="192648484">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1" ID="{3C174976-254C-459F-AC2A-8A23E5093A43}" ShortID="798725874">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1" ID="{CC7C37E0-BD62-48E8-83CC-68860FC4BA9F}">
+													<Language>SFX</Language>
+													<AudioFile>Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="966137033"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1" ID="{CC7C37E0-BD62-48E8-83CC-68860FC4BA9F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Ambiences" ID="{840ADD4A-63D2-4E68-B63E-DD95BDD4D56D}" ShortID="765971009"/>
+				<Folder Name="Ambiences" ID="{840ADD4A-63D2-4E68-B63E-DD95BDD4D56D}" ShortID="765971009">
+					<ChildrenList>
+						<ActorMixer Name="ambient" ID="{F92479C4-567F-4D2C-9CF9-15F5906C06E4}" ShortID="66941709">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="UI" ID="{684B33DA-417F-489B-9AC0-FFF275C74E9E}" ShortID="931776105">
 					<ChildrenList>
 						<ActorMixer Name="UI_Click" ID="{09458A6C-9569-4D2E-886C-9DC54C65CE34}" ShortID="322439802">
@@ -966,6 +1020,64 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4" ID="{66E33537-7A3B-4AFB-9140-E338A055E105}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{F2806E36-3691-4A2F-8F08-5A848CEBF6B4}" ShortID="755670560">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{F05C98D6-8480-4100-B9FE-4E48DF37D3B7}">
+											<Language>SFX</Language>
+											<AudioFile>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="372493363"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{F05C98D6-8480-4100-B9FE-4E48DF37D3B7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2_01" ID="{21A9A79B-6622-4E30-86B4-EB6AF6A481E6}" ShortID="1062741696">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{E64ABEDA-902A-4FDE-97EF-1444ED8FAE3A}">
+											<Language>SFX</Language>
+											<AudioFile>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="372493363"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{E64ABEDA-902A-4FDE-97EF-1444ED8FAE3A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
