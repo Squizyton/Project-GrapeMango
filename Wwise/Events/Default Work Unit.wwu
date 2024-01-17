@@ -49,6 +49,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Player_Footsteps_Land" ID="{88FF2756-62B8-41FC-8B48-E267DE058B22}">
+							<ChildrenList>
+								<Action Name="" ID="{04276AA1-96C5-4E38-A319-6B1E049124E6}" ShortID="467971818">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Footsteps" ID="{A57184FA-AFDB-43B8-B788-8ED998BDEC42}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambiences" ID="{F90213CA-A212-43F3-985A-4E1015156989}" ShortID="717138038"/>
