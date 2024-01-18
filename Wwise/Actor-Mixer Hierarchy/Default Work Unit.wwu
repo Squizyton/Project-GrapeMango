@@ -919,6 +919,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Amb_Ocean_Background" ID="{263BD1CC-8040-4D22-AE25-B93D902E3CC3}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="516"/>
+											</PropertyList>
+											<ReferenceList/>
 											<Language>SFX</Language>
 											<AudioFile>Amb_Ocean_Background.wav</AudioFile>
 											<MediaIDList>
