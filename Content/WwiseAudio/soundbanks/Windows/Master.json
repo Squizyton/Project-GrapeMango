@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CC843A05-CB90-41D1-8445-F4970A102764}",
     "Language": "SFX",
-    "Hash": "{FDB457CB-1C9E-477D-0D37-15A6832B01E5}",
+    "Hash": "{218F3472-1C8B-C10F-36EF-2A791F79EF4C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -46,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4.wav",
       "CachePath": "SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4_818F3B66.wem"
+     },
+     {
+      "Id": "363366032",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Ocean_Background.wav",
+      "CachePath": "SFX/Amb_Ocean_Background_818F3B66.wem"
      },
      {
       "Id": "364880872",
@@ -273,6 +281,31 @@
      }
     ],
     "Events": [
+     {
+      "Id": "127086696",
+      "Name": "Amb_Lighthouse_int",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_Lighthouse_int",
+      "GUID": "{765D7CCF-E04B-457E-B9E2-BBD816869E7B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "663970515",
+      "Name": "Amb_Ocean_Background",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_Ocean_Background",
+      "GUID": "{DC857F7A-3689-431B-9DF6-7F8562599EE1}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "86.75",
+      "DurationMax": "86.75",
+      "MediaRefs": [
+       {
+        "Id": "363366032"
+       }
+      ]
+     },
      {
       "Id": "2101861506",
       "Name": "Player_Flashlight_Switch",
@@ -646,6 +679,6 @@
     ]
    }
   ],
-  "FileHash": "{D9F2A147-B2D9-807C-F8E0-3F5328AE971A}"
+  "FileHash": "{B6D66AA3-7822-CAB3-20B5-61C5C5C3296D}"
  }
 }

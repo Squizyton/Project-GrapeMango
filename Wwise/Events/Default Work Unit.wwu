@@ -62,7 +62,22 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Ambiences" ID="{F90213CA-A212-43F3-985A-4E1015156989}" ShortID="717138038"/>
+				<Folder Name="Ambiences" ID="{F90213CA-A212-43F3-985A-4E1015156989}" ShortID="717138038">
+					<ChildrenList>
+						<Event Name="Amb_Ocean_Background" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}">
+							<ChildrenList>
+								<Action Name="" ID="{CC056584-8547-4E2E-9BBD-49D9A6F33A4E}" ShortID="499806846">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Ocean_Background" ID="{3B43FEE0-C9A3-4244-923C-7F0FE0DBEE7B}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Lighthouse_int" ID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}"/>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="UI" ID="{B6092B2C-E988-41D2-8E88-3B90C61FE0F8}" ShortID="424429888">
 					<ChildrenList>
 						<Event Name="UI_Click" ID="{172D231E-C8ED-4B10-A12F-FB6BC686447F}">
