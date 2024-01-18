@@ -14,6 +14,7 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -773,6 +774,9 @@
 							</GroupingInfo>
 						</SwitchContainer>
 						<RandomSequenceContainer Name="Player_Flashlight_Switch" ID="{07A81E44-8629-4D7F-AB2D-BC0B4F871FDD}" ShortID="978260697">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
@@ -845,12 +849,15 @@
 						<Folder Name="LighthouseTeleport" ID="{C088755E-AF76-4DB8-9482-8BAC239CD19E}" ShortID="850306573">
 							<ChildrenList>
 								<ActorMixer Name="Player_Lighthouse_Teleport" ID="{930009F9-E7EC-492B-B2F0-142A2A54D99D}" ShortID="192648484">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+											<ObjectRef Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -884,10 +891,67 @@
 				</Folder>
 				<Folder Name="Ambiences" ID="{840ADD4A-63D2-4E68-B63E-DD95BDD4D56D}" ShortID="765971009">
 					<ChildrenList>
-						<ActorMixer Name="ambient" ID="{F92479C4-567F-4D2C-9CF9-15F5906C06E4}" ShortID="66941709">
+						<ActorMixer Name="Amb_Ocean_Background_lp" ID="{F92479C4-567F-4D2C-9CF9-15F5906C06E4}" ShortID="66941709">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="OceanAtteenuation" ID="{5FA44AC9-0A66-4557-BD39-62CC8CDB4687}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambient" ID="{7DFB4537-A4BF-4C60-9B2A-B64CC56C6C2C}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_Ocean_Background" ID="{3B43FEE0-C9A3-4244-923C-7F0FE0DBEE7B}" ShortID="336625158">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Ocean_Background" ID="{263BD1CC-8040-4D22-AE25-B93D902E3CC3}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_Ocean_Background.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="363366032"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_Ocean_Background" ID="{263BD1CC-8040-4D22-AE25-B93D902E3CC3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{6B5A5171-7A7D-4C48-9807-F23D71B69666}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-26.7796610169492"/>
+										<Property Name="PanY" Type="Real64" Value="49.4545454545455"/>
+									</PropertyList>
+								</Panner>
+								<Position Name="" ID="{301FDD88-73E6-4AD4-9E0E-1835FC173BC2}"/>
+							</PositioningInfo>
+						</ActorMixer>
+						<ActorMixer Name="Amb_Lighthouse_int" ID="{20626E22-411A-4650-823B-7E71B2F56409}" ShortID="5870312">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="Amb_General" ID="{F19B50D5-CEDF-424A-A79F-4339F2BE1CAA}" ShortID="89626648">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
@@ -1084,6 +1148,31 @@
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="TestVoice" ID="{5B53E00F-E974-4A59-A255-1A2787161AAA}" ShortID="1028246475">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Rev_Lighthouse" ID="{1983B0A9-0714-491B-B2D5-E0312A72B104}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Soundly Voice Designer, Davis" ID="{40A1BC39-796B-4B77-9D5C-368419FEC547}">
+							<Language>SFX</Language>
+							<AudioFile>Soundly Voice Designer, Davis.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="305281306"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Soundly Voice Designer, Davis" ID="{40A1BC39-796B-4B77-9D5C-368419FEC547}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

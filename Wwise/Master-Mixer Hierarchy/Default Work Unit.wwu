@@ -14,6 +14,45 @@
 							<ChildrenList>
 								<Bus Name="Ambient" ID="{7DFB4537-A4BF-4C60-9B2A-B64CC56C6C2C}"/>
 								<Bus Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}"/>
+								<AuxBus Name="Rev_Lighthouse" ID="{1983B0A9-0714-491B-B2D5-E0312A72B104}">
+									<ReferenceList>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Rev_General" ID="{EAA16100-071F-43E6-84A4-320E8B67DF74}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{54BE2B0A-A074-4D57-ABF0-8CC5863EB6A2}" ShortID="485555595">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Phone_Booth" ID="{180A35FE-BF4E-4BCD-8D7F-872B580E55EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Rev_General" ID="{EAA16100-071F-43E6-84A4-320E8B67DF74}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{B37C481B-1048-4B6D-9860-5DAB2761E6B9}" ShortID="527413695">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="Music" ID="{0B58E619-38CF-4EDB-9E8B-0FFFB8B0716E}"/>

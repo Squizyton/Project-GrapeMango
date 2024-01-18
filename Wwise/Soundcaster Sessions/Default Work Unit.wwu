@@ -9,9 +9,15 @@
 							<ObjectRef Name="Player_Footsteps" ID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Amb_Ocean_Background" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}"/>
+							<Position X="1" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{1FC575E7-43EA-4EC0-AD0E-8DCB287E4794}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Catwalk" ID="{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"/>
 					</CurrentSwitchList>

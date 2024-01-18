@@ -10,11 +10,29 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{FBE61F68-BA0C-0C2E-DAAB-574BFAD0E595}",
+    "Hash": "{51FCD57A-7A48-DB60-C284-58F9156CB7B1}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3407225994",
+       "Name": "Phone_Booth",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Phone_Booth",
+       "GUID": "{180A35FE-BF4E-4BCD-8D7F-872B580E55EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -70,6 +88,42 @@
       "Name": "DiegeticSounds",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DiegeticSounds",
       "GUID": "{8AE29F5C-7522-435F-8CA5-50B289D1F60C}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "2408058993",
+      "Name": "Rev_General",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DiegeticSounds\\Rev_General",
+      "GUID": "{EAA16100-071F-43E6-84A4-320E8B67DF74}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3932913579",
+      "Name": "Rev_Lighthouse",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DiegeticSounds\\Rev_Lighthouse",
+      "GUID": "{1983B0A9-0714-491B-B2D5-E0312A72B104}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3407225994"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "2408058993",
+        "Name": "Rev_General",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DiegeticSounds\\Rev_General",
+        "GUID": "{EAA16100-071F-43E6-84A4-320E8B67DF74}"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -162,6 +216,6 @@
     ]
    }
   ],
-  "FileHash": "{012694FC-AB4C-C7A3-5272-02A8AC39567C}"
+  "FileHash": "{069935B2-4C5C-024A-E606-8EC80E240844}"
  }
 }

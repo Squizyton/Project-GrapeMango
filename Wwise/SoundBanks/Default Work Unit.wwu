@@ -12,6 +12,8 @@
 						</Property>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="Amb_Ocean_Background" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Lighthouse_int" ID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Back" ID="{B0C643FB-DAC6-45E0-BDD5-ED946B5BBCCD}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Select" ID="{D58F19A2-E456-46D6-A652-477145CB04B7}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_PlayGame" ID="{1BCBA729-82D6-494C-ABAB-7A670275F989}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
