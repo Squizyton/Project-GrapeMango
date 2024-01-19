@@ -9,11 +9,15 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{FBE61F68-BA0C-0C2E-DAAB-574BFAD0E595}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{51FCD57A-7A48-DB60-C284-58F9156CB7B1}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="3407225994" Name="Phone_Booth" ObjectPath="\Effects\Factory Effects\RoomVerb\Claustrophobia\Phone_Booth" GUID="{180A35FE-BF4E-4BCD-8D7F-872B580E55EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{EA3044BC-D85E-44DF-A20E-2CA2C37E0D60}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{FAB90C91-89EB-4E6E-85A0-DAF0B9FF4F1D}" LibName="System" LibId="11403271"/>
@@ -27,6 +31,25 @@
 				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{0B58E619-38CF-4EDB-9E8B-0FFFB8B0716E}"/>
 				<Bus Id="4270912699" Name="DiegeticSounds" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DiegeticSounds" GUID="{8AE29F5C-7522-435F-8CA5-50B289D1F60C}"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="2408058993" Name="Rev_General" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DiegeticSounds\Rev_General" GUID="{EAA16100-071F-43E6-84A4-320E8B67DF74}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3932913579" Name="Rev_Lighthouse" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DiegeticSounds\Rev_Lighthouse" GUID="{1983B0A9-0714-491B-B2D5-E0312A72B104}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3407225994"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2408058993" Name="Rev_General" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DiegeticSounds\Rev_General" GUID="{EAA16100-071F-43E6-84A4-320E8B67DF74}"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="254409923" Name="Battery_level" ObjectPath="\Game Parameters\Default Work Unit\Battery_level" GUID="{85E52567-E1CF-4E10-A789-60D1102E486D}"/>
 			</GameParameters>
@@ -53,7 +76,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{FDB457CB-1C9E-477D-0D37-15A6832B01E5}">
+		<SoundBank Id="4056684167" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{218F3472-1C8B-C10F-36EF-2A791F79EF4C}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -73,6 +96,10 @@
 				<File Id="358116301" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4.wav</ShortName>
 					<CachePath>SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="363366032" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_Ocean_Background.wav</ShortName>
+					<CachePath>SFX/Amb_Ocean_Background_818F3B66.wem</CachePath>
 				</File>
 				<File Id="364880872" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Sand\Player_FS_Sand-006.wav</ShortName>
@@ -188,6 +215,12 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="127086696" Name="Amb_Lighthouse_int" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Lighthouse_int" GUID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="663970515" Name="Amb_Ocean_Background" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Ocean_Background" GUID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" MaxAttenuation="100" DurationType="OneShot" DurationMin="86.75" DurationMax="86.75">
+					<MediaRefs>
+						<MediaRef Id="363366032"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2101861506" Name="Player_Flashlight_Switch" ObjectPath="\Events\Default Work Unit\Player\Player_Flashlight_Switch" GUID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}" DurationType="OneShot" DurationMin="0.386375" DurationMax="0.42504168">
 					<MediaRefs>
 						<MediaRef Id="610651392"/>
@@ -324,5 +357,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{88EE1A36-7908-3DBA-A49F-7A9393D70BC6}</FileHash>
+	<FileHash>{D7821223-000E-8558-A469-1EBD4163B3C8}</FileHash>
 </SoundBanksInfo>

@@ -14,6 +14,14 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 	4270912699	DiegeticSounds			\Default Work Unit\Master Audio Bus\DiegeticSounds	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2408058993	Rev_General			\Default Work Unit\Master Audio Bus\DiegeticSounds\Rev_General	
+	3932913579	Rev_Lighthouse			\Default Work Unit\Master Audio Bus\DiegeticSounds\Rev_Lighthouse	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	3407225994	Phone_Booth	Wwise RoomVerb			
+
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			
