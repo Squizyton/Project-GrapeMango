@@ -922,7 +922,6 @@
 											<PropertyList>
 												<Property Name="ChannelConfigOverride" Type="int64" Value="516"/>
 											</PropertyList>
-											<ReferenceList/>
 											<Language>SFX</Language>
 											<AudioFile>Amb_Ocean_Background.wav</AudioFile>
 											<MediaIDList>
@@ -967,191 +966,6 @@
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="UI" ID="{684B33DA-417F-489B-9AC0-FFF275C74E9E}" ShortID="931776105">
-					<ChildrenList>
-						<ActorMixer Name="UI_Click" ID="{09458A6C-9569-4D2E-886C-9DC54C65CE34}" ShortID="322439802">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="UI" ID="{0EB3C8FB-D504-4BFE-9B0B-C61652FE8A50}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{54A8C9B3-0F5D-4CB7-91BD-5A1CC2B55CBA}" ShortID="470352029">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{7FCEA6F5-E70A-46DD-A771-C1D9827B1F48}">
-											<Language>SFX</Language>
-											<AudioFile>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="372493363"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{7FCEA6F5-E70A-46DD-A771-C1D9827B1F48}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</ActorMixer>
-						<ActorMixer Name="UI_Back" ID="{BE335E1E-1873-4630-BF05-11808B629A49}" ShortID="928443457">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="UI" ID="{0EB3C8FB-D504-4BFE-9B0B-C61652FE8A50}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3" ID="{0F506503-89A0-446C-A147-AE4138F0673A}" ShortID="776685880">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3" ID="{A1D868AB-A3E8-4C5B-986E-EA9B655EE11E}">
-											<Language>SFX</Language>
-											<AudioFile>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="945164537"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3" ID="{A1D868AB-A3E8-4C5B-986E-EA9B655EE11E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</ActorMixer>
-						<ActorMixer Name="UI_Select" ID="{13DBBAAA-A678-47FA-972F-1B41056F0DC7}" ShortID="926364811">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="UI" ID="{0EB3C8FB-D504-4BFE-9B0B-C61652FE8A50}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4" ID="{4E817656-C82B-4A6A-A267-958470EF4966}" ShortID="1056097952">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4" ID="{66E33537-7A3B-4AFB-9140-E338A055E105}">
-											<Language>SFX</Language>
-											<AudioFile>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="358116301"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4" ID="{66E33537-7A3B-4AFB-9140-E338A055E105}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{F2806E36-3691-4A2F-8F08-5A848CEBF6B4}" ShortID="755670560">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{F05C98D6-8480-4100-B9FE-4E48DF37D3B7}">
-											<Language>SFX</Language>
-											<AudioFile>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="372493363"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{F05C98D6-8480-4100-B9FE-4E48DF37D3B7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2_01" ID="{21A9A79B-6622-4E30-86B4-EB6AF6A481E6}" ShortID="1062741696">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{E64ABEDA-902A-4FDE-97EF-1444ED8FAE3A}">
-											<Language>SFX</Language>
-											<AudioFile>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="372493363"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{E64ABEDA-902A-4FDE-97EF-1444ED8FAE3A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</ActorMixer>
-					</ChildrenList>
-				</Folder>
 				<Sound Name="TestVoice" ID="{5B53E00F-E974-4A59-A255-1A2787161AAA}" ShortID="1028246475">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1177,6 +991,105 @@
 						<ActiveSource Name="Soundly Voice Designer, Davis" ID="{40A1BC39-796B-4B77-9D5C-368419FEC547}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<ActorMixer Name="UI" ID="{BE335E1E-1873-4630-BF05-11808B629A49}" ShortID="928443457">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{0EB3C8FB-D504-4BFE-9B0B-C61652FE8A50}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="UI_Back" ID="{0F506503-89A0-446C-A147-AE4138F0673A}" ShortID="776685880">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3" ID="{A1D868AB-A3E8-4C5B-986E-EA9B655EE11E}">
+									<Language>SFX</Language>
+									<AudioFile>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="945164537"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3" ID="{A1D868AB-A3E8-4C5B-986E-EA9B655EE11E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Click" ID="{54A8C9B3-0F5D-4CB7-91BD-5A1CC2B55CBA}" ShortID="470352029">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{0EB3C8FB-D504-4BFE-9B0B-C61652FE8A50}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{7FCEA6F5-E70A-46DD-A771-C1D9827B1F48}">
+									<Language>SFX</Language>
+									<AudioFile>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="372493363"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2" ID="{7FCEA6F5-E70A-46DD-A771-C1D9827B1F48}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Select" ID="{4E817656-C82B-4A6A-A267-958470EF4966}" ShortID="1056097952">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{0EB3C8FB-D504-4BFE-9B0B-C61652FE8A50}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4" ID="{66E33537-7A3B-4AFB-9140-E338A055E105}">
+									<Language>SFX</Language>
+									<AudioFile>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="358116301"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4" ID="{66E33537-7A3B-4AFB-9140-E338A055E105}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
