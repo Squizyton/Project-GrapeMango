@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{218F3472-1C8B-C10F-36EF-2A791F79EF4C}">
+		<SoundBank Id="4056684167" Type="User" GUID="{CC843A05-CB90-41D1-8445-F4970A102764}" Language="SFX" Hash="{905C65E8-44CD-0123-3ECF-35437E21322C}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -18,13 +18,13 @@
 					<ShortName>Player_FS_Sand\Player_FS_Sand-002.wav</ShortName>
 					<CachePath>SFX/Player_FS_Sand/Player_FS_Sand-002_818F3B66.wem</CachePath>
 				</File>
+				<File Id="257874522" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_Ocean_Background.wav</ShortName>
+					<CachePath>SFX/Amb_Ocean_Background_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="358116301" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4.wav</ShortName>
 					<CachePath>SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4_818F3B66.wem</CachePath>
-				</File>
-				<File Id="363366032" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Ocean_Background.wav</ShortName>
-					<CachePath>SFX/Amb_Ocean_Background_818F3B66.wem</CachePath>
 				</File>
 				<File Id="364880872" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Sand\Player_FS_Sand-006.wav</ShortName>
@@ -141,9 +141,9 @@
 			</Media>
 			<Events>
 				<Event Id="127086696" Name="Amb_Lighthouse_int" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Lighthouse_int" GUID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="663970515" Name="Amb_Ocean_Background" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Ocean_Background" GUID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" MaxAttenuation="100" DurationType="OneShot" DurationMin="86.75" DurationMax="86.75">
+				<Event Id="663970515" Name="Amb_Ocean_Background" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Ocean_Background" GUID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" MaxAttenuation="3895" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="363366032"/>
+						<MediaRef Id="257874522"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2101861506" Name="Player_Flashlight_Switch" ObjectPath="\Events\Default Work Unit\Player\Player_Flashlight_Switch" GUID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}" DurationType="OneShot" DurationMin="0.386375" DurationMax="0.42504168">
@@ -282,5 +282,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F910B63D-DA82-6EFB-5020-597A02EF2B21}</FileHash>
+	<FileHash>{C4C31C5F-8A74-A900-22EC-0FCBE86981D6}</FileHash>
 </SoundBanksInfo>

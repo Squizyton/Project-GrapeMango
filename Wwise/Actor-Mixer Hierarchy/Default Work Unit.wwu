@@ -1038,6 +1038,8 @@
 						<Sound Name="Amb_Ocean_Background" ID="{3B43FEE0-C9A3-4244-923C-7F0FE0DBEE7B}" ShortID="336625158">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1062,6 +1064,13 @@
 										<MediaID ID="363366032"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Amb_Ocean_Background_01" ID="{1DD69F6D-CC67-42BC-80F1-EFE92527F9BC}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_Ocean_Background.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="257874522"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{324D3F5E-00C3-449B-A38D-166447CCABA7}">
@@ -1073,7 +1082,7 @@
 								<Position Name="" ID="{A74160B6-2862-4B49-B81B-5F98440F77EC}"/>
 							</PositioningInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="Amb_Ocean_Background" ID="{263BD1CC-8040-4D22-AE25-B93D902E3CC3}" Platform="Linked"/>
+								<ActiveSource Name="Amb_Ocean_Background_01" ID="{1DD69F6D-CC67-42BC-80F1-EFE92527F9BC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
