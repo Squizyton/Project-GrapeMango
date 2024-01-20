@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "85412153",
+    "Type": "User",
+    "GUID": "{FEF0FCEC-169F-40E9-A66B-E0B939137024}",
+    "Language": "SFX",
+    "Hash": "{3A0D06C2-1D29-C219-0944-778390F2E061}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
+    "ShortName": "Ambience",
+    "Path": "Ambience.bnk",
+    "Media": [
+     {
+      "Id": "257874522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Ocean_Background.wav",
+      "CachePath": "SFX/Amb_Ocean_Background_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "127086696",
+      "Name": "Amb_Lighthouse_int",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_Lighthouse_int",
+      "GUID": "{765D7CCF-E04B-457E-B9E2-BBD816869E7B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "663970515",
+      "Name": "Amb_Ocean_Background",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_Ocean_Background",
+      "GUID": "{DC857F7A-3689-431B-9DF6-7F8562599EE1}",
+      "MaxAttenuation": "6000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "257874522"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C4714007-716F-0E00-DFD9-09A9D0E41F38}"
+ }
+}

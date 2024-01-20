@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	127086696	Amb_Lighthouse_int			\Default Work Unit\Ambiences\Amb_Lighthouse_int	
+	663970515	Amb_Ocean_Background			\Default Work Unit\Ambiences\Amb_Ocean_Background	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	257874522	Amb_Ocean_Background	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Amb_Ocean_Background_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Amb_Ocean_Background		16656096
+

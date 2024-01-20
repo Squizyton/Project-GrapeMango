@@ -29,6 +29,11 @@
 					</ActiveSourceList>
 				</Sound>
 				<ActorMixer Name="UI" ID="{BE335E1E-1873-4630-BF05-11808B629A49}" ShortID="928443457">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
@@ -128,6 +133,10 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Player" ID="{1931679B-A441-46B0-B604-E1D18EBB6880}" ShortID="1073069532">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
@@ -916,11 +925,217 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Player_FS_Metal" ID="{804DFD6A-272C-4C20-ABFC-DC3258DE0E92}" ShortID="122709795">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4A4ECD52-8B9A-4CD8-8DF2-A0E355D74604}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Player_FS_CatWalk-001" ID="{B7290872-06E1-4235-B70C-D4FC11B6A439}" ShortID="712415693">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_FS_CatWalk-001" ID="{7494D958-CE4F-469C-A309-E5D788CD2448}">
+													<Language>SFX</Language>
+													<AudioFile>Player_FS_CatWalk-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="571199090"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_FS_CatWalk-001" ID="{7494D958-CE4F-469C-A309-E5D788CD2448}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_FS_CatWalk-002" ID="{6D3D429F-45F2-4AAC-A833-E28C89C8AC6B}" ShortID="306879446">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_FS_CatWalk-002" ID="{DD7D622C-886F-4BA6-8BA4-70FDE5A3B51F}">
+													<Language>SFX</Language>
+													<AudioFile>Player_FS_CatWalk-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="324292905"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_FS_CatWalk-002" ID="{DD7D622C-886F-4BA6-8BA4-70FDE5A3B51F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_FS_CatWalk-003" ID="{0939F79C-83C5-4CC3-9197-A529FB5DC1CC}" ShortID="513295373">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_FS_CatWalk-003" ID="{6EC426E4-B24A-46A6-93AC-ECF6C494B1F4}">
+													<Language>SFX</Language>
+													<AudioFile>Player_FS_CatWalk-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="55098737"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_FS_CatWalk-003" ID="{6EC426E4-B24A-46A6-93AC-ECF6C494B1F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_FS_CatWalk-004" ID="{FD36E982-C2BD-4677-970D-004408D11E64}" ShortID="879257862">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_FS_CatWalk-004" ID="{6EF22622-97AD-4D90-80EF-E44FB3527DD1}">
+													<Language>SFX</Language>
+													<AudioFile>Player_FS_CatWalk-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="22401148"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_FS_CatWalk-004" ID="{6EF22622-97AD-4D90-80EF-E44FB3527DD1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_FS_CatWalk-005" ID="{0A633A46-3FD9-43E9-899B-132790A54ECB}" ShortID="263415721">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_FS_CatWalk-005" ID="{A4AD58B5-2605-43C7-B2C5-3E0668242CD7}">
+													<Language>SFX</Language>
+													<AudioFile>Player_FS_CatWalk-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="95334652"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_FS_CatWalk-005" ID="{A4AD58B5-2605-43C7-B2C5-3E0668242CD7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_FS_CatWalk-006" ID="{42CD6046-7F5C-4A8A-B7D4-4BE58118AF67}" ShortID="508329031">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_FS_CatWalk-006" ID="{ACF13175-0FC0-41B4-AE10-7AD34A529B13}">
+													<Language>SFX</Language>
+													<AudioFile>Player_FS_CatWalk-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="659705524"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_FS_CatWalk-006" ID="{ACF13175-0FC0-41B4-AE10-7AD34A529B13}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_FS_CatWalk-007" ID="{51F58FBB-AAEC-4DDE-BA36-D2E51AA2C0E0}" ShortID="382349251">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_FS_CatWalk-007" ID="{A394AC66-6265-43E3-8378-9B6E181EF69A}">
+													<Language>SFX</Language>
+													<AudioFile>Player_FS_CatWalk-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1061987857"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_FS_CatWalk-007" ID="{A394AC66-6265-43E3-8378-9B6E181EF69A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Player_FS_CatWalk-008" ID="{5FCC90C5-6348-489F-AC7A-A22B9B850B42}" ShortID="192538958">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player_FS_CatWalk-008" ID="{981A036F-8332-482E-AF14-DC102DEFA243}">
+													<Language>SFX</Language>
+													<AudioFile>Player_FS_CatWalk-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="164524416"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Player_FS_CatWalk-008" ID="{981A036F-8332-482E-AF14-DC102DEFA243}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
 										<ItemRef Name="Player_FS_Dirt" ID="{B1265B68-DD9C-4B3E-B9E1-709D72C98998}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Player_FS_Metal" ID="{804DFD6A-272C-4C20-ABFC-DC3258DE0E92}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Player_FS_Stone" ID="{BC973E7B-1211-4C36-9C6D-F73EF810E3E0}"/>
@@ -942,7 +1157,7 @@
 									<Grouping>
 										<SwitchRef Name="Catwalk" ID="{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"/>
 										<ItemList>
-											<ItemRef Name="Player_FS_Dirt" ID="{B1265B68-DD9C-4B3E-B9E1-709D72C98998}"/>
+											<ItemRef Name="Player_FS_Metal" ID="{804DFD6A-272C-4C20-ABFC-DC3258DE0E92}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -980,6 +1195,8 @@
 						</SwitchContainer>
 						<Sound Name="Player_Lighthouse_Teleport" ID="{3C174976-254C-459F-AC2A-8A23E5093A43}" ShortID="798725874">
 							<PropertyList>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1006,6 +1223,10 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Ambient" ID="{67F436E4-C42F-4ABD-B47A-7E8D08E88CA9}" ShortID="766268568">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
@@ -1016,6 +1237,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="Amb_General" ID="{F19B50D5-CEDF-424A-A79F-4339F2BE1CAA}" ShortID="89626648">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
@@ -1026,6 +1251,10 @@
 							</ReferenceList>
 						</ActorMixer>
 						<ActorMixer Name="Amb_Lighthouse_int" ID="{20626E22-411A-4650-823B-7E71B2F56409}" ShortID="5870312">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
@@ -1038,13 +1267,15 @@
 						<Sound Name="Amb_Ocean_Background" ID="{3B43FEE0-C9A3-4244-923C-7F0FE0DBEE7B}" ShortID="336625158">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="OceanAtteenuation" ID="{5FA44AC9-0A66-4557-BD39-62CC8CDB4687}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+									<ObjectRef Name="ATT_OceanCloseDetails" ID="{5FA44AC9-0A66-4557-BD39-62CC8CDB4687}" WorkUnitID="{E7C7A0C5-763C-4380-ABCC-F4117EB09BF5}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>

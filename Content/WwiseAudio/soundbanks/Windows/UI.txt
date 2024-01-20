@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2024222415	UI_Back			\Default Work Unit\UI\UI_Back	
+	2249769530	UI_Click			\Default Work Unit\UI\UI_Click	
+	2774129122	UI_Select			\Default Work Unit\UI\UI_Select	
+	4077676294	UI_PlayGame			\Default Work Unit\UI\UI_PlayGame	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	358116301	UI_Select	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Select		33216
+	372493363	UI_Click	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Click		56736
+	945164537	UI_Back	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Back		62016
+
