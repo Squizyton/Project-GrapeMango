@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{D54146EC-C7E6-C4CB-0DBF-F74FC879FCC3}">
+		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{50716F19-B32C-B897-E8BA-AFE57904E867}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
@@ -28,7 +28,7 @@
 				</File>
 				<File Id="203509891" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Lighthouse_int.wav</ShortName>
-					<CachePath>SFX/Amb_Lighthouse_int_B032A71E.wem</CachePath>
+					<CachePath>SFX/Amb_Lighthouse_int_3B7822A8.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -37,7 +37,7 @@
 						<MediaRef Id="140155729"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="127086696" Name="Amb_Lighthouse_int" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Lighthouse_int" GUID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}" MaxAttenuation="500" DurationType="OneShot" DurationMin="57" DurationMax="57">
+				<Event Id="127086696" Name="Amb_Lighthouse_int" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Lighthouse_int" GUID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}" MaxAttenuation="500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="203509891"/>
 					</MediaRefs>
@@ -450,5 +450,5 @@
 			<Path>Master.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{96D924DC-D96F-2A4B-0312-21BF85865FEA}</FileHash>
+	<FileHash>{D112E423-3B99-F502-B84D-400504A6527D}</FileHash>
 </SoundBanksInfo>
