@@ -7,22 +7,87 @@
 					<PropertyList>
 						<Property Name="Maximum" Type="int32">
 							<ValueList>
-								<Value>100000000</Value>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience" ID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>20000000</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="Amb_Ocean_Background" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Ocean_Close" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Ocean_Far" ID="{5BD27675-6E67-4417-9352-79977BD55EC5}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_Lighthouse_int" ID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI_Back" ID="{B0C643FB-DAC6-45E0-BDD5-ED946B5BBCCD}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI_Select" ID="{D58F19A2-E456-46D6-A652-477145CB04B7}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI_PlayGame" ID="{1BCBA729-82D6-494C-ABAB-7A670275F989}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Ocean_Far" ID="{41750C72-BCED-487F-805D-27B422181931}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_GeneralAmbient" ID="{B6BDC945-A797-4E74-930F-8393C569DAED}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Player" ID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>2000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList>
 						<ObjectRef Name="Player_Footsteps" ID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Lighthouse_Teleport_Door" ID="{FD5E4DEA-7CED-4AD2-BC9E-98F3D2565733}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI_Click" ID="{172D231E-C8ED-4B10-A12F-FB6BC686447F}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Flashlight_Switch" ID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Lighthouse_Teleport_TrapDoor" ID="{2BDCEB94-73DC-4FA8-BA1A-4AA5695F1F89}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI" ID="{F9CB3015-F172-4F2C-9186-62D3D71A7CF0}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>1000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="UI_Back" ID="{B0C643FB-DAC6-45E0-BDD5-ED946B5BBCCD}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Select" ID="{D58F19A2-E456-46D6-A652-477145CB04B7}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_PlayGame" ID="{1BCBA729-82D6-494C-ABAB-7A670275F989}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Click" ID="{172D231E-C8ED-4B10-A12F-FB6BC686447F}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{301F4BE8-AB43-44E0-9F39-DC71E485CE27}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>2000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>1000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

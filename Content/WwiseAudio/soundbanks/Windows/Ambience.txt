@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	127086696	Amb_Lighthouse_int			\Default Work Unit\Ambiences\Amb_Lighthouse_int	
+	1667808493	Amb_Ocean_Close			\Default Work Unit\Ambiences\Amb_Ocean_Close	
+	2138694862	Amb_GeneralAmbient			\Default Work Unit\Ambiences\Amb_GeneralAmbient	
+	3573072630	Amb_Ocean_Far			\Default Work Unit\Ambiences\Amb_Ocean_Far	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	24647134	Amb_Ocean_Close	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Amb_Ocean_Close_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Amb_Ocean\Amb_Ocean_Close		1454717
+	99990332	Amb_Ocean_Far	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Amb_Ocean_Far_05798686.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Amb_Ocean\Amb_Ocean_Far		3069832
+	140155729	Amb_Wind	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Amb_Wind_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Amb_General\Amb_Wind		4103585
+

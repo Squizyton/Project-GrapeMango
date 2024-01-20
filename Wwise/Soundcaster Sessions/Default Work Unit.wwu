@@ -10,8 +10,12 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Amb_Ocean_Background" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}"/>
+							<ObjectRef Name="Amb_Ocean_Close" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Amb_Ocean_Close" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}"/>
+							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
