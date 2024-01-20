@@ -142,7 +142,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+							<ObjectRef Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1226,13 +1226,14 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="1"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+							<ObjectRef Name="Ambience" ID="{6411546D-15EB-442F-98D7-F989DC2135B9}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+							<ObjectRef Name="Ambient" ID="{7DFB4537-A4BF-4C60-9B2A-B64CC56C6C2C}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1249,11 +1250,39 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_Wind" ID="{4323D14F-D3D9-48CB-9BB0-803A7ADA6303}" ShortID="796016802">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Wind" ID="{6D2EE060-9F98-4982-B0AF-5C55B499819C}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_Wind.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="140155729"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_Wind" ID="{6D2EE060-9F98-4982-B0AF-5C55B499819C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Amb_Lighthouse_int" ID="{20626E22-411A-4650-823B-7E71B2F56409}" ShortID="5870312">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1263,59 +1292,134 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_Lighthouse_int" ID="{EE0FAB2D-8E6F-4990-A6D6-7C6E833DBBA9}" ShortID="852762250">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_Lighthouse" ID="{771CFA07-E9CC-4D4A-8C88-6A4BF3E0E06B}" WorkUnitID="{E7C7A0C5-763C-4380-ABCC-F4117EB09BF5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Lighthouse_int" ID="{58B15B29-A1E6-4959-AE1D-12154D52B8AD}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_Lighthouse_int.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="203509891"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_Lighthouse_int" ID="{58B15B29-A1E6-4959-AE1D-12154D52B8AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</ActorMixer>
-						<Sound Name="Amb_Ocean_Background" ID="{3B43FEE0-C9A3-4244-923C-7F0FE0DBEE7B}" ShortID="336625158">
+						<ActorMixer Name="Amb_Ocean" ID="{9BDFAA7A-05A9-4EE2-B200-C456498E19F6}" ShortID="177639084">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="Color" Type="int16" Value="1"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="ATT_OceanCloseDetails" ID="{5FA44AC9-0A66-4557-BD39-62CC8CDB4687}" WorkUnitID="{E7C7A0C5-763C-4380-ABCC-F4117EB09BF5}"/>
-								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambient" ID="{7DFB4537-A4BF-4C60-9B2A-B64CC56C6C2C}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Amb_Ocean_Background" ID="{263BD1CC-8040-4D22-AE25-B93D902E3CC3}">
+								<Sound Name="Amb_Ocean_Far" ID="{5BD27675-6E67-4417-9352-79977BD55EC5}" ShortID="921219194">
 									<PropertyList>
-										<Property Name="ChannelConfigOverride" Type="int64" Value="516"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Color" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Amb_Ocean_Background.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="363366032"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="Amb_Ocean_Background_01" ID="{1DD69F6D-CC67-42BC-80F1-EFE92527F9BC}">
-									<Language>SFX</Language>
-									<AudioFile>Amb_Ocean_Background.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="257874522"/>
-									</MediaIDList>
-								</AudioFileSource>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_Ocean_Far" ID="{DD8AF79A-17E8-4EFF-86EC-941ED2986278}" WorkUnitID="{E7C7A0C5-763C-4380-ABCC-F4117EB09BF5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Ocean_Far" ID="{FEE42E9A-E89B-4C65-B6B6-EBFECEB66B7B}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="516"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Amb_Ocean_Far.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="99990332"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{B71A3912-DE78-4F81-B4BE-7CB0D892FDD5}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-26.7796610169492"/>
+												<Property Name="PanY" Type="Real64" Value="49.4545454545455"/>
+											</PropertyList>
+										</Panner>
+										<Position Name="" ID="{BE0602B6-6DA8-4AE5-A4B0-145A06355CFE}"/>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_Ocean_Far" ID="{FEE42E9A-E89B-4C65-B6B6-EBFECEB66B7B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_Ocean_Close" ID="{3B43FEE0-C9A3-4244-923C-7F0FE0DBEE7B}" ShortID="336625158">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Color" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_OceanCloseDetails" ID="{5FA44AC9-0A66-4557-BD39-62CC8CDB4687}" WorkUnitID="{E7C7A0C5-763C-4380-ABCC-F4117EB09BF5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Ocean_Close" ID="{B4E69AB2-3006-4CC7-A530-FF9E5BECEBDA}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_Ocean_Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="24647134"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{A50D2187-7841-499D-8AC8-F762EEE627C0}"/>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Amb_Ocean_Close" ID="{B4E69AB2-3006-4CC7-A530-FF9E5BECEBDA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<PositioningInfo>
-								<Panner Name="" ID="{324D3F5E-00C3-449B-A38D-166447CCABA7}">
-									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="-26.7796610169492"/>
-										<Property Name="PanY" Type="Real64" Value="49.4545454545455"/>
-									</PropertyList>
-								</Panner>
-								<Position Name="" ID="{A74160B6-2862-4B49-B81B-5F98440F77EC}"/>
-							</PositioningInfo>
-							<ActiveSourceList>
-								<ActiveSource Name="Amb_Ocean_Background_01" ID="{1DD69F6D-CC67-42BC-80F1-EFE92527F9BC}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

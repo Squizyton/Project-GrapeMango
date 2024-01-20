@@ -64,12 +64,15 @@
 				</Folder>
 				<Folder Name="Ambiences" ID="{F90213CA-A212-43F3-985A-4E1015156989}" ShortID="717138038">
 					<ChildrenList>
-						<Event Name="Amb_Ocean_Background" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}">
+						<Event Name="Amb_Ocean_Close" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}">
 							<ChildrenList>
 								<Action Name="" ID="{CC056584-8547-4E2E-9BBD-49D9A6F33A4E}" ShortID="499806846">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Amb_Ocean_Background" ID="{3B43FEE0-C9A3-4244-923C-7F0FE0DBEE7B}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+											<ObjectRef Name="Amb_Ocean_Close" ID="{3B43FEE0-C9A3-4244-923C-7F0FE0DBEE7B}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -91,13 +94,120 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Amb_Ocean_Background" ID="{3B43FEE0-C9A3-4244-923C-7F0FE0DBEE7B}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+											<ObjectRef Name="Amb_Ocean_Close" ID="{3B43FEE0-C9A3-4244-923C-7F0FE0DBEE7B}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Amb_Lighthouse_int" ID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}"/>
+						<Event Name="Amb_Lighthouse_int" ID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}">
+							<ChildrenList>
+								<Action Name="" ID="{B369630F-CB7D-4B00-9738-DCC64DD7FADE}" ShortID="678429676">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Lighthouse_int" ID="{EE0FAB2D-8E6F-4990-A6D6-7C6E833DBBA9}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{09E7A569-D252-4CAC-A54D-877CCE9A09DC}" ShortID="69103339">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{99C7527D-8AA6-49BE-8882-127605896B41}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Lighthouse_int" ID="{EE0FAB2D-8E6F-4990-A6D6-7C6E833DBBA9}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Ocean_Far" ID="{41750C72-BCED-487F-805D-27B422181931}">
+							<ChildrenList>
+								<Action Name="" ID="{48C46A8F-CAB8-4EFF-80E9-BDC750B2007D}" ShortID="861172452">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Ocean_Far" ID="{5BD27675-6E67-4417-9352-79977BD55EC5}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{98E1FCAA-65DF-4DEE-8897-211E64A48CFD}" ShortID="1058553956">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0D538E30-828B-4DF7-8E46-6D26654886B8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Ocean_Far" ID="{5BD27675-6E67-4417-9352-79977BD55EC5}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_GeneralAmbient" ID="{B6BDC945-A797-4E74-930F-8393C569DAED}">
+							<ChildrenList>
+								<Action Name="" ID="{39E95B4C-9DC1-476C-A89A-38F34E76C135}" ShortID="392687571">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Wind" ID="{4323D14F-D3D9-48CB-9BB0-803A7ADA6303}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4EC95743-30BA-48CD-8447-8A932CCC5E22}" ShortID="787043469">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5F52E6D5-B669-44D4-8682-207AAEEB6EF3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Wind" ID="{4323D14F-D3D9-48CB-9BB0-803A7ADA6303}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{B6092B2C-E988-41D2-8E88-3B90C61FE0F8}" ShortID="424429888">

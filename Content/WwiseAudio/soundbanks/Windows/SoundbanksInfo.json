@@ -18,41 +18,95 @@
     "Type": "User",
     "GUID": "{FEF0FCEC-169F-40E9-A66B-E0B939137024}",
     "Language": "SFX",
-    "Hash": "{3A0D06C2-1D29-C219-0944-778390F2E061}",
+    "Hash": "{1BBCB7F9-09FF-9075-DA78-DD78D22F8182}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
     "ShortName": "Ambience",
     "Path": "Ambience.bnk",
     "Media": [
      {
-      "Id": "257874522",
+      "Id": "24647134",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Amb_Ocean_Background.wav",
-      "CachePath": "SFX/Amb_Ocean_Background_FBC78EF0.wem"
+      "ShortName": "Amb_Ocean_Close.wav",
+      "CachePath": "SFX/Amb_Ocean_Close_3B7822A8.wem"
+     },
+     {
+      "Id": "99990332",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Ocean_Far.wav",
+      "CachePath": "SFX/Amb_Ocean_Far_05798686.wem"
+     },
+     {
+      "Id": "140155729",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Wind.wav",
+      "CachePath": "SFX/Amb_Wind_3B7822A8.wem"
+     },
+     {
+      "Id": "203509891",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Lighthouse_int.wav",
+      "CachePath": "SFX/Amb_Lighthouse_int_B032A71E.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "2138694862",
+      "Name": "Amb_GeneralAmbient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_GeneralAmbient",
+      "GUID": "{B6BDC945-A797-4E74-930F-8393C569DAED}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "140155729"
+       }
+      ]
+     },
      {
       "Id": "127086696",
       "Name": "Amb_Lighthouse_int",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_Lighthouse_int",
       "GUID": "{765D7CCF-E04B-457E-B9E2-BBD816869E7B}",
-      "MaxAttenuation": "0",
+      "MaxAttenuation": "500",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "57",
+      "DurationMax": "57",
+      "MediaRefs": [
+       {
+        "Id": "203509891"
+       }
+      ]
      },
      {
-      "Id": "663970515",
-      "Name": "Amb_Ocean_Background",
-      "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_Ocean_Background",
+      "Id": "1667808493",
+      "Name": "Amb_Ocean_Close",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_Ocean_Close",
       "GUID": "{DC857F7A-3689-431B-9DF6-7F8562599EE1}",
       "MaxAttenuation": "6000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "257874522"
+        "Id": "24647134"
+       }
+      ]
+     },
+     {
+      "Id": "3573072630",
+      "Name": "Amb_Ocean_Far",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_Ocean_Far",
+      "GUID": "{41750C72-BCED-487F-805D-27B422181931}",
+      "MaxAttenuation": "15000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "99990332"
        }
       ]
      }
@@ -73,7 +127,7 @@
     "Type": "User",
     "GUID": "{B3EB6A8D-EC90-46FD-B05C-145C084270BF}",
     "Language": "SFX",
-    "Hash": "{53CE53E8-B467-17D4-DC09-84D8F27D3FD8}",
+    "Hash": "{7C6C254B-323B-0157-4979-7445BD8F0A5A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player",
     "ShortName": "Player",
     "Path": "Player.bnk",
@@ -1023,6 +1077,6 @@
     "Path": "Master.bnk"
    }
   ],
-  "FileHash": "{7D957610-8359-AB63-F2F0-92F059942DD4}"
+  "FileHash": "{A2EEA538-FE63-DB24-45FF-84982E88CA29}"
  }
 }

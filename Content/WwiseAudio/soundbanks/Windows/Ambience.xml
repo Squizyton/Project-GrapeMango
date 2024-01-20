@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{3A0D06C2-1D29-C219-0944-778390F2E061}">
+		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{17619F4B-2E33-BD3D-7F6A-017314F77A44}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<Media>
-				<File Id="257874522" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Ocean_Background.wav</ShortName>
-					<CachePath>SFX/Amb_Ocean_Background_FBC78EF0.wem</CachePath>
+				<File Id="24647134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_Ocean_Close.wav</ShortName>
+					<CachePath>SFX/Amb_Ocean_Close_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="99990332" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_Ocean_Far.wav</ShortName>
+					<CachePath>SFX/Amb_Ocean_Far_05798686.wem</CachePath>
+				</File>
+				<File Id="140155729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_Wind.wav</ShortName>
+					<CachePath>SFX/Amb_Wind_3B7822A8.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="127086696" Name="Amb_Lighthouse_int" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Lighthouse_int" GUID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="663970515" Name="Amb_Ocean_Background" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Ocean_Background" GUID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" MaxAttenuation="6000" DurationType="Infinite">
+				<Event Id="2138694862" Name="Amb_GeneralAmbient" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_GeneralAmbient" GUID="{B6BDC945-A797-4E74-930F-8393C569DAED}" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="257874522"/>
+						<MediaRef Id="140155729"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="127086696" Name="Amb_Lighthouse_int" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Lighthouse_int" GUID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="140155729"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1667808493" Name="Amb_Ocean_Close" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Ocean_Close" GUID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" MaxAttenuation="6000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="24647134"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3573072630" Name="Amb_Ocean_Far" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Ocean_Far" GUID="{41750C72-BCED-487F-805D-27B422181931}" MaxAttenuation="15000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="99990332"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C52F8C2F-7536-07C3-ADA5-9B33E2BE6E85}</FileHash>
+	<FileHash>{E6AFC070-8B8A-D208-BE58-23B5544C5C79}</FileHash>
 </SoundBanksInfo>

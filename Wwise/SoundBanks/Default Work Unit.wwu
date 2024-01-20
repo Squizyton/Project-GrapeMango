@@ -24,8 +24,11 @@
 						</Property>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="Amb_Ocean_Background" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Ocean_Close" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Ocean_Far" ID="{5BD27675-6E67-4417-9352-79977BD55EC5}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_Lighthouse_int" ID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Ocean_Far" ID="{41750C72-BCED-487F-805D-27B422181931}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_GeneralAmbient" ID="{B6BDC945-A797-4E74-930F-8393C569DAED}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
