@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{1BBCB7F9-09FF-9075-DA78-DD78D22F8182}">
+		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{D54146EC-C7E6-C4CB-0DBF-F74FC879FCC3}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
@@ -450,5 +450,5 @@
 			<Path>Master.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EF49DAE4-BC84-C322-BDE7-9AADE443686B}</FileHash>
+	<FileHash>{96D924DC-D96F-2A4B-0312-21BF85865FEA}</FileHash>
 </SoundBanksInfo>
