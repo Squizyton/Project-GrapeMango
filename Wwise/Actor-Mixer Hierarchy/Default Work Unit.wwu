@@ -1298,6 +1298,7 @@
 								<Sound Name="Amb_Lighthouse_int" ID="{EE0FAB2D-8E6F-4990-A6D6-7C6E833DBBA9}" ShortID="852762250">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
