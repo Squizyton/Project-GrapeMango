@@ -1,0 +1,105 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1551306167",
+    "Type": "User",
+    "GUID": "{F9CB3015-F172-4F2C-9186-62D3D71A7CF0}",
+    "Language": "SFX",
+    "Hash": "{52D3212C-B9EB-8E48-F55F-770FBEA6CEBC}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
+    "ShortName": "UI",
+    "Path": "UI.bnk",
+    "Media": [
+     {
+      "Id": "358116301",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4.wav",
+      "CachePath": "SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4_818F3B66.wem"
+     },
+     {
+      "Id": "372493363",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2.wav",
+      "CachePath": "SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2_818F3B66.wem"
+     },
+     {
+      "Id": "945164537",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3.wav",
+      "CachePath": "SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2024222415",
+      "Name": "UI_Back",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_Back",
+      "GUID": "{B0C643FB-DAC6-45E0-BDD5-ED946B5BBCCD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.645",
+      "DurationMax": "0.645",
+      "MediaRefs": [
+       {
+        "Id": "945164537"
+       }
+      ]
+     },
+     {
+      "Id": "2249769530",
+      "Name": "UI_Click",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_Click",
+      "GUID": "{172D231E-C8ED-4B10-A12F-FB6BC686447F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.59",
+      "DurationMax": "0.59",
+      "MediaRefs": [
+       {
+        "Id": "372493363"
+       }
+      ]
+     },
+     {
+      "Id": "4077676294",
+      "Name": "UI_PlayGame",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_PlayGame",
+      "GUID": "{1BCBA729-82D6-494C-ABAB-7A670275F989}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.59",
+      "DurationMax": "0.59",
+      "MediaRefs": [
+       {
+        "Id": "372493363"
+       }
+      ]
+     },
+     {
+      "Id": "2774129122",
+      "Name": "UI_Select",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_Select",
+      "GUID": "{D58F19A2-E456-46D6-A652-477145CB04B7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.345",
+      "DurationMax": "0.345",
+      "MediaRefs": [
+       {
+        "Id": "358116301"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1F41CC3D-8F73-7F2B-B41A-3B35FE8CA2A4}"
+ }
+}

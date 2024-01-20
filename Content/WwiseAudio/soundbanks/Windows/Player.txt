@@ -1,0 +1,57 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1730208058	Player_Footsteps			\Default Work Unit\Player\Player_Footsteps	
+	2101861506	Player_Flashlight_Switch			\Default Work Unit\Player\Player_Flashlight_Switch	
+	3239612480	Player_Lighthouse_Teleport_Door			\Default Work Unit\Player\Player_Lighthouse_Teleport_Door	
+	3318329073	Player_Lighthouse_Teleport_TrapDoor			\Default Work Unit\Player\Player_Lighthouse_Teleport_TrapDoor	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1834394558	Surface			\Default Work Unit\Surface	
+
+Switch	ID	Name	Switch Group			Notes
+	803837735	Sand	Surface			
+	1216965916	Stone	Surface			
+	2058049674	Wood	Surface			
+	2195636714	Dirt	Surface			
+	2449969375	Glass	Surface			
+	3728443364	Catwalk	Surface			
+	4248645337	Grass	Surface			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	22401148	Player_FS_CatWalk-004	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_CatWalk-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Metal\Player_FS_CatWalk-004		41696
+	55098737	Player_FS_CatWalk-003	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_CatWalk-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Metal\Player_FS_CatWalk-003		41696
+	76431582	Player_FS_Dirt-003	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-003		31086
+	77804803	Player_FS_Stone-006	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Stone\Player_FS_Stone-006_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Stone\Player_FS_Stone-006		22496
+	95334652	Player_FS_CatWalk-005	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_CatWalk-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Metal\Player_FS_CatWalk-005		41696
+	164524416	Player_FS_CatWalk-008	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_CatWalk-008_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Metal\Player_FS_CatWalk-008		41696
+	246971568	Player_FS_Sand-002	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Sand\Player_FS_Sand-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Sand\Player_FS_Sand-002		44896
+	324292905	Player_FS_CatWalk-002	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_CatWalk-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Metal\Player_FS_CatWalk-002		41696
+	364880872	Player_FS_Sand-006	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Sand\Player_FS_Sand-006_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Sand\Player_FS_Sand-006		32096
+	372056298	Player_FS_Wood-001	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Wood-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Wood\Player_FS_Wood-001		22496
+	448818932	Player_FS_Stone-002	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Stone\Player_FS_Stone-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Stone\Player_FS_Stone-002		22496
+	472242906	Player_FS_Wood-005	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Wood-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Wood\Player_FS_Wood-005		22496
+	491586114	Player_FS_Stone-004	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Stone\Player_FS_Stone-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Stone\Player_FS_Stone-004		22496
+	496023404	Player_FS_Sand-005	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Sand\Player_FS_Sand-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Sand\Player_FS_Sand-005		44896
+	540337355	Player_FS_Dirt-002	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-002		31086
+	571199090	Player_FS_CatWalk-001	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_CatWalk-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Metal\Player_FS_CatWalk-001		41696
+	608468204	Player_FS_Wood-003	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Wood-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Wood\Player_FS_Wood-003		22496
+	610651392	Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Flashlight_Switch\Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411		81704
+	643209904	Player_FS_Wood-006	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Wood-006_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Wood\Player_FS_Wood-006		22496
+	659705524	Player_FS_CatWalk-006	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_CatWalk-006_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Metal\Player_FS_CatWalk-006		41696
+	664481103	Player_FS_Stone-003	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Stone\Player_FS_Stone-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Stone\Player_FS_Stone-003		22496
+	736138183	Player_FS_Wood-002	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Wood-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Wood\Player_FS_Wood-002		22496
+	798679864	Player_FS_Wood-007	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Wood-007_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Wood\Player_FS_Wood-007		22496
+	834507929	Player_FS_Stone-007	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Stone\Player_FS_Stone-007_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Stone\Player_FS_Stone-007		22496
+	864713889	Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Flashlight_Switch\Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412		74280
+	878599703	Player_FS_Dirt-006	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-006_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-006		31086
+	895910144	Player_FS_Dirt-001	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-001		31086
+	923511576	Player_FS_Dirt-005	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-005		31086
+	964747123	Player_FS_Dirt-004	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-004		31086
+	966137033	Player_Lighthouse_Teleport	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Lighthouse_Teleport		116884
+	972351290	Player_FS_Wood-004	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Wood-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Wood\Player_FS_Wood-004		22496
+	976887921	Player_FS_Stone-005	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Stone\Player_FS_Stone-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Stone\Player_FS_Stone-005		22496
+	991899446	Player_FS_Sand-004	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Sand\Player_FS_Sand-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Sand\Player_FS_Sand-004		44896
+	1011686956	Player_FS_Sand-001	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Sand\Player_FS_Sand-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Sand\Player_FS_Sand-001		44896
+	1031427962	Player_FS_Stone-001	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Stone\Player_FS_Stone-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Stone\Player_FS_Stone-001		22496
+	1059025705	Player_FS_Sand-003	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Sand\Player_FS_Sand-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Sand\Player_FS_Sand-003		44896
+	1061987857	Player_FS_CatWalk-007	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_CatWalk-007_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_FS_Metal\Player_FS_CatWalk-007		41696
+
