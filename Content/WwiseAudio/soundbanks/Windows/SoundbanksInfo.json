@@ -228,7 +228,7 @@
     "Type": "User",
     "GUID": "{CC843A05-CB90-41D1-8445-F4970A102764}",
     "Language": "SFX",
-    "Hash": "{218F3472-1C8B-C10F-36EF-2A791F79EF4C}",
+    "Hash": "{905C65E8-44CD-0123-3ECF-35437E21322C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -258,20 +258,20 @@
       "CachePath": "SFX/Player_FS_Sand/Player_FS_Sand-002_818F3B66.wem"
      },
      {
+      "Id": "257874522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Ocean_Background.wav",
+      "CachePath": "SFX/Amb_Ocean_Background_FBC78EF0.wem"
+     },
+     {
       "Id": "358116301",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4.wav",
       "CachePath": "SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4_818F3B66.wem"
-     },
-     {
-      "Id": "363366032",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Ocean_Background.wav",
-      "CachePath": "SFX/Amb_Ocean_Background_818F3B66.wem"
      },
      {
       "Id": "364880872",
@@ -514,13 +514,11 @@
       "Name": "Amb_Ocean_Background",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_Ocean_Background",
       "GUID": "{DC857F7A-3689-431B-9DF6-7F8562599EE1}",
-      "MaxAttenuation": "100",
-      "DurationType": "OneShot",
-      "DurationMin": "86.75",
-      "DurationMax": "86.75",
+      "MaxAttenuation": "3895",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "363366032"
+        "Id": "257874522"
        }
       ]
      },
@@ -897,6 +895,6 @@
     ]
    }
   ],
-  "FileHash": "{61A987CC-F341-69A0-ECE1-07DE22328C96}"
+  "FileHash": "{614CD11E-540B-63FC-70D4-3394EF5A155D}"
  }
 }
