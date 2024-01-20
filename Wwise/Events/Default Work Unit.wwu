@@ -32,7 +32,7 @@
 								<Action Name="" ID="{DA4E6865-9C66-4F63-B5D4-198721B58C56}" ShortID="174177288">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1" ID="{3C174976-254C-459F-AC2A-8A23E5093A43}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+											<ObjectRef Name="Player_Lighthouse_Teleport" ID="{3C174976-254C-459F-AC2A-8A23E5093A43}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -43,7 +43,7 @@
 								<Action Name="" ID="{23F80BAC-9758-4D2F-A713-B3903EEC2C4C}" ShortID="873172066">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1" ID="{3C174976-254C-459F-AC2A-8A23E5093A43}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+											<ObjectRef Name="Player_Lighthouse_Teleport" ID="{3C174976-254C-459F-AC2A-8A23E5093A43}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
