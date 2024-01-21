@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{FEF0FCEC-169F-40E9-A66B-E0B939137024}",
     "Language": "SFX",
-    "Hash": "{D54146EC-C7E6-C4CB-0DBF-F74FC879FCC3}",
+    "Hash": "{50716F19-B32C-B897-E8BA-AFE57904E867}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
     "ShortName": "Ambience",
     "Path": "Ambience.bnk",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Amb_Lighthouse_int.wav",
-      "CachePath": "SFX/Amb_Lighthouse_int_B032A71E.wem"
+      "CachePath": "SFX/Amb_Lighthouse_int_3B7822A8.wem"
      }
     ],
     "Events": [
@@ -75,9 +75,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_Lighthouse_int",
       "GUID": "{765D7CCF-E04B-457E-B9E2-BBD816869E7B}",
       "MaxAttenuation": "500",
-      "DurationType": "OneShot",
-      "DurationMin": "57",
-      "DurationMax": "57",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "203509891"
@@ -1077,6 +1075,6 @@
     "Path": "Master.bnk"
    }
   ],
-  "FileHash": "{A7B1E63A-EEA7-CECA-FD21-425CC2546709}"
+  "FileHash": "{E5AEBE6C-AF1B-6C69-5BF0-BAECB8E8AB3E}"
  }
 }
