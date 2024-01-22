@@ -262,7 +262,7 @@
 				</Attenuation>
 				<Attenuation Name="ATT_Ocean_Far" ID="{DD8AF79A-17E8-4EFF-86EC-941ED2986278}" ShortID="658176565">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="15000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="10000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -274,34 +274,35 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>-18.257</YPos>
+											<YPos>-11.78171</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1638.88692</XPos>
-											<YPos>-18.10049</YPos>
+											<XPos>663.3385</XPos>
+											<YPos>-11.25718</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>3223.49884</XPos>
-											<YPos>-6.04603</YPos>
+											<XPos>1457.4253</XPos>
+											<YPos>-6.49037</YPos>
 											<Flags>0</Flags>
-											<SegmentShape>Exp2</SegmentShape>
+											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>12538.25182</XPos>
-											<YPos>-9.75252</YPos>
+											<XPos>3255.49591333333</XPos>
+											<YPos>-14.29916</YPos>
 											<Flags>0</Flags>
+											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>14999.925</XPos>
+											<XPos>9999.95</XPos>
 											<YPos>-200</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>15000</XPos>
+											<XPos>10000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -328,12 +329,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>5284.0909</XPos>
+											<XPos>3522.72726666667</XPos>
 											<YPos>24</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>15000</XPos>
+											<XPos>10000</XPos>
 											<YPos>29</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -354,12 +355,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>6988.636375</XPos>
+											<XPos>4659.09091666667</XPos>
 											<YPos>30</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>15000</XPos>
+											<XPos>10000</XPos>
 											<YPos>33</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -368,10 +369,57 @@
 							</CurveUsageInfo>
 						</HighPassFilterUsage>
 						<SpreadUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="Spread" ID="{88EB5E7A-795C-46D6-894E-DF5AED23E0E2}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="1"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>100</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>SCurve</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1815.31176</XPos>
+											<YPos>11.7206</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>3046.56669333333</XPos>
+											<YPos>3.83527</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>10000</XPos>
+											<YPos>0</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</SpreadUsage>
 						<FocusUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None">
+								<Curve Name="Focus" ID="{D16A3F42-2128-4E8D-8500-A2376FE5A59E}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="1"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>100</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>10000</XPos>
+											<YPos>0</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</FocusUsage>
 						<ObstructionVolumeUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None">
@@ -543,10 +591,10 @@
 											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>68.89049</XPos>
-											<YPos>-1.14402</YPos>
+											<XPos>83.59637</XPos>
+											<YPos>-14.23169</YPos>
 											<Flags>0</Flags>
-											<SegmentShape>Exp2</SegmentShape>
+											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>499.9975</XPos>
