@@ -274,24 +274,24 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>-11.78171</YPos>
+											<YPos>-11.55453</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>663.3385</XPos>
-											<YPos>-11.25718</YPos>
+											<XPos>873.28325</XPos>
+											<YPos>-6.34254</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1457.4253</XPos>
-											<YPos>-6.49037</YPos>
+											<XPos>2904.93912</XPos>
+											<YPos>-6.80906</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>3255.49591333333</XPos>
-											<YPos>-14.29916</YPos>
+											<XPos>6714.05945</XPos>
+											<YPos>-10.40026</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
