@@ -18,7 +18,12 @@
 							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Direction" ID="{4ABF0816-7184-4808-A868-2FD483D9FF86}"/>
+							<Value>-0.420168067226882</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{1FC575E7-43EA-4EC0-AD0E-8DCB287E4794}"/>
 					</CurrentStateList>
