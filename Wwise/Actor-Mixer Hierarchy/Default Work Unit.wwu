@@ -1329,6 +1329,7 @@
 						</ActorMixer>
 						<ActorMixer Name="Amb_Ocean" ID="{9BDFAA7A-05A9-4EE2-B200-C456498E19F6}" ShortID="177639084">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1343,12 +1344,18 @@
 								<Sound Name="Amb_Ocean_Far" ID="{5BD27675-6E67-4417-9352-79977BD55EC5}" ShortID="921219194">
 									<PropertyList>
 										<Property Name="3DPosition" Type="int16" Value="2"/>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="Color" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="86"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1376,8 +1383,8 @@
 									<PositioningInfo>
 										<Panner Name="" ID="{B71A3912-DE78-4F81-B4BE-7CB0D892FDD5}">
 											<PropertyList>
-												<Property Name="PanX" Type="Real64" Value="-26.7796610169492"/>
-												<Property Name="PanY" Type="Real64" Value="49.4545454545455"/>
+												<Property Name="PanX" Type="Real64" Value="-13.721241772963"/>
+												<Property Name="PanY" Type="Real64" Value="-11.0620597115062"/>
 											</PropertyList>
 										</Panner>
 										<Position Name="" ID="{BE0602B6-6DA8-4AE5-A4B0-145A06355CFE}"/>
@@ -1393,6 +1400,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>

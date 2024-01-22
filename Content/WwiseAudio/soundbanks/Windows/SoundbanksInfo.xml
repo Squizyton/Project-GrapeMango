@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{F3B0BD06-540A-F402-9E56-BA165C4BC3B1}">
+		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{01184F01-73D1-9DEE-75CB-886ED09B6ECD}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
@@ -47,7 +47,7 @@
 						<MediaRef Id="24647134"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3573072630" Name="Amb_Ocean_Far" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Ocean_Far" GUID="{41750C72-BCED-487F-805D-27B422181931}" MaxAttenuation="15000" DurationType="Infinite">
+				<Event Id="3573072630" Name="Amb_Ocean_Far" ObjectPath="\Events\Default Work Unit\Ambiences\Amb_Ocean_Far" GUID="{41750C72-BCED-487F-805D-27B422181931}" MaxAttenuation="10000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="99990332"/>
 					</MediaRefs>
@@ -451,5 +451,5 @@
 			<Path>Master.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{843C0886-312D-A695-FAB9-9DE31C30402D}</FileHash>
+	<FileHash>{724E3E56-1613-5F72-D17D-8225F95D0F93}</FileHash>
 </SoundBanksInfo>

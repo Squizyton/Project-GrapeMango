@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{FEF0FCEC-169F-40E9-A66B-E0B939137024}",
     "Language": "SFX",
-    "Hash": "{F3B0BD06-540A-F402-9E56-BA165C4BC3B1}",
+    "Hash": "{01184F01-73D1-9DEE-75CB-886ED09B6ECD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
     "ShortName": "Ambience",
     "Path": "Ambience.bnk",
@@ -100,7 +100,7 @@
       "Name": "Amb_Ocean_Far",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_Ocean_Far",
       "GUID": "{41750C72-BCED-487F-805D-27B422181931}",
-      "MaxAttenuation": "15000",
+      "MaxAttenuation": "10000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1081,6 +1081,6 @@
     "Path": "Master.bnk"
    }
   ],
-  "FileHash": "{BB8807DA-DD61-9524-4FF0-CF257E3DF8FB}"
+  "FileHash": "{F8A8F84B-DFE0-BD1B-66DB-785626FFD857}"
  }
 }
