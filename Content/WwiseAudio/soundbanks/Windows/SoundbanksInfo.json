@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{FEF0FCEC-169F-40E9-A66B-E0B939137024}",
     "Language": "SFX",
-    "Hash": "{50716F19-B32C-B897-E8BA-AFE57904E867}",
+    "Hash": "{F3B0BD06-540A-F402-9E56-BA165C4BC3B1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
     "ShortName": "Ambience",
     "Path": "Ambience.bnk",
@@ -87,7 +87,7 @@
       "Name": "Amb_Ocean_Close",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Amb_Ocean_Close",
       "GUID": "{DC857F7A-3689-431B-9DF6-7F8562599EE1}",
-      "MaxAttenuation": "6000",
+      "MaxAttenuation": "5000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -755,7 +755,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{51FCD57A-7A48-DB60-C284-58F9156CB7B1}",
+    "Hash": "{213F1667-2E19-3CF1-88E8-93EA989161FA}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -872,6 +872,12 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "16764168",
+      "Name": "Direction",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Direction",
+      "GUID": "{4ABF0816-7184-4808-A868-2FD483D9FF86}"
+     },
      {
       "Id": "254409923",
       "Name": "Battery_level",
@@ -1075,6 +1081,6 @@
     "Path": "Master.bnk"
    }
   ],
-  "FileHash": "{E5AEBE6C-AF1B-6C69-5BF0-BAECB8E8AB3E}"
+  "FileHash": "{BB8807DA-DD61-9524-4FF0-CF257E3DF8FB}"
  }
 }

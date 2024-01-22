@@ -1343,6 +1343,7 @@
 								<Sound Name="Amb_Ocean_Far" ID="{5BD27675-6E67-4417-9352-79977BD55EC5}" ShortID="921219194">
 									<PropertyList>
 										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="Color" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -1395,7 +1396,7 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1420,6 +1421,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
+										<Panner Name="" ID="{B710DC3F-0940-460D-B4CB-E5F43113B9A1}"/>
 										<Position Name="" ID="{A50D2187-7841-499D-8AC8-F762EEE627C0}"/>
 									</PositioningInfo>
 									<ActiveSourceList>
