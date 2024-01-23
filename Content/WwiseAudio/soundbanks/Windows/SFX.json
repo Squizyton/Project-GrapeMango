@@ -10,12 +10,38 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{4A97D79B-315C-5E60-9858-1873E924D984}",
+    "Hash": "{3786660B-1118-3D8D-C3A0-B27E3EDD917C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
-    "Path": "SFX.bnk"
+    "Path": "SFX.bnk",
+    "Media": [
+     {
+      "Id": "971399184",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Radio Test.wav",
+      "CachePath": "SFX/Radio Test_3B7822A8.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1132188758",
+      "Name": "Env_Radio",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiences\\Environment\\Env_Radio",
+      "GUID": "{E2E255CF-F679-400C-9483-B72D3C51DF91}",
+      "DurationType": "OneShot",
+      "DurationMin": "40",
+      "DurationMax": "40",
+      "MediaRefs": [
+       {
+        "Id": "971399184"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{6AD89EC5-C427-97FE-5E73-83FE2D8BB4B5}"
+  "FileHash": "{F5554761-F7B7-CD5A-F96C-29672F8EA455}"
  }
 }

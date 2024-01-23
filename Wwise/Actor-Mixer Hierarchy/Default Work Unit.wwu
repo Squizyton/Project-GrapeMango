@@ -224,11 +224,29 @@
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{A1914A34-54FC-4FBB-855C-20C9F690220D}"/>
+											<Modifier Name="" ID="{A1914A34-54FC-4FBB-855C-20C9F690220D}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="30"/>
+													<Property Name="Min" Type="Real64" Value="-30"/>
+												</PropertyList>
+											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BA7DD4D4-3720-4E4A-B4FA-CDA2207B21B7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -759,6 +777,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -939,6 +962,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -1484,6 +1512,45 @@
 									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Amb_Ocean_Close" ID="{B4E69AB2-3006-4CC7-A530-FF9E5BECEBDA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Amb_Environment" ID="{75C157BC-ACDC-4637-BB99-74BB0882AC88}" ShortID="343282507">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Env_Radio" ID="{749B9BE6-F6D6-4FF3-AB1E-E528A2BFEB05}" ShortID="1018032002">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Radio Test" ID="{659F9E7C-588D-4A91-8D65-72FE4E32EEDF}">
+											<Language>SFX</Language>
+											<AudioFile>Radio Test.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="971399184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Radio Test" ID="{659F9E7C-588D-4A91-8D65-72FE4E32EEDF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

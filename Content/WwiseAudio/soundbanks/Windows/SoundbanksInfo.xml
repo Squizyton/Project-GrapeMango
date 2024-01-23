@@ -54,12 +54,25 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{4A97D79B-315C-5E60-9858-1873E924D984}">
+		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{3786660B-1118-3D8D-C3A0-B27E3EDD917C}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="971399184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Radio Test.wav</ShortName>
+					<CachePath>SFX/Radio Test_3B7822A8.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1132188758" Name="Env_Radio" ObjectPath="\Events\Default Work Unit\Ambiences\Environment\Env_Radio" GUID="{E2E255CF-F679-400C-9483-B72D3C51DF91}" DurationType="OneShot" DurationMin="40" DurationMax="40">
+					<MediaRefs>
+						<MediaRef Id="971399184"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{7C6C254B-323B-0157-4979-7445BD8F0A5A}">
+		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{57DE2E02-950B-D854-10A2-7F8477C0BCFC}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
@@ -451,5 +464,5 @@
 			<Path>Master.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6025CFF7-B31A-924B-74A4-9FF4E12471C9}</FileHash>
+	<FileHash>{D31B5061-101D-6D9B-3152-4641B555F8ED}</FileHash>
 </SoundBanksInfo>
