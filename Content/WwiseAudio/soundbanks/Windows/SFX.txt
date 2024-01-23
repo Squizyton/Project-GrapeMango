@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1132188758	Env_Radio			\Default Work Unit\Ambiences\Environment\Env_Radio	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	971399184	Env_Radio	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Radio Test_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Amb_Environment\Env_Radio		80751
+

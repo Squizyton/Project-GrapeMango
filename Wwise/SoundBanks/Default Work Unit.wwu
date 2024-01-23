@@ -87,7 +87,9 @@
 							</ValueList>
 						</Property>
 					</PropertyList>
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Env_Radio" ID="{E2E255CF-F679-400C-9483-B72D3C51DF91}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
