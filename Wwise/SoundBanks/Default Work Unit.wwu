@@ -11,7 +11,9 @@
 							</ValueList>
 						</Property>
 					</PropertyList>
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Effects" ID="{41093F77-829F-4D88-8601-E8B25F3D4781}" WorkUnitID="{41093F77-829F-4D88-8601-E8B25F3D4781}" Origin="Manual" Filter="3"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
@@ -83,7 +85,7 @@
 					<PropertyList>
 						<Property Name="Maximum" Type="int32">
 							<ValueList>
-								<Value>1000000</Value>
+								<Value>2000000</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

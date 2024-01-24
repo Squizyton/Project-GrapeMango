@@ -22,11 +22,7 @@
 											</ValueList>
 										</Property>
 									</PropertyList>
-									<ReferenceList>
-										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="Rev_General" ID="{EAA16100-071F-43E6-84A4-320E8B67DF74}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-										</Reference>
-									</ReferenceList>
+									<ReferenceList/>
 									<ObjectLists>
 										<ObjectList Name="Effects">
 											<Reference>
