@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{213F1667-2E19-3CF1-88E8-93EA989161FA}",
+    "Hash": "{BEBF9D64-436E-F9EC-2B82-28740FD6F488}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -115,15 +115,7 @@
          "Id": "3407225994"
         }
        ]
-      },
-      "AuxBusRefs": [
-       {
-        "Id": "2408058993",
-        "Name": "Rev_General",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DiegeticSounds\\Rev_General",
-        "GUID": "{EAA16100-071F-43E6-84A4-320E8B67DF74}"
-       }
-      ]
+      }
      }
     ],
     "GameParameters": [
@@ -222,6 +214,6 @@
     ]
    }
   ],
-  "FileHash": "{D007CAF3-8463-5E9B-61BF-C8BDE5A97C91}"
+  "FileHash": "{3046EADF-FBA8-8FCC-3C45-7CCE303B0A34}"
  }
 }

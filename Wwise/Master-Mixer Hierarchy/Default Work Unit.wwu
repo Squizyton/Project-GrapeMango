@@ -15,18 +15,7 @@
 								<Bus Name="Ambient" ID="{7DFB4537-A4BF-4C60-9B2A-B64CC56C6C2C}"/>
 								<Bus Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}"/>
 								<AuxBus Name="Rev_Lighthouse" ID="{1983B0A9-0714-491B-B2D5-E0312A72B104}">
-									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<ValueList>
-												<Value>-96</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="Rev_General" ID="{EAA16100-071F-43E6-84A4-320E8B67DF74}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-										</Reference>
-									</ReferenceList>
+									<ReferenceList/>
 									<ObjectLists>
 										<ObjectList Name="Effects">
 											<Reference>
