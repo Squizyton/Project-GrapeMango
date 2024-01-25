@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{5E6F8768-0D3F-9D91-A911-8DB733DA4E36}">
+		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{111F782D-C71E-1B46-20F2-41A7112EB2CC}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
@@ -57,7 +57,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX" GUID="{695F585C-C471-4A5B-8170-892B77150803}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{7B8CCA89-C403-6D26-746B-BF776C5EA7A9}">
+		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{486E91E1-444D-9D32-E1FD-A62F0BF8D761}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -70,48 +70,76 @@
 					<ShortName>Radio_Noise_lp.wav</ShortName>
 					<CachePath>SFX/Radio_Noise_lp_3B7822A8.wem</CachePath>
 				</File>
+				<File Id="502911566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Radio_Noise_lp.wav</ShortName>
+					<CachePath>SFX/Radio_Noise_lp_B032A71E.wem</CachePath>
+				</File>
 				<File Id="647583695" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ba Dum Tss by SoundMaker25 Id-534937.wav</ShortName>
 					<CachePath>SFX/Ba Dum Tss by SoundMaker25 Id-534937_818F3B66.wem</CachePath>
 				</File>
 				<File Id="832537893" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Radio_VO_Plot.wav</ShortName>
-					<CachePath>SFX/Radio_VO_Plot_3B7822A8.wem</CachePath>
+					<CachePath>SFX/Radio_VO_Plot_B032A71E.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="501855287" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Amb_Environment\Env_Radio_VO_Plot\Silence\Silence" GUID="{809728E2-ADFB-4143-AF68-D4AD48E659B3}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="919326698" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Hello\Silence\Silence" GUID="{44DDD050-E798-4253-AABD-64D88E35F415}" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="1205999388" Name="Enemy_Death" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Death" GUID="{7521F7FB-923C-421D-9EF4-C71929EF91D3}" DurationType="OneShot" DurationMin="10.37932" DurationMax="10.37932">
 					<MediaRefs>
 						<MediaRef Id="647583695"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1891537485" Name="Enemy_Desintegration_Start" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Desintegration_Start" GUID="{EA52DEAA-804D-46C9-ABF3-D5FBDAFD8220}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="42.083336" DurationMax="42.083336">
+				<Event Id="1891537485" Name="Enemy_Desintegration_Start" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Desintegration_Start" GUID="{EA52DEAA-804D-46C9-ABF3-D5FBDAFD8220}" MaxAttenuation="1000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="384767374"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3287655183" Name="Enemy_Desintegration_Stop" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Desintegration_Stop" GUID="{2C551684-143B-4255-A4AE-DB6BE7B7F8A3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2449090642" Name="Enemy_Hello" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Hello" GUID="{8A318D4C-9219-470A-B452-986006E69011}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="1.0135" DurationMax="1.0135">
+				<Event Id="2449090642" Name="Enemy_Hello" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Hello" GUID="{8A318D4C-9219-470A-B452-986006E69011}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="1.0135" DurationMax="4">
 					<MediaRefs>
 						<MediaRef Id="252332590"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="919326698"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
-				<Event Id="1132188758" Name="Env_Radio" ObjectPath="\Events\Default Work Unit\SFX\Env_Radio" GUID="{E2E255CF-F679-400C-9483-B72D3C51DF91}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="42.469997" DurationMax="44.469997">
+				<Event Id="1132188758" Name="Env_Radio" ObjectPath="\Events\Default Work Unit\SFX\Env_Radio" GUID="{E2E255CF-F679-400C-9483-B72D3C51DF91}" MaxAttenuation="1000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="384767374"/>
 						<MediaRef Id="832537893"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="501855287"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
-				<Event Id="3469467677" Name="SFX_Spotlight_Buzz" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_Buzz" GUID="{27641A76-A5F8-488C-BAF8-A38597F6AAC1}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2935187395" Name="SFX_Spotlight_Rotate" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_Rotate" GUID="{DE74A12D-E153-44B8-BF2E-10820FDBAF9B}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3650406826" Name="SFX_Spotlight_TurnOff" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_TurnOff" GUID="{ADC3F3B7-A886-4281-A557-F5039DC369A5}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1996512908" Name="SFX_Spotlight_TurnOn" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_TurnOn" GUID="{A49205FC-8F2F-4EF7-8E4B-DDFAB532C70D}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3469467677" Name="SFX_Spotlight_Buzz" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_Buzz" GUID="{27641A76-A5F8-488C-BAF8-A38597F6AAC1}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="8.416667" DurationMax="8.416667">
+					<MediaRefs>
+						<MediaRef Id="502911566"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2935187395" Name="SFX_Spotlight_Rotate" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_Rotate" GUID="{DE74A12D-E153-44B8-BF2E-10820FDBAF9B}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="42.083336" DurationMax="42.083336">
+					<MediaRefs>
+						<MediaRef Id="384767374"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3650406826" Name="SFX_Spotlight_TurnOff" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_TurnOff" GUID="{ADC3F3B7-A886-4281-A557-F5039DC369A5}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1996512908" Name="SFX_Spotlight_TurnOn" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_TurnOn" GUID="{A49205FC-8F2F-4EF7-8E4B-DDFAB532C70D}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX" GUID="{695F585C-C471-4A5B-8170-892B77150803}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{7CF7C720-014B-474E-4CFA-09A2C913E6AD}">
+		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{7AB8902D-F6C6-7297-E60F-F261AF3A5DBB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
@@ -386,7 +414,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{CFE8F454-A9AE-1CAB-5CB6-AFC25AA6A323}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{C1B385AB-DE62-88A7-A197-1E7D65B86B4B}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -452,7 +480,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" GUID="{F9CB3015-F172-4F2C-9186-62D3D71A7CF0}" Language="SFX" Hash="{A220F232-B710-B9C6-6FCD-6805D118DBE8}">
+		<SoundBank Id="1551306167" Type="User" GUID="{F9CB3015-F172-4F2C-9186-62D3D71A7CF0}" Language="SFX" Hash="{7F5EC047-6D06-64AC-DF3C-2CA4383EB097}">
 			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
@@ -673,5 +701,5 @@
 			</Plugins>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{330D17B8-D523-B488-C738-3B8CF94DDDA0}</FileHash>
+	<FileHash>{CED36A46-37AA-47C0-71BC-6DA6E38BE82A}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{7B8CCA89-C403-6D26-746B-BF776C5EA7A9}",
+    "Hash": "{486E91E1-444D-9D32-E1FD-A62F0BF8D761}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -32,6 +32,14 @@
       "CachePath": "SFX/Radio_Noise_lp_3B7822A8.wem"
      },
      {
+      "Id": "502911566",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Radio_Noise_lp.wav",
+      "CachePath": "SFX/Radio_Noise_lp_B032A71E.wem"
+     },
+     {
       "Id": "647583695",
       "Language": "SFX",
       "Streaming": "false",
@@ -45,9 +53,29 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Radio_VO_Plot.wav",
-      "CachePath": "SFX/Radio_VO_Plot_3B7822A8.wem"
+      "CachePath": "SFX/Radio_VO_Plot_B032A71E.wem"
      }
     ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "501855287",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\SFX\\Environment\\Amb_Environment\\Env_Radio_VO_Plot\\Silence\\Silence",
+       "GUID": "{809728E2-ADFB-4143-AF68-D4AD48E659B3}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
+       "Id": "919326698",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\SFX\\Enemy\\Enemy_Hello\\Silence\\Silence",
+       "GUID": "{44DDD050-E798-4253-AABD-64D88E35F415}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1205999388",
@@ -69,9 +97,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Enemy_Desintegration_Start",
       "GUID": "{EA52DEAA-804D-46C9-ABF3-D5FBDAFD8220}",
       "MaxAttenuation": "1000",
-      "DurationType": "OneShot",
-      "DurationMin": "42.083336",
-      "DurationMax": "42.083336",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "384767374"
@@ -96,12 +122,19 @@
       "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "1.0135",
-      "DurationMax": "1.0135",
+      "DurationMax": "4",
       "MediaRefs": [
        {
         "Id": "252332590"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "919326698"
+        }
+       ]
+      }
      },
      {
       "Id": "1132188758",
@@ -109,9 +142,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Env_Radio",
       "GUID": "{E2E255CF-F679-400C-9483-B72D3C51DF91}",
       "MaxAttenuation": "1000",
-      "DurationType": "OneShot",
-      "DurationMin": "42.469997",
-      "DurationMax": "44.469997",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "384767374"
@@ -119,33 +150,51 @@
        {
         "Id": "832537893"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "501855287"
+        }
+       ]
+      }
      },
      {
       "Id": "3469467677",
       "Name": "SFX_Spotlight_Buzz",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_Buzz",
       "GUID": "{27641A76-A5F8-488C-BAF8-A38597F6AAC1}",
-      "MaxAttenuation": "0",
+      "MaxAttenuation": "1000",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "8.416667",
+      "DurationMax": "8.416667",
+      "MediaRefs": [
+       {
+        "Id": "502911566"
+       }
+      ]
      },
      {
       "Id": "2935187395",
       "Name": "SFX_Spotlight_Rotate",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_Rotate",
       "GUID": "{DE74A12D-E153-44B8-BF2E-10820FDBAF9B}",
-      "MaxAttenuation": "0",
+      "MaxAttenuation": "1000",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "42.083336",
+      "DurationMax": "42.083336",
+      "MediaRefs": [
+       {
+        "Id": "384767374"
+       }
+      ]
      },
      {
       "Id": "3650406826",
       "Name": "SFX_Spotlight_TurnOff",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_TurnOff",
       "GUID": "{ADC3F3B7-A886-4281-A557-F5039DC369A5}",
+      "MaxAttenuation": "1000",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -155,6 +204,7 @@
       "Name": "SFX_Spotlight_TurnOn",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_TurnOn",
       "GUID": "{A49205FC-8F2F-4EF7-8E4B-DDFAB532C70D}",
+      "MaxAttenuation": "1000",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -170,6 +220,6 @@
     ]
    }
   ],
-  "FileHash": "{A88850DD-8814-155A-1268-B4496D0BBB31}"
+  "FileHash": "{3F5C3DF1-28E9-6C9E-8AAB-00148782FD55}"
  }
 }

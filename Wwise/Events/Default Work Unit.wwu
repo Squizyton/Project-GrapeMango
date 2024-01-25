@@ -299,14 +299,34 @@
 								<Action Name="" ID="{E5CD49C9-F805-47EB-BCF3-0A23CE80B277}" ShortID="889056956">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Env_Radio_VO_Plot" ID="{022297D5-2FBE-4641-9B25-7158B9861F60}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+											<ObjectRef Name="Env_Radio_VO_Plot" ID="{CEF0B954-530F-4F7F-ACAD-013AD45803FD}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="SFX_Spotlight_Buzz" ID="{27641A76-A5F8-488C-BAF8-A38597F6AAC1}"/>
-						<Event Name="SFX_Spotlight_Rotate" ID="{DE74A12D-E153-44B8-BF2E-10820FDBAF9B}"/>
+						<Event Name="SFX_Spotlight_Buzz" ID="{27641A76-A5F8-488C-BAF8-A38597F6AAC1}">
+							<ChildrenList>
+								<Action Name="" ID="{2A21AFDF-37C3-4B9E-B69E-6C5CCC35F96E}" ShortID="722264088">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Spotlight_Buzz" ID="{DC29197F-4D63-4680-B86F-F8C1B29EFC2E}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Spotlight_Rotate" ID="{DE74A12D-E153-44B8-BF2E-10820FDBAF9B}">
+							<ChildrenList>
+								<Action Name="" ID="{1034BF0A-9536-49B4-8A4C-CD1C7D397F55}" ShortID="381201778">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Spotlight_Rotate" ID="{FC197A19-2A1E-4B16-9630-61501F2C64AE}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="SFX_Spotlight_TurnOff" ID="{ADC3F3B7-A886-4281-A557-F5039DC369A5}">
 							<ChildrenList>
 								<Action Name="" ID="{1CEF8877-200F-4325-BE8B-B622AA10B667}" ShortID="815286900">

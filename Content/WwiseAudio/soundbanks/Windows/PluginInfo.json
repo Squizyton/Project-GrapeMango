@@ -4,6 +4,13 @@
   "BasePlatform": "Windows",
   "PluginLibs": [
    {
+    "LibName": "Wwise Silence",
+    "LibId": "6619138",
+    "Type": "Source",
+    "DLL": "AkSilenceGenerator",
+    "StaticLib": "AkSilenceSource"
+   },
+   {
     "LibName": "Wwise Parametric EQ",
     "LibId": "6881283",
     "Type": "Effect",
@@ -98,6 +105,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{02B07D4B-665F-E8EE-A30D-D0C2837B7B3B}"
+  "FileHash": "{9B3B859D-D018-107B-E0E9-CEF8CE9DB1A9}"
  }
 }
