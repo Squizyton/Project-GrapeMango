@@ -57,7 +57,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX" GUID="{695F585C-C471-4A5B-8170-892B77150803}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{CF57A54D-F8EA-630B-109D-666CD63C7AD3}">
+		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{486E91E1-444D-9D32-E1FD-A62F0BF8D761}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -80,9 +80,15 @@
 				</File>
 				<File Id="832537893" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Radio_VO_Plot.wav</ShortName>
-					<CachePath>SFX/Radio_VO_Plot_3B7822A8.wem</CachePath>
+					<CachePath>SFX/Radio_VO_Plot_B032A71E.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="501855287" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Amb_Environment\Env_Radio_VO_Plot\Silence\Silence" GUID="{809728E2-ADFB-4143-AF68-D4AD48E659B3}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="919326698" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Hello\Silence\Silence" GUID="{44DDD050-E798-4253-AABD-64D88E35F415}" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="1205999388" Name="Enemy_Death" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Death" GUID="{7521F7FB-923C-421D-9EF4-C71929EF91D3}" DurationType="OneShot" DurationMin="10.37932" DurationMax="10.37932">
 					<MediaRefs>
@@ -95,16 +101,26 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="3287655183" Name="Enemy_Desintegration_Stop" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Desintegration_Stop" GUID="{2C551684-143B-4255-A4AE-DB6BE7B7F8A3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2449090642" Name="Enemy_Hello" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Hello" GUID="{8A318D4C-9219-470A-B452-986006E69011}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="1.0135" DurationMax="1.0135">
+				<Event Id="2449090642" Name="Enemy_Hello" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Hello" GUID="{8A318D4C-9219-470A-B452-986006E69011}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="1.0135" DurationMax="4">
 					<MediaRefs>
 						<MediaRef Id="252332590"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="919326698"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="1132188758" Name="Env_Radio" ObjectPath="\Events\Default Work Unit\SFX\Env_Radio" GUID="{E2E255CF-F679-400C-9483-B72D3C51DF91}" MaxAttenuation="1000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="384767374"/>
 						<MediaRef Id="832537893"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="501855287"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="3469467677" Name="SFX_Spotlight_Buzz" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_Buzz" GUID="{27641A76-A5F8-488C-BAF8-A38597F6AAC1}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="8.416667" DurationMax="8.416667">
 					<MediaRefs>
@@ -398,7 +414,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{CFE8F454-A9AE-1CAB-5CB6-AFC25AA6A323}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{C1B385AB-DE62-88A7-A197-1E7D65B86B4B}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -685,5 +701,5 @@
 			</Plugins>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9183ADC7-65CB-43CC-E9B4-FE934DB54D90}</FileHash>
+	<FileHash>{CED36A46-37AA-47C0-71BC-6DA6E38BE82A}</FileHash>
 </SoundBanksInfo>

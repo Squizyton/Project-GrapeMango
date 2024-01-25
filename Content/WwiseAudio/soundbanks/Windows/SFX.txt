@@ -12,10 +12,14 @@ Event	ID	Name			Wwise Object Path	Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
 
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	501855287	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Amb_Environment\Env_Radio_VO_Plot\Silence\Silence	
+	919326698	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Hello\Silence\Silence	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	252332590	Enemy_Hello	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Soundly Voice Designer, Davis 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Hello\Enemy_Hello		97392
 	384767374	Env_Radio_Noise	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Radio_Noise_lp_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Amb_Environment\Env_Radio_Noise		73303
 	502911566	SFX_Spotlight_Buzz	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Radio_Noise_lp_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Spotlight_Buzz		73303
 	647583695	Ba Dum Tss by SoundMaker25 Id-534937	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Ba Dum Tss by SoundMaker25 Id-534937_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Death\Ba Dum Tss by SoundMaker25 Id-534937		915552
-	832537893	Env_Radio_VO_Plot	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Radio_VO_Plot_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Amb_Environment\Env_Radio_VO_Plot		56542
+	832537893	Env_Radio_VO_Plot	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Radio_VO_Plot_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Amb_Environment\Env_Radio_VO_Plot\Env_Radio_VO_Plot		56542
 

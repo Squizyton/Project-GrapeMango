@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{CF57A54D-F8EA-630B-109D-666CD63C7AD3}",
+    "Hash": "{486E91E1-444D-9D32-E1FD-A62F0BF8D761}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -53,9 +53,29 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Radio_VO_Plot.wav",
-      "CachePath": "SFX/Radio_VO_Plot_3B7822A8.wem"
+      "CachePath": "SFX/Radio_VO_Plot_B032A71E.wem"
      }
     ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "501855287",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\SFX\\Environment\\Amb_Environment\\Env_Radio_VO_Plot\\Silence\\Silence",
+       "GUID": "{809728E2-ADFB-4143-AF68-D4AD48E659B3}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
+       "Id": "919326698",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\SFX\\Enemy\\Enemy_Hello\\Silence\\Silence",
+       "GUID": "{44DDD050-E798-4253-AABD-64D88E35F415}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1205999388",
@@ -102,12 +122,19 @@
       "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "1.0135",
-      "DurationMax": "1.0135",
+      "DurationMax": "4",
       "MediaRefs": [
        {
         "Id": "252332590"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "919326698"
+        }
+       ]
+      }
      },
      {
       "Id": "1132188758",
@@ -123,7 +150,14 @@
        {
         "Id": "832537893"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "501855287"
+        }
+       ]
+      }
      },
      {
       "Id": "3469467677",
@@ -186,6 +220,6 @@
     ]
    }
   ],
-  "FileHash": "{9D458A6E-60F7-1EAD-BFBA-54BA042985B2}"
+  "FileHash": "{3F5C3DF1-28E9-6C9E-8AAB-00148782FD55}"
  }
 }

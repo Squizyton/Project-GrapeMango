@@ -100,14 +100,14 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>392.03188</XPos>
-											<YPos>0</YPos>
+											<XPos>257.26925</XPos>
+											<YPos>-1.58103</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>650.1992</XPos>
-											<YPos>-8.48905</YPos>
+											<XPos>641.77653</XPos>
+											<YPos>-24.69459</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
@@ -195,7 +195,7 @@
 										</Point>
 										<Point>
 											<XPos>518.76076</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
