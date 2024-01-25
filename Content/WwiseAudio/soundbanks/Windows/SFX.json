@@ -10,11 +10,27 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{486E91E1-444D-9D32-E1FD-A62F0BF8D761}",
+    "Hash": "{83870C17-5C19-D522-6AEE-C458A8C1D31F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "Media": [
+     {
+      "Id": "12129071",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spotlight_Rotate.wav",
+      "CachePath": "SFX/Spotlight_Rotate_3B7822A8.wem"
+     },
+     {
+      "Id": "198956712",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spotlight_Buzz.wav",
+      "CachePath": "SFX/Spotlight_Buzz_3B7822A8.wem"
+     },
      {
       "Id": "252332590",
       "Language": "SFX",
@@ -30,14 +46,6 @@
       "Location": "Memory",
       "ShortName": "Radio_Noise_lp.wav",
       "CachePath": "SFX/Radio_Noise_lp_3B7822A8.wem"
-     },
-     {
-      "Id": "502911566",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Radio_Noise_lp.wav",
-      "CachePath": "SFX/Radio_Noise_lp_B032A71E.wem"
      },
      {
       "Id": "647583695",
@@ -165,12 +173,10 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_Buzz",
       "GUID": "{27641A76-A5F8-488C-BAF8-A38597F6AAC1}",
       "MaxAttenuation": "1000",
-      "DurationType": "OneShot",
-      "DurationMin": "8.416667",
-      "DurationMax": "8.416667",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "502911566"
+        "Id": "198956712"
        }
       ]
      },
@@ -180,12 +186,10 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_Rotate",
       "GUID": "{DE74A12D-E153-44B8-BF2E-10820FDBAF9B}",
       "MaxAttenuation": "1000",
-      "DurationType": "OneShot",
-      "DurationMin": "42.083336",
-      "DurationMax": "42.083336",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "384767374"
+        "Id": "12129071"
        }
       ]
      },
@@ -212,6 +216,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "1493153371",
+      "Name": "PlayerSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerSpeed",
+      "GUID": "{AEE8CEC8-9528-4769-897E-3905E0BB7871}"
+     },
+     {
       "Id": "3673881719",
       "Name": "Volume_SFX",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_SFX",
@@ -220,6 +230,6 @@
     ]
    }
   ],
-  "FileHash": "{3F5C3DF1-28E9-6C9E-8AAB-00148782FD55}"
+  "FileHash": "{04013A50-A104-7A8F-E11B-80709BE021BA}"
  }
 }
