@@ -22,7 +22,6 @@
 											</ValueList>
 										</Property>
 									</PropertyList>
-									<ReferenceList/>
 									<ObjectLists>
 										<ObjectList Name="Effects">
 											<Reference>

@@ -321,7 +321,7 @@
 								<Action Name="" ID="{1034BF0A-9536-49B4-8A4C-CD1C7D397F55}" ShortID="381201778">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_Spotlight_Rotate" ID="{FC197A19-2A1E-4B16-9630-61501F2C64AE}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+											<ObjectRef Name="SFX_Spotlight_Rotate" ID="{D45CB201-5079-4BA7-A94A-C85AF0B980A2}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
