@@ -123,11 +123,19 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{A608349D-3E7F-67CA-7675-A9EC44071DCC}",
+    "Hash": "{7B8CCA89-C403-6D26-746B-BF776C5EA7A9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "Media": [
+     {
+      "Id": "252332590",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Voice Designer, Davis 1.wav",
+      "CachePath": "SFX/Soundly Voice Designer, Davis 1_818F3B66.wem"
+     },
      {
       "Id": "384767374",
       "Language": "SFX",
@@ -135,14 +143,6 @@
       "Location": "Memory",
       "ShortName": "Radio_Noise_lp.wav",
       "CachePath": "SFX/Radio_Noise_lp_3B7822A8.wem"
-     },
-     {
-      "Id": "502911566",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Radio_Noise_lp.wav",
-      "CachePath": "SFX/Radio_Noise_lp_B032A71E.wem"
      },
      {
       "Id": "647583695",
@@ -206,10 +206,15 @@
       "Name": "Enemy_Hello",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Enemy_Hello",
       "GUID": "{8A318D4C-9219-470A-B452-986006E69011}",
-      "MaxAttenuation": "0",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.0135",
+      "DurationMax": "1.0135",
+      "MediaRefs": [
+       {
+        "Id": "252332590"
+       }
+      ]
      },
      {
       "Id": "1132188758",
@@ -234,14 +239,10 @@
       "Name": "SFX_Spotlight_Buzz",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_Buzz",
       "GUID": "{27641A76-A5F8-488C-BAF8-A38597F6AAC1}",
+      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "8.416667",
-      "DurationMax": "8.416667",
-      "MediaRefs": [
-       {
-        "Id": "502911566"
-       }
-      ]
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2935187395",
@@ -268,13 +269,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_TurnOn",
       "GUID": "{A49205FC-8F2F-4EF7-8E4B-DDFAB532C70D}",
       "DurationType": "OneShot",
-      "DurationMin": "8.416667",
-      "DurationMax": "8.416667",
-      "MediaRefs": [
-       {
-        "Id": "502911566"
-       }
-      ]
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "GameParameters": [
@@ -2561,6 +2557,6 @@
     }
    }
   ],
-  "FileHash": "{035B1231-4460-5FDA-CE49-ADFBA14F44B8}"
+  "FileHash": "{38CA0A38-1F66-79A8-383B-272D3849A942}"
  }
 }

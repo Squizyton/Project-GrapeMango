@@ -630,6 +630,19 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<SwitchContainer Name="New Switch Container" ID="{B4FDCACC-7727-4D84-A486-672FA3E787DC}" ShortID="1015341706">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<GroupingInfo/>
+										</SwitchContainer>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_Spotlight_TurnOff" ID="{3525F1DD-E9E1-47EB-89B5-0CBDC7732915}" ShortID="222334262">
 									<ReferenceList>
@@ -642,7 +655,13 @@
 									</ReferenceList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_Spotlight_Rotate" ID="{FC197A19-2A1E-4B16-9630-61501F2C64AE}" ShortID="429578832">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_General" ID="{7354AAF8-44BB-4055-B151-DC25B9833321}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
 										</Reference>
@@ -650,6 +669,45 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Env_Radio_Noise" ID="{50B62649-91A8-4FAB-99E5-E30444C6223D}" ShortID="863135958">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+												<Property Name="LoopCount" Type="int32" Value="5"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="ATT_Radio" ID="{12028409-E16E-4E36-BAFB-4E41F6A7F2FD}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Radio_Noise_lp" ID="{4A4FC7C9-C12D-4C2C-BA31-679C828798AC}">
+													<Language>SFX</Language>
+													<AudioFile>Radio_Noise_lp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="384767374"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Radio_Noise_lp" ID="{4A4FC7C9-C12D-4C2C-BA31-679C828798AC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<Sound Name="SFX_Spotlight_Buzz" ID="{DC29197F-4D63-4680-B86F-F8C1B29EFC2E}" ShortID="850712344">
 									<ReferenceList>
