@@ -26,11 +26,7 @@
 						</Property>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="Amb_Ocean_Close" ID="{DC857F7A-3689-431B-9DF6-7F8562599EE1}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Amb_Ocean_Far" ID="{5BD27675-6E67-4417-9352-79977BD55EC5}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Amb_Lighthouse_int" ID="{765D7CCF-E04B-457E-B9E2-BBD816869E7B}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Amb_Ocean_Far" ID="{41750C72-BCED-487F-805D-27B422181931}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Amb_GeneralAmbient" ID="{B6BDC945-A797-4E74-930F-8393C569DAED}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambiences" ID="{F90213CA-A212-43F3-985A-4E1015156989}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -77,7 +73,9 @@
 							</ValueList>
 						</Property>
 					</PropertyList>
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{147D48FB-70B5-41AB-B36D-D2196B722A0F}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
@@ -90,7 +88,8 @@
 						</Property>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="Env_Radio" ID="{E2E255CF-F679-400C-9483-B72D3C51DF91}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX" ID="{D66DD247-55C3-454D-A0F0-C9E4303E271B}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy" ID="{B0E4226D-D341-48E6-91BA-E8F6510B6DA0}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -12,6 +12,7 @@
 						<Property Name="Min" Type="Real64" Value="-180"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Volume_SFX" ID="{695F585C-C471-4A5B-8170-892B77150803}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

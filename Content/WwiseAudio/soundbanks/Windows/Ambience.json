@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FEF0FCEC-169F-40E9-A66B-E0B939137024}",
     "Language": "SFX",
-    "Hash": "{B0202F08-ACEB-F9F5-41C5-CCF5DEC5A18E}",
+    "Hash": "{5E6F8768-0D3F-9D91-A911-8DB733DA4E36}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
     "ShortName": "Ambience",
     "Path": "Ambience.bnk",
@@ -100,9 +100,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3673881719",
+      "Name": "Volume_SFX",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_SFX",
+      "GUID": "{695F585C-C471-4A5B-8170-892B77150803}"
+     }
     ]
    }
   ],
-  "FileHash": "{1CFF2F81-D997-9F15-7F00-48366CB5F5E6}"
+  "FileHash": "{1FA9D7AB-5AF5-1003-BA47-EC60201D503F}"
  }
 }
