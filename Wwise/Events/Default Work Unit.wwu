@@ -264,11 +264,97 @@
 							<ChildrenList>
 								<Action Name="" ID="{09F14CED-0CE7-4DCD-BC6C-B5814808ACE9}" ShortID="683955867">
 									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_Radio_Noise" ID="{749B9BE6-F6D6-4FF3-AB1E-E528A2BFEB05}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8F4FB82C-3BCD-4051-BFA8-FBCB86C8916C}" ShortID="469547255">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{738F1989-3C17-4404-9373-1B052007678D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="78"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_Radio_Noise" ID="{749B9BE6-F6D6-4FF3-AB1E-E528A2BFEB05}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E5CD49C9-F805-47EB-BCF3-0A23CE80B277}" ShortID="889056956">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_Radio_VO_Plot" ID="{022297D5-2FBE-4641-9B25-7158B9861F60}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Spotlight_Buzz" ID="{27641A76-A5F8-488C-BAF8-A38597F6AAC1}">
+							<ChildrenList>
+								<Action Name="" ID="{924D6267-4CB5-4001-AF35-574EAA1703D2}" ShortID="401798305">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Spotlight_Buzz" ID="{DC29197F-4D63-4680-B86F-F8C1B29EFC2E}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Spotlight_Rotate" ID="{DE74A12D-E153-44B8-BF2E-10820FDBAF9B}"/>
+						<Event Name="SFX_Spotlight_TurnOff" ID="{ADC3F3B7-A886-4281-A557-F5039DC369A5}">
+							<ChildrenList>
+								<Action Name="" ID="{1CEF8877-200F-4325-BE8B-B622AA10B667}" ShortID="815286900">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
 										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Env_Radio" ID="{749B9BE6-F6D6-4FF3-AB1E-E528A2BFEB05}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+											<ObjectRef Name="SFX_Spotlight_Buzz" ID="{DC29197F-4D63-4680-B86F-F8C1B29EFC2E}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{208411C5-D2EE-4240-877D-34C473BD46AA}" ShortID="842549020">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Spotlight_TurnOff" ID="{3525F1DD-E9E1-47EB-89B5-0CBDC7732915}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Spotlight_TurnOn" ID="{A49205FC-8F2F-4EF7-8E4B-DDFAB532C70D}">
+							<ChildrenList>
+								<Action Name="" ID="{7D1A58A6-167D-4DAC-BB56-4FE48008F06D}" ShortID="501125665">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Spotlight_TurnOn" ID="{07CE33BA-FEDC-4FF6-A19B-77B7BB3C0468}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{07F2EAA4-8E73-41C6-8101-820D7D01C973}" ShortID="527120604">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Spotlight_Buzz" ID="{DC29197F-4D63-4680-B86F-F8C1B29EFC2E}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -276,6 +362,48 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Enemy" ID="{B0E4226D-D341-48E6-91BA-E8F6510B6DA0}" ShortID="532910148">
+					<ChildrenList>
+						<Event Name="Enemy_Death" ID="{7521F7FB-923C-421D-9EF4-C71929EF91D3}">
+							<ChildrenList>
+								<Action Name="" ID="{4BE19C5D-0ADA-4CE0-8E25-C9DD5072B938}" ShortID="277261508">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Death" ID="{9C4B3A1E-59B1-44F5-97A1-430EC339FFB8}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_Desintegration_Start" ID="{EA52DEAA-804D-46C9-ABF3-D5FBDAFD8220}">
+							<ChildrenList>
+								<Action Name="" ID="{40FEE076-0272-4A5E-8111-7F15FF90AEDE}" ShortID="513501037">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_Radio_Noise" ID="{749B9BE6-F6D6-4FF3-AB1E-E528A2BFEB05}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_Hello" ID="{8A318D4C-9219-470A-B452-986006E69011}"/>
+						<Event Name="Enemy_Desintegration_Stop" ID="{2C551684-143B-4255-A4AE-DB6BE7B7F8A3}">
+							<ChildrenList>
+								<Action Name="" ID="{8E704016-4E1A-48EC-BF62-F1C342076A1F}" ShortID="283092507">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_Radio_Noise" ID="{749B9BE6-F6D6-4FF3-AB1E-E528A2BFEB05}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{147D48FB-70B5-41AB-B36D-D2196B722A0F}" ShortID="818924828"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,6 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1132188758	Env_Radio			\Default Work Unit\SFX\Env_Radio	
+	1205999388	Enemy_Death			\Default Work Unit\Enemy\Enemy_Death	
+	1891537485	Enemy_Desintegration_Start			\Default Work Unit\Enemy\Enemy_Desintegration_Start	
+	1996512908	SFX_Spotlight_TurnOn			\Default Work Unit\SFX\SFX_Spotlight_TurnOn	
+	2449090642	Enemy_Hello			\Default Work Unit\Enemy\Enemy_Hello	
+	2935187395	SFX_Spotlight_Rotate			\Default Work Unit\SFX\SFX_Spotlight_Rotate	
+	3287655183	Enemy_Desintegration_Stop			\Default Work Unit\Enemy\Enemy_Desintegration_Stop	
+	3469467677	SFX_Spotlight_Buzz			\Default Work Unit\SFX\SFX_Spotlight_Buzz	
+	3650406826	SFX_Spotlight_TurnOff			\Default Work Unit\SFX\SFX_Spotlight_TurnOff	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	971399184	Env_Radio	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Radio Test_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Amb_Environment\Env_Radio		1536096
+	384767374	Env_Radio_Noise	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Radio_Noise_lp_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Amb_Environment\Env_Radio_Noise		73303
+	502911566	SFX_Spotlight_Buzz	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Radio_Noise_lp_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Spotlight_Buzz		73303
+	647583695	Ba Dum Tss by SoundMaker25 Id-534937	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Ba Dum Tss by SoundMaker25 Id-534937_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Death\Ba Dum Tss by SoundMaker25 Id-534937		915552
+	832537893	Env_Radio_VO_Plot	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Radio_VO_Plot_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Amb_Environment\Env_Radio_VO_Plot		56542
 

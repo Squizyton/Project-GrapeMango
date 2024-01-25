@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{FEF0FCEC-169F-40E9-A66B-E0B939137024}",
     "Language": "SFX",
-    "Hash": "{B0202F08-ACEB-F9F5-41C5-CCF5DEC5A18E}",
+    "Hash": "{5E6F8768-0D3F-9D91-A911-8DB733DA4E36}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
     "ShortName": "Ambience",
     "Path": "Ambience.bnk",
@@ -108,6 +108,14 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3673881719",
+      "Name": "Volume_SFX",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_SFX",
+      "GUID": "{695F585C-C471-4A5B-8170-892B77150803}"
+     }
     ]
    },
    {
@@ -115,21 +123,94 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{D626F552-7E5E-936D-DCBA-CC600ED483DD}",
+    "Hash": "{A608349D-3E7F-67CA-7675-A9EC44071DCC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "Media": [
      {
-      "Id": "971399184",
+      "Id": "384767374",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Radio Test.wav",
-      "CachePath": "SFX/Radio Test_FBC78EF0.wem"
+      "ShortName": "Radio_Noise_lp.wav",
+      "CachePath": "SFX/Radio_Noise_lp_3B7822A8.wem"
+     },
+     {
+      "Id": "502911566",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Radio_Noise_lp.wav",
+      "CachePath": "SFX/Radio_Noise_lp_B032A71E.wem"
+     },
+     {
+      "Id": "647583695",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ba Dum Tss by SoundMaker25 Id-534937.wav",
+      "CachePath": "SFX/Ba Dum Tss by SoundMaker25 Id-534937_818F3B66.wem"
+     },
+     {
+      "Id": "832537893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Radio_VO_Plot.wav",
+      "CachePath": "SFX/Radio_VO_Plot_3B7822A8.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "1205999388",
+      "Name": "Enemy_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Enemy_Death",
+      "GUID": "{7521F7FB-923C-421D-9EF4-C71929EF91D3}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.37932",
+      "DurationMax": "10.37932",
+      "MediaRefs": [
+       {
+        "Id": "647583695"
+       }
+      ]
+     },
+     {
+      "Id": "1891537485",
+      "Name": "Enemy_Desintegration_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Enemy_Desintegration_Start",
+      "GUID": "{EA52DEAA-804D-46C9-ABF3-D5FBDAFD8220}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "42.083336",
+      "DurationMax": "42.083336",
+      "MediaRefs": [
+       {
+        "Id": "384767374"
+       }
+      ]
+     },
+     {
+      "Id": "3287655183",
+      "Name": "Enemy_Desintegration_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Enemy_Desintegration_Stop",
+      "GUID": "{2C551684-143B-4255-A4AE-DB6BE7B7F8A3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2449090642",
+      "Name": "Enemy_Hello",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Enemy_Hello",
+      "GUID": "{8A318D4C-9219-470A-B452-986006E69011}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
      {
       "Id": "1132188758",
       "Name": "Env_Radio",
@@ -137,13 +218,71 @@
       "GUID": "{E2E255CF-F679-400C-9483-B72D3C51DF91}",
       "MaxAttenuation": "1000",
       "DurationType": "OneShot",
-      "DurationMin": "40",
-      "DurationMax": "40",
+      "DurationMin": "42.469997",
+      "DurationMax": "44.469997",
       "MediaRefs": [
        {
-        "Id": "971399184"
+        "Id": "384767374"
+       },
+       {
+        "Id": "832537893"
        }
       ]
+     },
+     {
+      "Id": "3469467677",
+      "Name": "SFX_Spotlight_Buzz",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_Buzz",
+      "GUID": "{27641A76-A5F8-488C-BAF8-A38597F6AAC1}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.416667",
+      "DurationMax": "8.416667",
+      "MediaRefs": [
+       {
+        "Id": "502911566"
+       }
+      ]
+     },
+     {
+      "Id": "2935187395",
+      "Name": "SFX_Spotlight_Rotate",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_Rotate",
+      "GUID": "{DE74A12D-E153-44B8-BF2E-10820FDBAF9B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3650406826",
+      "Name": "SFX_Spotlight_TurnOff",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_TurnOff",
+      "GUID": "{ADC3F3B7-A886-4281-A557-F5039DC369A5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1996512908",
+      "Name": "SFX_Spotlight_TurnOn",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_TurnOn",
+      "GUID": "{A49205FC-8F2F-4EF7-8E4B-DDFAB532C70D}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.416667",
+      "DurationMax": "8.416667",
+      "MediaRefs": [
+       {
+        "Id": "502911566"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3673881719",
+      "Name": "Volume_SFX",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_SFX",
+      "GUID": "{695F585C-C471-4A5B-8170-892B77150803}"
      }
     ]
    },
@@ -152,7 +291,7 @@
     "Type": "User",
     "GUID": "{B3EB6A8D-EC90-46FD-B05C-145C084270BF}",
     "Language": "SFX",
-    "Hash": "{57DE2E02-950B-D854-10A2-7F8477C0BCFC}",
+    "Hash": "{7CF7C720-014B-474E-4CFA-09A2C913E6AD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player",
     "ShortName": "Player",
     "Path": "Player.bnk",
@@ -724,6 +863,14 @@
       ]
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "3673881719",
+      "Name": "Volume_SFX",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_SFX",
+      "GUID": "{695F585C-C471-4A5B-8170-892B77150803}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "1834394558",
@@ -782,7 +929,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{7BA98F70-F566-F421-1A8D-34D7C7092526}",
+    "Hash": "{CFE8F454-A9AE-1CAB-5CB6-AFC25AA6A323}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -902,6 +1049,12 @@
       "Name": "Battery_level",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Battery_level",
       "GUID": "{85E52567-E1CF-4E10-A789-60D1102E486D}"
+     },
+     {
+      "Id": "3673881719",
+      "Name": "Volume_SFX",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_SFX",
+      "GUID": "{695F585C-C471-4A5B-8170-892B77150803}"
      }
     ],
     "StateGroups": [
@@ -990,7 +1143,7 @@
     "Type": "User",
     "GUID": "{F9CB3015-F172-4F2C-9186-62D3D71A7CF0}",
     "Language": "SFX",
-    "Hash": "{52D3212C-B9EB-8E48-F55F-770FBEA6CEBC}",
+    "Hash": "{A220F232-B710-B9C6-6FCD-6805D118DBE8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
     "ShortName": "UI",
     "Path": "UI.bnk",
@@ -1076,6 +1229,14 @@
         "Id": "358116301"
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3673881719",
+      "Name": "Volume_SFX",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_SFX",
+      "GUID": "{695F585C-C471-4A5B-8170-892B77150803}"
      }
     ]
    },
@@ -2400,6 +2561,6 @@
     }
    }
   ],
-  "FileHash": "{18E4B4FC-B864-03DF-2AF6-D2E137A905A2}"
+  "FileHash": "{035B1231-4460-5FDA-CE49-ADFBA14F44B8}"
  }
 }
