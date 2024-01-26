@@ -57,7 +57,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX" GUID="{695F585C-C471-4A5B-8170-892B77150803}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{752A2AB8-819D-ACC9-E136-ACDC346EDF30}">
+		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{2394C0D6-3092-300B-4F11-786BE618915A}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -84,7 +84,7 @@
 				</File>
 				<File Id="252332590" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Voice Designer, Davis 1.wav</ShortName>
-					<CachePath>SFX/Soundly Voice Designer, Davis 1_818F3B66.wem</CachePath>
+					<CachePath>SFX/Soundly Voice Designer, Davis 1_73361BA5.wem</CachePath>
 				</File>
 				<File Id="282319275" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GUNHndl GUNPis, grab, holster 2.wav</ShortName>
@@ -104,7 +104,7 @@
 				</File>
 				<File Id="647583695" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ba Dum Tss by SoundMaker25 Id-534937.wav</ShortName>
-					<CachePath>SFX/Ba Dum Tss by SoundMaker25 Id-534937_818F3B66.wem</CachePath>
+					<CachePath>SFX/Ba Dum Tss by SoundMaker25 Id-534937_73361BA5.wem</CachePath>
 				</File>
 				<File Id="675245965" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bed O Nailz- Nail case hits  Gift Of Junk v1.wav</ShortName>
@@ -205,125 +205,134 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX" GUID="{695F585C-C471-4A5B-8170-892B77150803}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{4EEE628D-19E2-9BAB-C372-AF34F58DAED2}">
+		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{8FE8AC4B-41CD-A9E7-4AF6-C782AD8F0350}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<Media>
 				<File Id="22401148" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-004.wav</ShortName>
-					<CachePath>SFX/Player_FS_CatWalk-004_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_CatWalk-004_73361BA5.wem</CachePath>
 				</File>
 				<File Id="55098737" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-003.wav</ShortName>
-					<CachePath>SFX/Player_FS_CatWalk-003_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_CatWalk-003_73361BA5.wem</CachePath>
 				</File>
 				<File Id="75552237" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58.wav</ShortName>
-					<CachePath>SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58_9D8E9D98.wem</CachePath>
+					<CachePath>SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58_D58366B2.wem</CachePath>
 				</File>
 				<File Id="76431582" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-003.wav</ShortName>
-					<CachePath>SFX/Player_FS_Dirt-003_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Dirt-003_73361BA5.wem</CachePath>
 				</File>
 				<File Id="77804803" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-006.wav</ShortName>
-					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-006_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-006_73361BA5.wem</CachePath>
 				</File>
 				<File Id="95334652" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-005.wav</ShortName>
-					<CachePath>SFX/Player_FS_CatWalk-005_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_CatWalk-005_73361BA5.wem</CachePath>
 				</File>
 				<File Id="145747875" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2.wav</ShortName>
-					<CachePath>SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2_AB9099DF.wem</CachePath>
+					<CachePath>SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2_33B04E93.wem</CachePath>
 				</File>
 				<File Id="164524416" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-008.wav</ShortName>
-					<CachePath>SFX/Player_FS_CatWalk-008_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_CatWalk-008_73361BA5.wem</CachePath>
 				</File>
 				<File Id="324292905" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-002.wav</ShortName>
-					<CachePath>SFX/Player_FS_CatWalk-002_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_CatWalk-002_73361BA5.wem</CachePath>
 				</File>
 				<File Id="448818932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-002.wav</ShortName>
-					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-002_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-002_73361BA5.wem</CachePath>
 				</File>
 				<File Id="478459836" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1.wav</ShortName>
-					<CachePath>SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1_470BD149.wem</CachePath>
+					<CachePath>SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1_EA16CFF1.wem</CachePath>
 				</File>
 				<File Id="491586114" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-004.wav</ShortName>
-					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-004_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-004_73361BA5.wem</CachePath>
 				</File>
 				<File Id="540337355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-002.wav</ShortName>
-					<CachePath>SFX/Player_FS_Dirt-002_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Dirt-002_73361BA5.wem</CachePath>
 				</File>
 				<File Id="571199090" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-001.wav</ShortName>
-					<CachePath>SFX/Player_FS_CatWalk-001_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_CatWalk-001_73361BA5.wem</CachePath>
 				</File>
 				<File Id="610651392" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411.wav</ShortName>
-					<CachePath>SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411_818F3B66.wem</CachePath>
+					<CachePath>SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411_73361BA5.wem</CachePath>
 				</File>
 				<File Id="659705524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-006.wav</ShortName>
-					<CachePath>SFX/Player_FS_CatWalk-006_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_CatWalk-006_73361BA5.wem</CachePath>
 				</File>
 				<File Id="664481103" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-003.wav</ShortName>
-					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-003_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-003_73361BA5.wem</CachePath>
 				</File>
 				<File Id="834507929" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-007.wav</ShortName>
-					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-007_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-007_73361BA5.wem</CachePath>
 				</File>
 				<File Id="864713889" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412.wav</ShortName>
-					<CachePath>SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412_818F3B66.wem</CachePath>
+					<CachePath>SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412_73361BA5.wem</CachePath>
 				</File>
 				<File Id="878599703" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-006.wav</ShortName>
-					<CachePath>SFX/Player_FS_Dirt-006_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Dirt-006_73361BA5.wem</CachePath>
 				</File>
 				<File Id="895910144" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-001.wav</ShortName>
-					<CachePath>SFX/Player_FS_Dirt-001_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Dirt-001_73361BA5.wem</CachePath>
+				</File>
+				<File Id="905662833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1.wav</ShortName>
+					<CachePath>SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1_216ED93F.wem</CachePath>
 				</File>
 				<File Id="923511576" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-005.wav</ShortName>
-					<CachePath>SFX/Player_FS_Dirt-005_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Dirt-005_73361BA5.wem</CachePath>
 				</File>
 				<File Id="948248000" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3.wav</ShortName>
-					<CachePath>SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3_47A67C8F.wem</CachePath>
+					<CachePath>SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3_A65D0598.wem</CachePath>
 				</File>
 				<File Id="964747123" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-004.wav</ShortName>
-					<CachePath>SFX/Player_FS_Dirt-004_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Dirt-004_73361BA5.wem</CachePath>
 				</File>
 				<File Id="966137033" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1.wav</ShortName>
-					<CachePath>SFX/Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1_818F3B66.wem</CachePath>
+					<CachePath>SFX/Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1_73361BA5.wem</CachePath>
 				</File>
 				<File Id="976887921" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-005.wav</ShortName>
-					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-005_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-005_73361BA5.wem</CachePath>
 				</File>
 				<File Id="1031427962" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-001.wav</ShortName>
-					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-001_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-001_73361BA5.wem</CachePath>
 				</File>
 				<File Id="1061987857" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-007.wav</ShortName>
-					<CachePath>SFX/Player_FS_CatWalk-007_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_FS_CatWalk-007_73361BA5.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\Player\Player_Death" GUID="{B09DA156-29FB-4D6C-A2DB-D223A4373C2D}" DurationType="OneShot" DurationMin="8.339937" DurationMax="8.339937">
+					<MediaRefs>
+						<MediaRef Id="905662833"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3767185060" Name="Player_Flashlight_Died" ObjectPath="\Events\Default Work Unit\Player\Player_Flashlight_Died" GUID="{CB444D23-33D1-46EC-9A5A-75FE1F9167B3}" DurationType="OneShot" DurationMin="0.38692576" DurationMax="0.52829164">
 					<MediaRefs>
 						<MediaRef Id="75552237"/>
@@ -534,22 +543,22 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" GUID="{F9CB3015-F172-4F2C-9186-62D3D71A7CF0}" Language="SFX" Hash="{7F5EC047-6D06-64AC-DF3C-2CA4383EB097}">
+		<SoundBank Id="1551306167" Type="User" GUID="{F9CB3015-F172-4F2C-9186-62D3D71A7CF0}" Language="SFX" Hash="{DA9A9884-78BB-75F6-ABA6-6601235F8EA1}">
 			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
 				<File Id="358116301" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4.wav</ShortName>
-					<CachePath>SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4_818F3B66.wem</CachePath>
+					<CachePath>SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4_73361BA5.wem</CachePath>
 				</File>
 				<File Id="372493363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2.wav</ShortName>
-					<CachePath>SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2_818F3B66.wem</CachePath>
+					<CachePath>SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2_73361BA5.wem</CachePath>
 				</File>
 				<File Id="945164537" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3.wav</ShortName>
-					<CachePath>SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3_818F3B66.wem</CachePath>
+					<CachePath>SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3_73361BA5.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -755,5 +764,5 @@
 			</Plugins>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5265460B-C767-2BF7-F664-D4FE6D49D6EE}</FileHash>
+	<FileHash>{90C809CA-37F8-AB57-3B25-CE27DD844F05}</FileHash>
 </SoundBanksInfo>
