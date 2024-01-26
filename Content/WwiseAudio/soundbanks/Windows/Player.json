@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B3EB6A8D-EC90-46FD-B05C-145C084270BF}",
     "Language": "SFX",
-    "Hash": "{CB3B3896-27DF-6CD8-7D78-5EF96270D49A}",
+    "Hash": "{2767D61E-1042-7CDB-C6C4-F7D5DD0584E4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player",
     "ShortName": "Player",
     "Path": "Player.bnk",
@@ -189,7 +189,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1.wav",
-      "CachePath": "SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1_216ED93F.wem"
+      "CachePath": "SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1_C576E6F2.wem"
      },
      {
       "Id": "923511576",
@@ -262,6 +262,16 @@
         "Id": "905662833"
        }
       ]
+     },
+     {
+      "Id": "3391588144",
+      "Name": "Player_Death_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Death_Stop",
+      "GUID": "{EE1642A9-359C-4416-AA89-B2CB01E31B1C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "1402898218",
@@ -677,6 +687,6 @@
     ]
    }
   ],
-  "FileHash": "{1CE0C578-C601-34DF-4E56-73D714EB087B}"
+  "FileHash": "{5A4C96F0-22FF-4368-374D-61D79B2202A7}"
  }
 }
