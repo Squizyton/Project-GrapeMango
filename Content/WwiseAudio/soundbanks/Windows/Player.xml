@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{CB3B3896-27DF-6CD8-7D78-5EF96270D49A}">
+		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{2767D61E-1042-7CDB-C6C4-F7D5DD0584E4}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
@@ -92,7 +92,7 @@
 				</File>
 				<File Id="905662833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1.wav</ShortName>
-					<CachePath>SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1_216ED93F.wem</CachePath>
+					<CachePath>SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1_C576E6F2.wem</CachePath>
 				</File>
 				<File Id="923511576" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-005.wav</ShortName>
@@ -129,6 +129,7 @@
 						<MediaRef Id="905662833"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3391588144" Name="Player_Death_Stop" ObjectPath="\Events\Default Work Unit\Player\Player_Death_Stop" GUID="{EE1642A9-359C-4416-AA89-B2CB01E31B1C}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1402898218" Name="Player_Flashlight_BatteryInsert" ObjectPath="\Events\Default Work Unit\Player\Player_Flashlight_BatteryInsert" GUID="{76270462-4EB4-426C-9732-2F7742E0D358}" DurationType="OneShot" DurationMin="0.386375" DurationMax="0.42504168">
 					<MediaRefs>
 						<MediaRef Id="610651392"/>
@@ -280,5 +281,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CCB501E0-87E0-CFC2-BDF9-D1FC5CB9AE5A}</FileHash>
+	<FileHash>{3F85F6A7-27B8-94C1-BF88-348082ECD946}</FileHash>
 </SoundBanksInfo>
