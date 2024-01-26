@@ -82,6 +82,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Player_Flashlight_BatteryInsert" ID="{76270462-4EB4-426C-9732-2F7742E0D358}">
+							<ChildrenList>
+								<Action Name="" ID="{3E5B6977-51AC-4E71-B69A-76EC89F3D815}" ShortID="579349006">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Flashlight_Switch" ID="{07A81E44-8629-4D7F-AB2D-BC0B4F871FDD}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambiences" ID="{F90213CA-A212-43F3-985A-4E1015156989}" ShortID="717138038">

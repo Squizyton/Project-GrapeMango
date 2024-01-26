@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{8FE8AC4B-41CD-A9E7-4AF6-C782AD8F0350}">
+		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{CB3B3896-27DF-6CD8-7D78-5EF96270D49A}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
@@ -127,6 +127,12 @@
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\Player\Player_Death" GUID="{B09DA156-29FB-4D6C-A2DB-D223A4373C2D}" DurationType="OneShot" DurationMin="8.339937" DurationMax="8.339937">
 					<MediaRefs>
 						<MediaRef Id="905662833"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1402898218" Name="Player_Flashlight_BatteryInsert" ObjectPath="\Events\Default Work Unit\Player\Player_Flashlight_BatteryInsert" GUID="{76270462-4EB4-426C-9732-2F7742E0D358}" DurationType="OneShot" DurationMin="0.386375" DurationMax="0.42504168">
+					<MediaRefs>
+						<MediaRef Id="610651392"/>
+						<MediaRef Id="864713889"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3767185060" Name="Player_Flashlight_Died" ObjectPath="\Events\Default Work Unit\Player\Player_Flashlight_Died" GUID="{CB444D23-33D1-46EC-9A5A-75FE1F9167B3}" DurationType="OneShot" DurationMin="0.38692576" DurationMax="0.52829164">
@@ -274,5 +280,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B8B8802C-CC93-ACB8-588E-5ADFC13EA42B}</FileHash>
+	<FileHash>{CCB501E0-87E0-CFC2-BDF9-D1FC5CB9AE5A}</FileHash>
 </SoundBanksInfo>

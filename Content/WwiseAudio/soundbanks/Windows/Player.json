@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B3EB6A8D-EC90-46FD-B05C-145C084270BF}",
     "Language": "SFX",
-    "Hash": "{8FE8AC4B-41CD-A9E7-4AF6-C782AD8F0350}",
+    "Hash": "{CB3B3896-27DF-6CD8-7D78-5EF96270D49A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player",
     "ShortName": "Player",
     "Path": "Player.bnk",
@@ -260,6 +260,23 @@
       "MediaRefs": [
        {
         "Id": "905662833"
+       }
+      ]
+     },
+     {
+      "Id": "1402898218",
+      "Name": "Player_Flashlight_BatteryInsert",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Flashlight_BatteryInsert",
+      "GUID": "{76270462-4EB4-426C-9732-2F7742E0D358}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.386375",
+      "DurationMax": "0.42504168",
+      "MediaRefs": [
+       {
+        "Id": "610651392"
+       },
+       {
+        "Id": "864713889"
        }
       ]
      },
@@ -660,6 +677,6 @@
     ]
    }
   ],
-  "FileHash": "{ABB76023-21C6-03B8-B10E-DA24D69CBA45}"
+  "FileHash": "{1CE0C578-C601-34DF-4E56-73D714EB087B}"
  }
 }

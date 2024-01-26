@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1402898218	Player_Flashlight_BatteryInsert			\Default Work Unit\Player\Player_Flashlight_BatteryInsert	
 	1730208058	Player_Footsteps			\Default Work Unit\Player\Player_Footsteps	
 	1876417386	Player_Footsteps_Land			\Default Work Unit\Player\Player_Footsteps_Land	
 	2101861506	Player_Flashlight_Switch			\Default Work Unit\Player\Player_Flashlight_Switch	

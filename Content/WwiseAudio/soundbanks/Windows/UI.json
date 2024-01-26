@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F9CB3015-F172-4F2C-9186-62D3D71A7CF0}",
     "Language": "SFX",
-    "Hash": "{7F5EC047-6D06-64AC-DF3C-2CA4383EB097}",
+    "Hash": "{DA9A9884-78BB-75F6-ABA6-6601235F8EA1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
     "ShortName": "UI",
     "Path": "UI.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4.wav",
-      "CachePath": "SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4_818F3B66.wem"
+      "CachePath": "SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 4_73361BA5.wem"
      },
      {
       "Id": "372493363",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2.wav",
-      "CachePath": "SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2_818F3B66.wem"
+      "CachePath": "SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 2_73361BA5.wem"
      },
      {
       "Id": "945164537",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3.wav",
-      "CachePath": "SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3_818F3B66.wem"
+      "CachePath": "SFX/App Button Click 4 Various Dry Sound Effect_2496SoundEffects 3_73361BA5.wem"
      }
     ],
     "Events": [
@@ -108,6 +108,6 @@
     ]
    }
   ],
-  "FileHash": "{BA229738-F640-7D57-179B-09A5C7238A13}"
+  "FileHash": "{F3FDFF45-E238-5A77-EEF7-8CCF0522B899}"
  }
 }
