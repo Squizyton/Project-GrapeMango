@@ -10,7 +10,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3650406826	SFX_Spotlight_TurnOff			\Default Work Unit\SFX\SFX_Spotlight_TurnOff	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	1493153371	PlayerSpeed			\Default Work Unit\PlayerSpeed	
 	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes

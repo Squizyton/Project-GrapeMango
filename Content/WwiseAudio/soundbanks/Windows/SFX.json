@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{83870C17-5C19-D522-6AEE-C458A8C1D31F}",
+    "Hash": "{5C3A4E90-248A-F2A7-E12C-13955CA4FB3D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -216,12 +216,6 @@
     ],
     "GameParameters": [
      {
-      "Id": "1493153371",
-      "Name": "PlayerSpeed",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerSpeed",
-      "GUID": "{AEE8CEC8-9528-4769-897E-3905E0BB7871}"
-     },
-     {
       "Id": "3673881719",
       "Name": "Volume_SFX",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_SFX",
@@ -230,6 +224,6 @@
     ]
    }
   ],
-  "FileHash": "{04013A50-A104-7A8F-E11B-80709BE021BA}"
+  "FileHash": "{C142FC52-08C6-6AD7-4405-85DECB02DB7D}"
  }
 }
