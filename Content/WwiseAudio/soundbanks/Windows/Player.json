@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B3EB6A8D-EC90-46FD-B05C-145C084270BF}",
     "Language": "SFX",
-    "Hash": "{7AB8902D-F6C6-7297-E60F-F261AF3A5DBB}",
+    "Hash": "{B83D7963-2A32-8C01-B21B-302328FC0BAA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player",
     "ShortName": "Player",
     "Path": "Player.bnk",
@@ -64,36 +64,12 @@
       "CachePath": "SFX/Player_FS_CatWalk-008_818F3B66.wem"
      },
      {
-      "Id": "246971568",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Sand\\Player_FS_Sand-002.wav",
-      "CachePath": "SFX/Player_FS_Sand/Player_FS_Sand-002_818F3B66.wem"
-     },
-     {
       "Id": "324292905",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_CatWalk-002.wav",
       "CachePath": "SFX/Player_FS_CatWalk-002_818F3B66.wem"
-     },
-     {
-      "Id": "364880872",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Sand\\Player_FS_Sand-006.wav",
-      "CachePath": "SFX/Player_FS_Sand/Player_FS_Sand-006_818F3B66.wem"
-     },
-     {
-      "Id": "372056298",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Wood-001.wav",
-      "CachePath": "SFX/Player_FS_Wood-001_818F3B66.wem"
      },
      {
       "Id": "448818932",
@@ -104,28 +80,12 @@
       "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-002_818F3B66.wem"
      },
      {
-      "Id": "472242906",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Wood-005.wav",
-      "CachePath": "SFX/Player_FS_Wood-005_818F3B66.wem"
-     },
-     {
       "Id": "491586114",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Stone\\Player_FS_Stone-004.wav",
       "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-004_818F3B66.wem"
-     },
-     {
-      "Id": "496023404",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Sand\\Player_FS_Sand-005.wav",
-      "CachePath": "SFX/Player_FS_Sand/Player_FS_Sand-005_818F3B66.wem"
      },
      {
       "Id": "540337355",
@@ -144,28 +104,12 @@
       "CachePath": "SFX/Player_FS_CatWalk-001_818F3B66.wem"
      },
      {
-      "Id": "608468204",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Wood-003.wav",
-      "CachePath": "SFX/Player_FS_Wood-003_818F3B66.wem"
-     },
-     {
       "Id": "610651392",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411.wav",
       "CachePath": "SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411_818F3B66.wem"
-     },
-     {
-      "Id": "643209904",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Wood-006.wav",
-      "CachePath": "SFX/Player_FS_Wood-006_818F3B66.wem"
      },
      {
       "Id": "659705524",
@@ -182,22 +126,6 @@
       "Location": "Memory",
       "ShortName": "Player_FS_Stone\\Player_FS_Stone-003.wav",
       "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-003_818F3B66.wem"
-     },
-     {
-      "Id": "736138183",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Wood-002.wav",
-      "CachePath": "SFX/Player_FS_Wood-002_818F3B66.wem"
-     },
-     {
-      "Id": "798679864",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Wood-007.wav",
-      "CachePath": "SFX/Player_FS_Wood-007_818F3B66.wem"
      },
      {
       "Id": "834507929",
@@ -256,14 +184,6 @@
       "CachePath": "SFX/Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1_818F3B66.wem"
      },
      {
-      "Id": "972351290",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Wood-004.wav",
-      "CachePath": "SFX/Player_FS_Wood-004_818F3B66.wem"
-     },
-     {
       "Id": "976887921",
       "Language": "SFX",
       "Streaming": "false",
@@ -272,36 +192,12 @@
       "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-005_818F3B66.wem"
      },
      {
-      "Id": "991899446",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Sand\\Player_FS_Sand-004.wav",
-      "CachePath": "SFX/Player_FS_Sand/Player_FS_Sand-004_818F3B66.wem"
-     },
-     {
-      "Id": "1011686956",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Sand\\Player_FS_Sand-001.wav",
-      "CachePath": "SFX/Player_FS_Sand/Player_FS_Sand-001_818F3B66.wem"
-     },
-     {
       "Id": "1031427962",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Stone\\Player_FS_Stone-001.wav",
       "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-001_818F3B66.wem"
-     },
-     {
-      "Id": "1059025705",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_FS_Sand\\Player_FS_Sand-003.wav",
-      "CachePath": "SFX/Player_FS_Sand/Player_FS_Sand-003_818F3B66.wem"
      },
      {
       "Id": "1061987857",
@@ -337,7 +233,7 @@
       "GUID": "{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}",
       "DurationType": "OneShot",
       "DurationMin": "0.22023733",
-      "DurationMax": "0.49441615",
+      "DurationMax": "0.4591007",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -408,37 +304,6 @@
         "SwitchValue": {
          "GroupType": "Switch",
          "GroupId": "1834394558",
-         "Id": "2449969375",
-         "GUID": "{7B19B83C-3B27-47B3-A410-E171608BEC4A}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "372056298"
-         },
-         {
-          "Id": "472242906"
-         },
-         {
-          "Id": "608468204"
-         },
-         {
-          "Id": "643209904"
-         },
-         {
-          "Id": "736138183"
-         },
-         {
-          "Id": "798679864"
-         },
-         {
-          "Id": "972351290"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "1834394558",
          "Id": "4248645337",
          "GUID": "{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"
         },
@@ -460,37 +325,6 @@
          },
          {
           "Id": "964747123"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "1834394558",
-         "Id": "2058049674",
-         "GUID": "{B77D37A7-1FC3-45CF-8702-2A65734E114D}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "372056298"
-         },
-         {
-          "Id": "472242906"
-         },
-         {
-          "Id": "608468204"
-         },
-         {
-          "Id": "643209904"
-         },
-         {
-          "Id": "736138183"
-         },
-         {
-          "Id": "798679864"
-         },
-         {
-          "Id": "972351290"
          }
         ]
        },
@@ -520,34 +354,6 @@
          },
          {
           "Id": "964747123"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "1834394558",
-         "Id": "803837735",
-         "GUID": "{14BE5BD4-93B2-4522-BBF4-BAF3085F368F}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "246971568"
-         },
-         {
-          "Id": "364880872"
-         },
-         {
-          "Id": "496023404"
-         },
-         {
-          "Id": "991899446"
-         },
-         {
-          "Id": "1011686956"
-         },
-         {
-          "Id": "1059025705"
          }
         ]
        }
@@ -644,6 +450,6 @@
     ]
    }
   ],
-  "FileHash": "{C78306FC-94DB-2201-B5DF-732925CEB2C9}"
+  "FileHash": "{8C8008DC-B130-5CD4-B1A6-81990C79F7AE}"
  }
 }

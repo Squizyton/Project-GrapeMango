@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{111F782D-C71E-1B46-20F2-41A7112EB2CC}">
+		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{76C7FF8C-68F7-6D40-3B86-A73CF67D6C2C}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
@@ -50,5 +50,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AD40C7F9-4709-C410-A4E2-6D2B5C5C438A}</FileHash>
+	<FileHash>{9821C8DB-BD32-F421-DE06-326EA99E573B}</FileHash>
 </SoundBanksInfo>

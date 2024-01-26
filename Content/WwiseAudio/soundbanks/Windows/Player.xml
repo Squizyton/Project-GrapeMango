@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{7AB8902D-F6C6-7297-E60F-F261AF3A5DBB}">
+		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{B83D7963-2A32-8C01-B21B-302328FC0BAA}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
@@ -30,37 +30,17 @@
 					<ShortName>Player_FS_CatWalk-008.wav</ShortName>
 					<CachePath>SFX/Player_FS_CatWalk-008_818F3B66.wem</CachePath>
 				</File>
-				<File Id="246971568" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Sand\Player_FS_Sand-002.wav</ShortName>
-					<CachePath>SFX/Player_FS_Sand/Player_FS_Sand-002_818F3B66.wem</CachePath>
-				</File>
 				<File Id="324292905" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-002.wav</ShortName>
 					<CachePath>SFX/Player_FS_CatWalk-002_818F3B66.wem</CachePath>
-				</File>
-				<File Id="364880872" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Sand\Player_FS_Sand-006.wav</ShortName>
-					<CachePath>SFX/Player_FS_Sand/Player_FS_Sand-006_818F3B66.wem</CachePath>
-				</File>
-				<File Id="372056298" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Wood-001.wav</ShortName>
-					<CachePath>SFX/Player_FS_Wood-001_818F3B66.wem</CachePath>
 				</File>
 				<File Id="448818932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-002.wav</ShortName>
 					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-002_818F3B66.wem</CachePath>
 				</File>
-				<File Id="472242906" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Wood-005.wav</ShortName>
-					<CachePath>SFX/Player_FS_Wood-005_818F3B66.wem</CachePath>
-				</File>
 				<File Id="491586114" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-004.wav</ShortName>
 					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-004_818F3B66.wem</CachePath>
-				</File>
-				<File Id="496023404" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Sand\Player_FS_Sand-005.wav</ShortName>
-					<CachePath>SFX/Player_FS_Sand/Player_FS_Sand-005_818F3B66.wem</CachePath>
 				</File>
 				<File Id="540337355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-002.wav</ShortName>
@@ -70,17 +50,9 @@
 					<ShortName>Player_FS_CatWalk-001.wav</ShortName>
 					<CachePath>SFX/Player_FS_CatWalk-001_818F3B66.wem</CachePath>
 				</File>
-				<File Id="608468204" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Wood-003.wav</ShortName>
-					<CachePath>SFX/Player_FS_Wood-003_818F3B66.wem</CachePath>
-				</File>
 				<File Id="610651392" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411.wav</ShortName>
 					<CachePath>SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411_818F3B66.wem</CachePath>
-				</File>
-				<File Id="643209904" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Wood-006.wav</ShortName>
-					<CachePath>SFX/Player_FS_Wood-006_818F3B66.wem</CachePath>
 				</File>
 				<File Id="659705524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-006.wav</ShortName>
@@ -89,14 +61,6 @@
 				<File Id="664481103" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-003.wav</ShortName>
 					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-003_818F3B66.wem</CachePath>
-				</File>
-				<File Id="736138183" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Wood-002.wav</ShortName>
-					<CachePath>SFX/Player_FS_Wood-002_818F3B66.wem</CachePath>
-				</File>
-				<File Id="798679864" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Wood-007.wav</ShortName>
-					<CachePath>SFX/Player_FS_Wood-007_818F3B66.wem</CachePath>
 				</File>
 				<File Id="834507929" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-007.wav</ShortName>
@@ -126,29 +90,13 @@
 					<ShortName>Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1.wav</ShortName>
 					<CachePath>SFX/Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1_818F3B66.wem</CachePath>
 				</File>
-				<File Id="972351290" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Wood-004.wav</ShortName>
-					<CachePath>SFX/Player_FS_Wood-004_818F3B66.wem</CachePath>
-				</File>
 				<File Id="976887921" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-005.wav</ShortName>
 					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-005_818F3B66.wem</CachePath>
 				</File>
-				<File Id="991899446" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Sand\Player_FS_Sand-004.wav</ShortName>
-					<CachePath>SFX/Player_FS_Sand/Player_FS_Sand-004_818F3B66.wem</CachePath>
-				</File>
-				<File Id="1011686956" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Sand\Player_FS_Sand-001.wav</ShortName>
-					<CachePath>SFX/Player_FS_Sand/Player_FS_Sand-001_818F3B66.wem</CachePath>
-				</File>
 				<File Id="1031427962" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-001.wav</ShortName>
 					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-001_818F3B66.wem</CachePath>
-				</File>
-				<File Id="1059025705" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_FS_Sand\Player_FS_Sand-003.wav</ShortName>
-					<CachePath>SFX/Player_FS_Sand/Player_FS_Sand-003_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1061987857" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-007.wav</ShortName>
@@ -162,7 +110,7 @@
 						<MediaRef Id="864713889"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1730208058" Name="Player_Footsteps" ObjectPath="\Events\Default Work Unit\Player\Player_Footsteps" GUID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}" DurationType="OneShot" DurationMin="0.22023733" DurationMax="0.49441615">
+				<Event Id="1730208058" Name="Player_Footsteps" ObjectPath="\Events\Default Work Unit\Player\Player_Footsteps" GUID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}" DurationType="OneShot" DurationMin="0.22023733" DurationMax="0.4591007">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="1216965916" GUID="{9EC73123-F243-4404-BFE8-1C98BC74937A}"/>
@@ -190,18 +138,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2449969375" GUID="{7B19B83C-3B27-47B3-A410-E171608BEC4A}"/>
-							<MediaRefs>
-								<MediaRef Id="372056298"/>
-								<MediaRef Id="472242906"/>
-								<MediaRef Id="608468204"/>
-								<MediaRef Id="643209904"/>
-								<MediaRef Id="736138183"/>
-								<MediaRef Id="798679864"/>
-								<MediaRef Id="972351290"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="4248645337" GUID="{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"/>
 							<MediaRefs>
 								<MediaRef Id="76431582"/>
@@ -213,18 +149,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2058049674" GUID="{B77D37A7-1FC3-45CF-8702-2A65734E114D}"/>
-							<MediaRefs>
-								<MediaRef Id="372056298"/>
-								<MediaRef Id="472242906"/>
-								<MediaRef Id="608468204"/>
-								<MediaRef Id="643209904"/>
-								<MediaRef Id="736138183"/>
-								<MediaRef Id="798679864"/>
-								<MediaRef Id="972351290"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2195636714" GUID="{A479D1C8-1883-4CBA-89A8-348AD46A5336}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="76431582"/>
@@ -233,17 +157,6 @@
 								<MediaRef Id="895910144"/>
 								<MediaRef Id="923511576"/>
 								<MediaRef Id="964747123"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="803837735" GUID="{14BE5BD4-93B2-4522-BBF4-BAF3085F368F}"/>
-							<MediaRefs>
-								<MediaRef Id="246971568"/>
-								<MediaRef Id="364880872"/>
-								<MediaRef Id="496023404"/>
-								<MediaRef Id="991899446"/>
-								<MediaRef Id="1011686956"/>
-								<MediaRef Id="1059025705"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -277,5 +190,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8FBB6F01-DBCD-4133-8C7E-3889CF32E1FA}</FileHash>
+	<FileHash>{96F3BB6F-F0B5-A85A-011A-A11F746F3690}</FileHash>
 </SoundBanksInfo>

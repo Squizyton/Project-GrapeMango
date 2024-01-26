@@ -152,6 +152,11 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1300,6 +1305,11 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Player_FS_Wood" ID="{3A9853DB-E810-4C61-9A8F-8ABEE928E394}" ShortID="646150439">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -1481,6 +1491,11 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Player_FS_Sand" ID="{61ED40F3-CA03-415B-AFC8-CC14867A20E9}" ShortID="481609488">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -1655,7 +1670,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>5</Value>
+														<Value>9</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1841,7 +1856,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>1</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
