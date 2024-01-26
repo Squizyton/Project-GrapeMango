@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B3EB6A8D-EC90-46FD-B05C-145C084270BF}",
     "Language": "SFX",
-    "Hash": "{4EEE628D-19E2-9BAB-C372-AF34F58DAED2}",
+    "Hash": "{CB3B3896-27DF-6CD8-7D78-5EF96270D49A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player",
     "ShortName": "Player",
     "Path": "Player.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_CatWalk-004.wav",
-      "CachePath": "SFX/Player_FS_CatWalk-004_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_CatWalk-004_73361BA5.wem"
      },
      {
       "Id": "55098737",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_CatWalk-003.wav",
-      "CachePath": "SFX/Player_FS_CatWalk-003_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_CatWalk-003_73361BA5.wem"
      },
      {
       "Id": "75552237",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58.wav",
-      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58_9D8E9D98.wem"
+      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58_D58366B2.wem"
      },
      {
       "Id": "76431582",
@@ -45,7 +45,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Dirt-003.wav",
-      "CachePath": "SFX/Player_FS_Dirt-003_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Dirt-003_73361BA5.wem"
      },
      {
       "Id": "77804803",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Stone\\Player_FS_Stone-006.wav",
-      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-006_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-006_73361BA5.wem"
      },
      {
       "Id": "95334652",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_CatWalk-005.wav",
-      "CachePath": "SFX/Player_FS_CatWalk-005_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_CatWalk-005_73361BA5.wem"
      },
      {
       "Id": "145747875",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2.wav",
-      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2_AB9099DF.wem"
+      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2_33B04E93.wem"
      },
      {
       "Id": "164524416",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_CatWalk-008.wav",
-      "CachePath": "SFX/Player_FS_CatWalk-008_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_CatWalk-008_73361BA5.wem"
      },
      {
       "Id": "324292905",
@@ -85,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_CatWalk-002.wav",
-      "CachePath": "SFX/Player_FS_CatWalk-002_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_CatWalk-002_73361BA5.wem"
      },
      {
       "Id": "448818932",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Stone\\Player_FS_Stone-002.wav",
-      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-002_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-002_73361BA5.wem"
      },
      {
       "Id": "478459836",
@@ -101,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1.wav",
-      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1_470BD149.wem"
+      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1_EA16CFF1.wem"
      },
      {
       "Id": "491586114",
@@ -109,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Stone\\Player_FS_Stone-004.wav",
-      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-004_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-004_73361BA5.wem"
      },
      {
       "Id": "540337355",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Dirt-002.wav",
-      "CachePath": "SFX/Player_FS_Dirt-002_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Dirt-002_73361BA5.wem"
      },
      {
       "Id": "571199090",
@@ -125,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_CatWalk-001.wav",
-      "CachePath": "SFX/Player_FS_CatWalk-001_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_CatWalk-001_73361BA5.wem"
      },
      {
       "Id": "610651392",
@@ -133,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411.wav",
-      "CachePath": "SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411_818F3B66.wem"
+      "CachePath": "SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 02 SND26411_73361BA5.wem"
      },
      {
       "Id": "659705524",
@@ -141,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_CatWalk-006.wav",
-      "CachePath": "SFX/Player_FS_CatWalk-006_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_CatWalk-006_73361BA5.wem"
      },
      {
       "Id": "664481103",
@@ -149,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Stone\\Player_FS_Stone-003.wav",
-      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-003_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-003_73361BA5.wem"
      },
      {
       "Id": "834507929",
@@ -157,7 +157,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Stone\\Player_FS_Stone-007.wav",
-      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-007_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-007_73361BA5.wem"
      },
      {
       "Id": "864713889",
@@ -165,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412.wav",
-      "CachePath": "SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412_818F3B66.wem"
+      "CachePath": "SFX/Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412_73361BA5.wem"
      },
      {
       "Id": "878599703",
@@ -173,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Dirt-006.wav",
-      "CachePath": "SFX/Player_FS_Dirt-006_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Dirt-006_73361BA5.wem"
      },
      {
       "Id": "895910144",
@@ -181,7 +181,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Dirt-001.wav",
-      "CachePath": "SFX/Player_FS_Dirt-001_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Dirt-001_73361BA5.wem"
+     },
+     {
+      "Id": "905662833",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1.wav",
+      "CachePath": "SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1_216ED93F.wem"
      },
      {
       "Id": "923511576",
@@ -189,7 +197,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Dirt-005.wav",
-      "CachePath": "SFX/Player_FS_Dirt-005_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Dirt-005_73361BA5.wem"
      },
      {
       "Id": "948248000",
@@ -197,7 +205,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3.wav",
-      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3_47A67C8F.wem"
+      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3_A65D0598.wem"
      },
      {
       "Id": "964747123",
@@ -205,7 +213,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Dirt-004.wav",
-      "CachePath": "SFX/Player_FS_Dirt-004_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Dirt-004_73361BA5.wem"
      },
      {
       "Id": "966137033",
@@ -213,7 +221,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1.wav",
-      "CachePath": "SFX/Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1_818F3B66.wem"
+      "CachePath": "SFX/Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1_73361BA5.wem"
      },
      {
       "Id": "976887921",
@@ -221,7 +229,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Stone\\Player_FS_Stone-005.wav",
-      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-005_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-005_73361BA5.wem"
      },
      {
       "Id": "1031427962",
@@ -229,7 +237,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_Stone\\Player_FS_Stone-001.wav",
-      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-001_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-001_73361BA5.wem"
      },
      {
       "Id": "1061987857",
@@ -237,10 +245,41 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_FS_CatWalk-007.wav",
-      "CachePath": "SFX/Player_FS_CatWalk-007_818F3B66.wem"
+      "CachePath": "SFX/Player_FS_CatWalk-007_73361BA5.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "3083087645",
+      "Name": "Player_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Death",
+      "GUID": "{B09DA156-29FB-4D6C-A2DB-D223A4373C2D}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.339937",
+      "DurationMax": "8.339937",
+      "MediaRefs": [
+       {
+        "Id": "905662833"
+       }
+      ]
+     },
+     {
+      "Id": "1402898218",
+      "Name": "Player_Flashlight_BatteryInsert",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Flashlight_BatteryInsert",
+      "GUID": "{76270462-4EB4-426C-9732-2F7742E0D358}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.386375",
+      "DurationMax": "0.42504168",
+      "MediaRefs": [
+       {
+        "Id": "610651392"
+       },
+       {
+        "Id": "864713889"
+       }
+      ]
+     },
      {
       "Id": "3767185060",
       "Name": "Player_Flashlight_Died",
@@ -638,6 +677,6 @@
     ]
    }
   ],
-  "FileHash": "{EBB1434A-05B1-84ED-4AA4-0CC968938B7A}"
+  "FileHash": "{1CE0C578-C601-34DF-4E56-73D714EB087B}"
  }
 }
