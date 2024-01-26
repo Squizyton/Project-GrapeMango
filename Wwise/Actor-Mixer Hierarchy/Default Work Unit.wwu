@@ -840,6 +840,74 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Rock_Impact_Ground_Roll_1 1" ID="{1926B114-1BFA-4BEA-9B8F-47EF10349AC5}" ShortID="182966470">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Rock_Impact_Ground_Roll_1 1" ID="{47D25C4E-A3C3-4F73-99AD-0A44D514C81D}">
+															<Language>SFX</Language>
+															<AudioFile>Rock_Impact_Ground_Roll_1 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="198954715"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Rock_Impact_Ground_Roll_1 1" ID="{47D25C4E-A3C3-4F73-99AD-0A44D514C81D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fight, Bodyfall, Outdoors Ground, Grass SND23806" ID="{029F5762-E0F6-4867-BB89-1BCA5F3E7BF6}" ShortID="194257381">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fight, Bodyfall, Outdoors Ground, Grass SND23806" ID="{8CCE65E2-209D-4904-A975-AD7E4C33B8E7}">
+															<Language>SFX</Language>
+															<AudioFile>Fight, Bodyfall, Outdoors Ground, Grass SND23806.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="164823044"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fight, Bodyfall, Outdoors Ground, Grass SND23806" ID="{8CCE65E2-209D-4904-A975-AD7E4C33B8E7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239" ID="{A3482F56-EA00-4E39-BBFC-91DDCF01111A}" ShortID="943751603">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239" ID="{80579ABA-3114-4B29-B376-825EC18FE252}">
+															<Language>SFX</Language>
+															<AudioFile>Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="769677458"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239" ID="{80579ABA-3114-4B29-B376-825EC18FE252}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="SFX_Supply_FallOnBox" ID="{381D18D4-D068-4232-9429-EE36D104BB45}" ShortID="152004281">
 											<ReferenceList>
@@ -850,6 +918,96 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Bed O Nailz- Nail case hits  Gift Of Junk v1" ID="{1E2280DF-094F-4F83-8C53-BDD9DDF51F65}" ShortID="36134503">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1" ID="{07AB4CEB-23A8-4911-BB84-029C2133FF8B}">
+															<Language>SFX</Language>
+															<AudioFile>Bed O Nailz- Nail case hits  Gift Of Junk v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="675245965"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1" ID="{07AB4CEB-23A8-4911-BB84-029C2133FF8B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 1" ID="{11323136-D5EB-4FC0-BED0-C3548231BA2A}" ShortID="657192558">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 1" ID="{4C367FE4-8CEC-479D-AD07-089290B6DBA0}">
+															<Language>SFX</Language>
+															<AudioFile>Bed O Nailz- Nail case hits  Gift Of Junk v1 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="490944829"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 1" ID="{4C367FE4-8CEC-479D-AD07-089290B6DBA0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 2" ID="{EC828434-3D72-4C3D-9EA6-97B809F56F14}" ShortID="1064430655">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 2" ID="{99D79908-3352-4F58-BDD4-E76EBB44F6FB}">
+															<Language>SFX</Language>
+															<AudioFile>Bed O Nailz- Nail case hits  Gift Of Junk v1 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="247512179"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 2" ID="{99D79908-3352-4F58-BDD4-E76EBB44F6FB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 3" ID="{BA99076C-6665-4BE8-A36B-9F930A1AD312}" ShortID="723396376">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 3" ID="{EF3012E9-3747-4D67-A6DA-8461D36ACCB9}">
+															<Language>SFX</Language>
+															<AudioFile>Bed O Nailz- Nail case hits  Gift Of Junk v1 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="792666460"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 3" ID="{EF3012E9-3747-4D67-A6DA-8461D36ACCB9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="SFX_Supply_Collect" ID="{1163D7B4-B942-41E1-B492-685A1DB92E63}" ShortID="734438997">
 											<ReferenceList>
@@ -860,6 +1018,74 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="GUNHndl GUNPis, grab, holster" ID="{30086DC6-0BD7-4655-8D29-BCF3D75B9ACB}" ShortID="308223272">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GUNHndl GUNPis, grab, holster" ID="{547E49FB-83C1-4AA6-9E7D-E62D62603C63}">
+															<Language>SFX</Language>
+															<AudioFile>GUNHndl GUNPis, grab, holster.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="729682944"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GUNHndl GUNPis, grab, holster" ID="{547E49FB-83C1-4AA6-9E7D-E62D62603C63}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GUNHndl GUNPis, grab, holster 2" ID="{8EE653AE-EE04-427C-B0B8-61F979A6A330}" ShortID="669066438">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GUNHndl GUNPis, grab, holster 2" ID="{2435A7C5-FE1B-4122-AC81-1EA5F450DDA0}">
+															<Language>SFX</Language>
+															<AudioFile>GUNHndl GUNPis, grab, holster 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="282319275"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GUNHndl GUNPis, grab, holster 2" ID="{2435A7C5-FE1B-4122-AC81-1EA5F450DDA0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GUNHndl GUNPis, grab, holster 3" ID="{8E73C944-CC90-4EC8-AB8D-24500097FC17}" ShortID="372936737">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GUNHndl GUNPis, grab, holster 3" ID="{5FE519CC-2A50-4A7F-9512-D8B9EA7D487E}">
+															<Language>SFX</Language>
+															<AudioFile>GUNHndl GUNPis, grab, holster 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="356817560"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GUNHndl GUNPis, grab, holster 3" ID="{5FE519CC-2A50-4A7F-9512-D8B9EA7D487E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
