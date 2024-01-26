@@ -6,6 +6,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3083087645	Player_Death			\Default Work Unit\Player\Player_Death	
 	3239612480	Player_Lighthouse_Teleport_Door			\Default Work Unit\Player\Player_Lighthouse_Teleport_Door	
 	3318329073	Player_Lighthouse_Teleport_TrapDoor			\Default Work Unit\Player\Player_Lighthouse_Teleport_TrapDoor	
+	3391588144	Player_Death_Stop			\Default Work Unit\Player\Player_Death_Stop	
 	3767185060	Player_Flashlight_Died			\Default Work Unit\Player\Player_Flashlight_Died	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -45,7 +46,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	864713889	Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412_73361BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Player_Flashlight_Switch\Equipment, Tactical, Flashlight, Torch, Maglite, Switch On Or Off 01 SND26412		14363
 	878599703	Player_FS_Dirt-006	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-006_73361BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-006		4841
 	895910144	Player_FS_Dirt-001	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-001_73361BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-001		4954
-	905662833	Player_Death	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1_216ED93F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Player_Death		182238
+	905662833	Player_Death	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1_C576E6F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Player_Death		182238
 	923511576	Player_FS_Dirt-005	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-005_73361BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-005		5006
 	948248000	Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3_A65D0598.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Player_Flashlight_Died\Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3		8342
 	964747123	Player_FS_Dirt-004	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Player_FS_Dirt-004_73361BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Player_Footsteps\Player_FS_Dirt\Player_FS_Dirt-004		5997
