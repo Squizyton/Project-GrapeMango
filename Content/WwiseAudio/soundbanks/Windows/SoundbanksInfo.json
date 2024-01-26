@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{FEF0FCEC-169F-40E9-A66B-E0B939137024}",
     "Language": "SFX",
-    "Hash": "{76C7FF8C-68F7-6D40-3B86-A73CF67D6C2C}",
+    "Hash": "{964C24C6-3F26-915F-ED59-229C0D421677}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
     "ShortName": "Ambience",
     "Path": "Ambience.bnk",
@@ -123,7 +123,7 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{9B809BE3-4D9E-6094-BF12-2245B5C52AB2}",
+    "Hash": "{752A2AB8-819D-ACC9-E136-ACDC346EDF30}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -137,12 +137,36 @@
       "CachePath": "SFX/Spotlight_Rotate_3B7822A8.wem"
      },
      {
+      "Id": "164823044",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fight, Bodyfall, Outdoors Ground, Grass SND23806.wav",
+      "CachePath": "SFX/Fight, Bodyfall, Outdoors Ground, Grass SND23806_B032A71E.wem"
+     },
+     {
+      "Id": "198954715",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rock_Impact_Ground_Roll_1 1.wav",
+      "CachePath": "SFX/Rock_Impact_Ground_Roll_1 1_B032A71E.wem"
+     },
+     {
       "Id": "198956712",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Spotlight_Buzz.wav",
       "CachePath": "SFX/Spotlight_Buzz_3B7822A8.wem"
+     },
+     {
+      "Id": "247512179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bed O Nailz- Nail case hits  Gift Of Junk v1 2.wav",
+      "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 2_B032A71E.wem"
      },
      {
       "Id": "252332590",
@@ -153,6 +177,22 @@
       "CachePath": "SFX/Soundly Voice Designer, Davis 1_818F3B66.wem"
      },
      {
+      "Id": "282319275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUNHndl GUNPis, grab, holster 2.wav",
+      "CachePath": "SFX/GUNHndl GUNPis, grab, holster 2_B032A71E.wem"
+     },
+     {
+      "Id": "356817560",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUNHndl GUNPis, grab, holster 3.wav",
+      "CachePath": "SFX/GUNHndl GUNPis, grab, holster 3_B032A71E.wem"
+     },
+     {
       "Id": "384767374",
       "Language": "SFX",
       "Streaming": "false",
@@ -161,12 +201,52 @@
       "CachePath": "SFX/Radio_Noise_lp_3B7822A8.wem"
      },
      {
+      "Id": "490944829",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bed O Nailz- Nail case hits  Gift Of Junk v1 1.wav",
+      "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 1_B032A71E.wem"
+     },
+     {
       "Id": "647583695",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ba Dum Tss by SoundMaker25 Id-534937.wav",
       "CachePath": "SFX/Ba Dum Tss by SoundMaker25 Id-534937_818F3B66.wem"
+     },
+     {
+      "Id": "675245965",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bed O Nailz- Nail case hits  Gift Of Junk v1.wav",
+      "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1_B032A71E.wem"
+     },
+     {
+      "Id": "729682944",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUNHndl GUNPis, grab, holster.wav",
+      "CachePath": "SFX/GUNHndl GUNPis, grab, holster_B032A71E.wem"
+     },
+     {
+      "Id": "769677458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239.wav",
+      "CachePath": "SFX/Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239_B032A71E.wem"
+     },
+     {
+      "Id": "792666460",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bed O Nailz- Nail case hits  Gift Of Junk v1 3.wav",
+      "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 3_B032A71E.wem"
      },
      {
       "Id": "832537893",
@@ -325,6 +405,72 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "3707808127",
+      "Name": "SFX_Supply_Collect",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Supply_Collect",
+      "GUID": "{9B069A2C-8E51-4031-B1EB-25D6132CED51}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.53582764",
+      "DurationMax": "0.70328796",
+      "MediaRefs": [
+       {
+        "Id": "282319275"
+       },
+       {
+        "Id": "356817560"
+       },
+       {
+        "Id": "729682944"
+       }
+      ]
+     },
+     {
+      "Id": "3110777038",
+      "Name": "SFX_Supply_FallOnBox",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Supply_FallOnBox",
+      "GUID": "{0234A4D3-9413-44D9-8C3D-4F404262C494}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.331875",
+      "DurationMax": "0.41541666",
+      "MediaRefs": [
+       {
+        "Id": "247512179"
+       },
+       {
+        "Id": "490944829"
+       },
+       {
+        "Id": "675245965"
+       },
+       {
+        "Id": "792666460"
+       }
+      ]
+     },
+     {
+      "Id": "2938596226",
+      "Name": "SFX_Supply_FallOnGround",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Supply_FallOnGround",
+      "GUID": "{FFAD73CC-A178-4576-A198-F20200B20BFA}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21626042",
+      "DurationMax": "0.7436771",
+      "MediaRefs": [
+       {
+        "Id": "164823044"
+       },
+       {
+        "Id": "198954715"
+       },
+       {
+        "Id": "769677458"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -341,7 +487,7 @@
     "Type": "User",
     "GUID": "{B3EB6A8D-EC90-46FD-B05C-145C084270BF}",
     "Language": "SFX",
-    "Hash": "{B83D7963-2A32-8C01-B21B-302328FC0BAA}",
+    "Hash": "{4EEE628D-19E2-9BAB-C372-AF34F58DAED2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player",
     "ShortName": "Player",
     "Path": "Player.bnk",
@@ -361,6 +507,14 @@
       "Location": "Memory",
       "ShortName": "Player_FS_CatWalk-003.wav",
       "CachePath": "SFX/Player_FS_CatWalk-003_818F3B66.wem"
+     },
+     {
+      "Id": "75552237",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58.wav",
+      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58_9D8E9D98.wem"
      },
      {
       "Id": "76431582",
@@ -387,6 +541,14 @@
       "CachePath": "SFX/Player_FS_CatWalk-005_818F3B66.wem"
      },
      {
+      "Id": "145747875",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2.wav",
+      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2_AB9099DF.wem"
+     },
+     {
       "Id": "164524416",
       "Language": "SFX",
       "Streaming": "false",
@@ -409,6 +571,14 @@
       "Location": "Memory",
       "ShortName": "Player_FS_Stone\\Player_FS_Stone-002.wav",
       "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-002_818F3B66.wem"
+     },
+     {
+      "Id": "478459836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1.wav",
+      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1_470BD149.wem"
      },
      {
       "Id": "491586114",
@@ -499,6 +669,14 @@
       "CachePath": "SFX/Player_FS_Dirt-005_818F3B66.wem"
      },
      {
+      "Id": "948248000",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3.wav",
+      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3_47A67C8F.wem"
+     },
+     {
       "Id": "964747123",
       "Language": "SFX",
       "Streaming": "false",
@@ -541,6 +719,29 @@
     ],
     "Events": [
      {
+      "Id": "3767185060",
+      "Name": "Player_Flashlight_Died",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Flashlight_Died",
+      "GUID": "{CB444D23-33D1-46EC-9A5A-75FE1F9167B3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.38692576",
+      "DurationMax": "0.52829164",
+      "MediaRefs": [
+       {
+        "Id": "75552237"
+       },
+       {
+        "Id": "145747875"
+       },
+       {
+        "Id": "478459836"
+       },
+       {
+        "Id": "948248000"
+       }
+      ]
+     },
+     {
       "Id": "2101861506",
       "Name": "Player_Flashlight_Switch",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Flashlight_Switch",
@@ -562,6 +763,139 @@
       "Name": "Player_Footsteps",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Footsteps",
       "GUID": "{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22023733",
+      "DurationMax": "0.4591007",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "1216965916",
+         "GUID": "{9EC73123-F243-4404-BFE8-1C98BC74937A}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "77804803"
+         },
+         {
+          "Id": "448818932"
+         },
+         {
+          "Id": "491586114"
+         },
+         {
+          "Id": "664481103"
+         },
+         {
+          "Id": "834507929"
+         },
+         {
+          "Id": "976887921"
+         },
+         {
+          "Id": "1031427962"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "3728443364",
+         "GUID": "{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "22401148"
+         },
+         {
+          "Id": "55098737"
+         },
+         {
+          "Id": "95334652"
+         },
+         {
+          "Id": "164524416"
+         },
+         {
+          "Id": "324292905"
+         },
+         {
+          "Id": "571199090"
+         },
+         {
+          "Id": "659705524"
+         },
+         {
+          "Id": "1061987857"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "4248645337",
+         "GUID": "{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "76431582"
+         },
+         {
+          "Id": "540337355"
+         },
+         {
+          "Id": "878599703"
+         },
+         {
+          "Id": "895910144"
+         },
+         {
+          "Id": "923511576"
+         },
+         {
+          "Id": "964747123"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "2195636714",
+         "GUID": "{A479D1C8-1883-4CBA-89A8-348AD46A5336}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "76431582"
+         },
+         {
+          "Id": "540337355"
+         },
+         {
+          "Id": "878599703"
+         },
+         {
+          "Id": "895910144"
+         },
+         {
+          "Id": "923511576"
+         },
+         {
+          "Id": "964747123"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1876417386",
+      "Name": "Player_Footsteps_Land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Footsteps_Land",
+      "GUID": "{88FF2756-62B8-41FC-8B48-E267DE058B22}",
       "DurationType": "OneShot",
       "DurationMin": "0.22023733",
       "DurationMax": "0.4591007",
@@ -2417,6 +2751,6 @@
     }
    }
   ],
-  "FileHash": "{74A9884F-DC83-7142-A245-B9325BA5960F}"
+  "FileHash": "{689EFE87-A3A2-C8CE-D499-EBFCAFACD7E4}"
  }
 }

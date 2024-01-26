@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{76C7FF8C-68F7-6D40-3B86-A73CF67D6C2C}">
+		<SoundBank Id="85412153" Type="User" GUID="{FEF0FCEC-169F-40E9-A66B-E0B939137024}" Language="SFX" Hash="{964C24C6-3F26-915F-ED59-229C0D421677}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
@@ -57,7 +57,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX" GUID="{695F585C-C471-4A5B-8170-892B77150803}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{9B809BE3-4D9E-6094-BF12-2245B5C52AB2}">
+		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{752A2AB8-819D-ACC9-E136-ACDC346EDF30}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -66,21 +66,61 @@
 					<ShortName>Spotlight_Rotate.wav</ShortName>
 					<CachePath>SFX/Spotlight_Rotate_3B7822A8.wem</CachePath>
 				</File>
+				<File Id="164823044" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fight, Bodyfall, Outdoors Ground, Grass SND23806.wav</ShortName>
+					<CachePath>SFX/Fight, Bodyfall, Outdoors Ground, Grass SND23806_B032A71E.wem</CachePath>
+				</File>
+				<File Id="198954715" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rock_Impact_Ground_Roll_1 1.wav</ShortName>
+					<CachePath>SFX/Rock_Impact_Ground_Roll_1 1_B032A71E.wem</CachePath>
+				</File>
 				<File Id="198956712" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spotlight_Buzz.wav</ShortName>
 					<CachePath>SFX/Spotlight_Buzz_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="247512179" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bed O Nailz- Nail case hits  Gift Of Junk v1 2.wav</ShortName>
+					<CachePath>SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 2_B032A71E.wem</CachePath>
 				</File>
 				<File Id="252332590" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Voice Designer, Davis 1.wav</ShortName>
 					<CachePath>SFX/Soundly Voice Designer, Davis 1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="282319275" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GUNHndl GUNPis, grab, holster 2.wav</ShortName>
+					<CachePath>SFX/GUNHndl GUNPis, grab, holster 2_B032A71E.wem</CachePath>
+				</File>
+				<File Id="356817560" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GUNHndl GUNPis, grab, holster 3.wav</ShortName>
+					<CachePath>SFX/GUNHndl GUNPis, grab, holster 3_B032A71E.wem</CachePath>
+				</File>
 				<File Id="384767374" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Radio_Noise_lp.wav</ShortName>
 					<CachePath>SFX/Radio_Noise_lp_3B7822A8.wem</CachePath>
 				</File>
+				<File Id="490944829" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bed O Nailz- Nail case hits  Gift Of Junk v1 1.wav</ShortName>
+					<CachePath>SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 1_B032A71E.wem</CachePath>
+				</File>
 				<File Id="647583695" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ba Dum Tss by SoundMaker25 Id-534937.wav</ShortName>
 					<CachePath>SFX/Ba Dum Tss by SoundMaker25 Id-534937_818F3B66.wem</CachePath>
+				</File>
+				<File Id="675245965" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bed O Nailz- Nail case hits  Gift Of Junk v1.wav</ShortName>
+					<CachePath>SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1_B032A71E.wem</CachePath>
+				</File>
+				<File Id="729682944" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GUNHndl GUNPis, grab, holster.wav</ShortName>
+					<CachePath>SFX/GUNHndl GUNPis, grab, holster_B032A71E.wem</CachePath>
+				</File>
+				<File Id="769677458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239.wav</ShortName>
+					<CachePath>SFX/Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239_B032A71E.wem</CachePath>
+				</File>
+				<File Id="792666460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bed O Nailz- Nail case hits  Gift Of Junk v1 3.wav</ShortName>
+					<CachePath>SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 3_B032A71E.wem</CachePath>
 				</File>
 				<File Id="832537893" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Radio_VO_Plot.wav</ShortName>
@@ -138,12 +178,34 @@
 				</Event>
 				<Event Id="3650406826" Name="SFX_Spotlight_TurnOff" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_TurnOff" GUID="{ADC3F3B7-A886-4281-A557-F5039DC369A5}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1996512908" Name="SFX_Spotlight_TurnOn" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_TurnOn" GUID="{A49205FC-8F2F-4EF7-8E4B-DDFAB532C70D}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3707808127" Name="SFX_Supply_Collect" ObjectPath="\Events\Default Work Unit\SFX\SFX_Supply_Collect" GUID="{9B069A2C-8E51-4031-B1EB-25D6132CED51}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="0.53582764" DurationMax="0.70328796">
+					<MediaRefs>
+						<MediaRef Id="282319275"/>
+						<MediaRef Id="356817560"/>
+						<MediaRef Id="729682944"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3110777038" Name="SFX_Supply_FallOnBox" ObjectPath="\Events\Default Work Unit\SFX\SFX_Supply_FallOnBox" GUID="{0234A4D3-9413-44D9-8C3D-4F404262C494}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="0.331875" DurationMax="0.41541666">
+					<MediaRefs>
+						<MediaRef Id="247512179"/>
+						<MediaRef Id="490944829"/>
+						<MediaRef Id="675245965"/>
+						<MediaRef Id="792666460"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2938596226" Name="SFX_Supply_FallOnGround" ObjectPath="\Events\Default Work Unit\SFX\SFX_Supply_FallOnGround" GUID="{FFAD73CC-A178-4576-A198-F20200B20BFA}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="0.21626042" DurationMax="0.7436771">
+					<MediaRefs>
+						<MediaRef Id="164823044"/>
+						<MediaRef Id="198954715"/>
+						<MediaRef Id="769677458"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX" GUID="{695F585C-C471-4A5B-8170-892B77150803}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{B83D7963-2A32-8C01-B21B-302328FC0BAA}">
+		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{4EEE628D-19E2-9BAB-C372-AF34F58DAED2}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
@@ -155,6 +217,10 @@
 				<File Id="55098737" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-003.wav</ShortName>
 					<CachePath>SFX/Player_FS_CatWalk-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="75552237" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58.wav</ShortName>
+					<CachePath>SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58_9D8E9D98.wem</CachePath>
 				</File>
 				<File Id="76431582" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-003.wav</ShortName>
@@ -168,6 +234,10 @@
 					<ShortName>Player_FS_CatWalk-005.wav</ShortName>
 					<CachePath>SFX/Player_FS_CatWalk-005_818F3B66.wem</CachePath>
 				</File>
+				<File Id="145747875" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2.wav</ShortName>
+					<CachePath>SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2_AB9099DF.wem</CachePath>
+				</File>
 				<File Id="164524416" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_CatWalk-008.wav</ShortName>
 					<CachePath>SFX/Player_FS_CatWalk-008_818F3B66.wem</CachePath>
@@ -179,6 +249,10 @@
 				<File Id="448818932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-002.wav</ShortName>
 					<CachePath>SFX/Player_FS_Stone/Player_FS_Stone-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="478459836" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1.wav</ShortName>
+					<CachePath>SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1_470BD149.wem</CachePath>
 				</File>
 				<File Id="491586114" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Stone\Player_FS_Stone-004.wav</ShortName>
@@ -224,6 +298,10 @@
 					<ShortName>Player_FS_Dirt-005.wav</ShortName>
 					<CachePath>SFX/Player_FS_Dirt-005_818F3B66.wem</CachePath>
 				</File>
+				<File Id="948248000" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3.wav</ShortName>
+					<CachePath>SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3_47A67C8F.wem</CachePath>
+				</File>
 				<File Id="964747123" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-004.wav</ShortName>
 					<CachePath>SFX/Player_FS_Dirt-004_818F3B66.wem</CachePath>
@@ -246,6 +324,14 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="3767185060" Name="Player_Flashlight_Died" ObjectPath="\Events\Default Work Unit\Player\Player_Flashlight_Died" GUID="{CB444D23-33D1-46EC-9A5A-75FE1F9167B3}" DurationType="OneShot" DurationMin="0.38692576" DurationMax="0.52829164">
+					<MediaRefs>
+						<MediaRef Id="75552237"/>
+						<MediaRef Id="145747875"/>
+						<MediaRef Id="478459836"/>
+						<MediaRef Id="948248000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2101861506" Name="Player_Flashlight_Switch" ObjectPath="\Events\Default Work Unit\Player\Player_Flashlight_Switch" GUID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}" DurationType="OneShot" DurationMin="0.386375" DurationMax="0.42504168">
 					<MediaRefs>
 						<MediaRef Id="610651392"/>
@@ -253,6 +339,57 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1730208058" Name="Player_Footsteps" ObjectPath="\Events\Default Work Unit\Player\Player_Footsteps" GUID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}" DurationType="OneShot" DurationMin="0.22023733" DurationMax="0.4591007">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="1216965916" GUID="{9EC73123-F243-4404-BFE8-1C98BC74937A}"/>
+							<MediaRefs>
+								<MediaRef Id="77804803"/>
+								<MediaRef Id="448818932"/>
+								<MediaRef Id="491586114"/>
+								<MediaRef Id="664481103"/>
+								<MediaRef Id="834507929"/>
+								<MediaRef Id="976887921"/>
+								<MediaRef Id="1031427962"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="3728443364" GUID="{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"/>
+							<MediaRefs>
+								<MediaRef Id="22401148"/>
+								<MediaRef Id="55098737"/>
+								<MediaRef Id="95334652"/>
+								<MediaRef Id="164524416"/>
+								<MediaRef Id="324292905"/>
+								<MediaRef Id="571199090"/>
+								<MediaRef Id="659705524"/>
+								<MediaRef Id="1061987857"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="4248645337" GUID="{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"/>
+							<MediaRefs>
+								<MediaRef Id="76431582"/>
+								<MediaRef Id="540337355"/>
+								<MediaRef Id="878599703"/>
+								<MediaRef Id="895910144"/>
+								<MediaRef Id="923511576"/>
+								<MediaRef Id="964747123"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2195636714" GUID="{A479D1C8-1883-4CBA-89A8-348AD46A5336}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="76431582"/>
+								<MediaRef Id="540337355"/>
+								<MediaRef Id="878599703"/>
+								<MediaRef Id="895910144"/>
+								<MediaRef Id="923511576"/>
+								<MediaRef Id="964747123"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1876417386" Name="Player_Footsteps_Land" ObjectPath="\Events\Default Work Unit\Player\Player_Footsteps_Land" GUID="{88FF2756-62B8-41FC-8B48-E267DE058B22}" DurationType="OneShot" DurationMin="0.22023733" DurationMax="0.4591007">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="1216965916" GUID="{9EC73123-F243-4404-BFE8-1C98BC74937A}"/>
@@ -618,5 +755,5 @@
 			</Plugins>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{82CF3878-7703-6B24-F8B2-B92C7A244774}</FileHash>
+	<FileHash>{5265460B-C767-2BF7-F664-D4FE6D49D6EE}</FileHash>
 </SoundBanksInfo>

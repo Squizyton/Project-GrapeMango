@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B3EB6A8D-EC90-46FD-B05C-145C084270BF}",
     "Language": "SFX",
-    "Hash": "{B83D7963-2A32-8C01-B21B-302328FC0BAA}",
+    "Hash": "{4EEE628D-19E2-9BAB-C372-AF34F58DAED2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player",
     "ShortName": "Player",
     "Path": "Player.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "Player_FS_CatWalk-003.wav",
       "CachePath": "SFX/Player_FS_CatWalk-003_818F3B66.wem"
+     },
+     {
+      "Id": "75552237",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58.wav",
+      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58_9D8E9D98.wem"
      },
      {
       "Id": "76431582",
@@ -56,6 +64,14 @@
       "CachePath": "SFX/Player_FS_CatWalk-005_818F3B66.wem"
      },
      {
+      "Id": "145747875",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2.wav",
+      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2_AB9099DF.wem"
+     },
+     {
       "Id": "164524416",
       "Language": "SFX",
       "Streaming": "false",
@@ -78,6 +94,14 @@
       "Location": "Memory",
       "ShortName": "Player_FS_Stone\\Player_FS_Stone-002.wav",
       "CachePath": "SFX/Player_FS_Stone/Player_FS_Stone-002_818F3B66.wem"
+     },
+     {
+      "Id": "478459836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1.wav",
+      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1_470BD149.wem"
      },
      {
       "Id": "491586114",
@@ -168,6 +192,14 @@
       "CachePath": "SFX/Player_FS_Dirt-005_818F3B66.wem"
      },
      {
+      "Id": "948248000",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3.wav",
+      "CachePath": "SFX/Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3_47A67C8F.wem"
+     },
+     {
       "Id": "964747123",
       "Language": "SFX",
       "Streaming": "false",
@@ -210,6 +242,29 @@
     ],
     "Events": [
      {
+      "Id": "3767185060",
+      "Name": "Player_Flashlight_Died",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Flashlight_Died",
+      "GUID": "{CB444D23-33D1-46EC-9A5A-75FE1F9167B3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.38692576",
+      "DurationMax": "0.52829164",
+      "MediaRefs": [
+       {
+        "Id": "75552237"
+       },
+       {
+        "Id": "145747875"
+       },
+       {
+        "Id": "478459836"
+       },
+       {
+        "Id": "948248000"
+       }
+      ]
+     },
+     {
       "Id": "2101861506",
       "Name": "Player_Flashlight_Switch",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Flashlight_Switch",
@@ -231,6 +286,139 @@
       "Name": "Player_Footsteps",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Footsteps",
       "GUID": "{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22023733",
+      "DurationMax": "0.4591007",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "1216965916",
+         "GUID": "{9EC73123-F243-4404-BFE8-1C98BC74937A}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "77804803"
+         },
+         {
+          "Id": "448818932"
+         },
+         {
+          "Id": "491586114"
+         },
+         {
+          "Id": "664481103"
+         },
+         {
+          "Id": "834507929"
+         },
+         {
+          "Id": "976887921"
+         },
+         {
+          "Id": "1031427962"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "3728443364",
+         "GUID": "{0A83E62B-4269-4F89-BC84-21DE7189BCE9}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "22401148"
+         },
+         {
+          "Id": "55098737"
+         },
+         {
+          "Id": "95334652"
+         },
+         {
+          "Id": "164524416"
+         },
+         {
+          "Id": "324292905"
+         },
+         {
+          "Id": "571199090"
+         },
+         {
+          "Id": "659705524"
+         },
+         {
+          "Id": "1061987857"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "4248645337",
+         "GUID": "{139683A3-D878-4FA8-A10C-5789B8BCCB6C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "76431582"
+         },
+         {
+          "Id": "540337355"
+         },
+         {
+          "Id": "878599703"
+         },
+         {
+          "Id": "895910144"
+         },
+         {
+          "Id": "923511576"
+         },
+         {
+          "Id": "964747123"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "2195636714",
+         "GUID": "{A479D1C8-1883-4CBA-89A8-348AD46A5336}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "76431582"
+         },
+         {
+          "Id": "540337355"
+         },
+         {
+          "Id": "878599703"
+         },
+         {
+          "Id": "895910144"
+         },
+         {
+          "Id": "923511576"
+         },
+         {
+          "Id": "964747123"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1876417386",
+      "Name": "Player_Footsteps_Land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Footsteps_Land",
+      "GUID": "{88FF2756-62B8-41FC-8B48-E267DE058B22}",
       "DurationType": "OneShot",
       "DurationMin": "0.22023733",
       "DurationMax": "0.4591007",
@@ -450,6 +638,6 @@
     ]
    }
   ],
-  "FileHash": "{8C8008DC-B130-5CD4-B1A6-81990C79F7AE}"
+  "FileHash": "{EBB1434A-05B1-84ED-4AA4-0CC968938B7A}"
  }
 }

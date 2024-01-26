@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{9B809BE3-4D9E-6094-BF12-2245B5C52AB2}",
+    "Hash": "{752A2AB8-819D-ACC9-E136-ACDC346EDF30}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -24,12 +24,36 @@
       "CachePath": "SFX/Spotlight_Rotate_3B7822A8.wem"
      },
      {
+      "Id": "164823044",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fight, Bodyfall, Outdoors Ground, Grass SND23806.wav",
+      "CachePath": "SFX/Fight, Bodyfall, Outdoors Ground, Grass SND23806_B032A71E.wem"
+     },
+     {
+      "Id": "198954715",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rock_Impact_Ground_Roll_1 1.wav",
+      "CachePath": "SFX/Rock_Impact_Ground_Roll_1 1_B032A71E.wem"
+     },
+     {
       "Id": "198956712",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Spotlight_Buzz.wav",
       "CachePath": "SFX/Spotlight_Buzz_3B7822A8.wem"
+     },
+     {
+      "Id": "247512179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bed O Nailz- Nail case hits  Gift Of Junk v1 2.wav",
+      "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 2_B032A71E.wem"
      },
      {
       "Id": "252332590",
@@ -40,6 +64,22 @@
       "CachePath": "SFX/Soundly Voice Designer, Davis 1_818F3B66.wem"
      },
      {
+      "Id": "282319275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUNHndl GUNPis, grab, holster 2.wav",
+      "CachePath": "SFX/GUNHndl GUNPis, grab, holster 2_B032A71E.wem"
+     },
+     {
+      "Id": "356817560",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUNHndl GUNPis, grab, holster 3.wav",
+      "CachePath": "SFX/GUNHndl GUNPis, grab, holster 3_B032A71E.wem"
+     },
+     {
       "Id": "384767374",
       "Language": "SFX",
       "Streaming": "false",
@@ -48,12 +88,52 @@
       "CachePath": "SFX/Radio_Noise_lp_3B7822A8.wem"
      },
      {
+      "Id": "490944829",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bed O Nailz- Nail case hits  Gift Of Junk v1 1.wav",
+      "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 1_B032A71E.wem"
+     },
+     {
       "Id": "647583695",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ba Dum Tss by SoundMaker25 Id-534937.wav",
       "CachePath": "SFX/Ba Dum Tss by SoundMaker25 Id-534937_818F3B66.wem"
+     },
+     {
+      "Id": "675245965",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bed O Nailz- Nail case hits  Gift Of Junk v1.wav",
+      "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1_B032A71E.wem"
+     },
+     {
+      "Id": "729682944",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUNHndl GUNPis, grab, holster.wav",
+      "CachePath": "SFX/GUNHndl GUNPis, grab, holster_B032A71E.wem"
+     },
+     {
+      "Id": "769677458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239.wav",
+      "CachePath": "SFX/Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239_B032A71E.wem"
+     },
+     {
+      "Id": "792666460",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bed O Nailz- Nail case hits  Gift Of Junk v1 3.wav",
+      "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 3_B032A71E.wem"
      },
      {
       "Id": "832537893",
@@ -212,6 +292,72 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "3707808127",
+      "Name": "SFX_Supply_Collect",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Supply_Collect",
+      "GUID": "{9B069A2C-8E51-4031-B1EB-25D6132CED51}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.53582764",
+      "DurationMax": "0.70328796",
+      "MediaRefs": [
+       {
+        "Id": "282319275"
+       },
+       {
+        "Id": "356817560"
+       },
+       {
+        "Id": "729682944"
+       }
+      ]
+     },
+     {
+      "Id": "3110777038",
+      "Name": "SFX_Supply_FallOnBox",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Supply_FallOnBox",
+      "GUID": "{0234A4D3-9413-44D9-8C3D-4F404262C494}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.331875",
+      "DurationMax": "0.41541666",
+      "MediaRefs": [
+       {
+        "Id": "247512179"
+       },
+       {
+        "Id": "490944829"
+       },
+       {
+        "Id": "675245965"
+       },
+       {
+        "Id": "792666460"
+       }
+      ]
+     },
+     {
+      "Id": "2938596226",
+      "Name": "SFX_Supply_FallOnGround",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Supply_FallOnGround",
+      "GUID": "{FFAD73CC-A178-4576-A198-F20200B20BFA}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21626042",
+      "DurationMax": "0.7436771",
+      "MediaRefs": [
+       {
+        "Id": "164823044"
+       },
+       {
+        "Id": "198954715"
+       },
+       {
+        "Id": "769677458"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -224,6 +370,6 @@
     ]
    }
   ],
-  "FileHash": "{8B5BC699-BA4F-D608-8BA2-928DFD864197}"
+  "FileHash": "{D560124B-C102-940A-E057-7A2A928A5C9F}"
  }
 }
