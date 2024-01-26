@@ -123,7 +123,7 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{1BE07F16-4AB0-32BA-CC53-AD1A67DBD929}",
+    "Hash": "{058DED48-F435-B75D-C4F9-3F90CD906883}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -190,7 +190,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "GUNHndl GUNPis, grab, holster 2.wav",
-      "CachePath": "SFX/GUNHndl GUNPis, grab, holster 2_9894C172.wem"
+      "CachePath": "SFX/GUNHndl GUNPis, grab, holster 2_A43D0517.wem"
      },
      {
       "Id": "356817560",
@@ -198,7 +198,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "GUNHndl GUNPis, grab, holster 3.wav",
-      "CachePath": "SFX/GUNHndl GUNPis, grab, holster 3_76D160C3.wem"
+      "CachePath": "SFX/GUNHndl GUNPis, grab, holster 3_FBBCA65E.wem"
      },
      {
       "Id": "384767374",
@@ -238,7 +238,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "GUNHndl GUNPis, grab, holster.wav",
-      "CachePath": "SFX/GUNHndl GUNPis, grab, holster_79A984D9.wem"
+      "CachePath": "SFX/GUNHndl GUNPis, grab, holster_09AC3017.wem"
      },
      {
       "Id": "769677458",
@@ -2887,6 +2887,6 @@
     }
    }
   ],
-  "FileHash": "{0235662F-E72D-B94E-BC2D-7B7307E42524}"
+  "FileHash": "{3688FCD0-7224-FC10-37FE-FD639BAD3060}"
  }
 }

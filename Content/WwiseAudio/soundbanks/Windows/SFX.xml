@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{1BE07F16-4AB0-32BA-CC53-AD1A67DBD929}">
+		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{058DED48-F435-B75D-C4F9-3F90CD906883}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -36,11 +36,11 @@
 				</File>
 				<File Id="282319275" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GUNHndl GUNPis, grab, holster 2.wav</ShortName>
-					<CachePath>SFX/GUNHndl GUNPis, grab, holster 2_9894C172.wem</CachePath>
+					<CachePath>SFX/GUNHndl GUNPis, grab, holster 2_A43D0517.wem</CachePath>
 				</File>
 				<File Id="356817560" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GUNHndl GUNPis, grab, holster 3.wav</ShortName>
-					<CachePath>SFX/GUNHndl GUNPis, grab, holster 3_76D160C3.wem</CachePath>
+					<CachePath>SFX/GUNHndl GUNPis, grab, holster 3_FBBCA65E.wem</CachePath>
 				</File>
 				<File Id="384767374" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Radio_Noise_lp.wav</ShortName>
@@ -60,7 +60,7 @@
 				</File>
 				<File Id="729682944" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GUNHndl GUNPis, grab, holster.wav</ShortName>
-					<CachePath>SFX/GUNHndl GUNPis, grab, holster_79A984D9.wem</CachePath>
+					<CachePath>SFX/GUNHndl GUNPis, grab, holster_09AC3017.wem</CachePath>
 				</File>
 				<File Id="769677458" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239.wav</ShortName>
@@ -193,5 +193,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{743DFF77-B52C-5F8B-C2BD-FB8DB4AB101D}</FileHash>
+	<FileHash>{11F2DCE0-8A5E-1230-9A7C-7CFE80837456}</FileHash>
 </SoundBanksInfo>
