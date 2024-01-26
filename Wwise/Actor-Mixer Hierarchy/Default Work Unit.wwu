@@ -152,6 +152,11 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -816,111 +821,8 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
-								<RandomSequenceContainer Name="SFX_Spotlight_TurnOn" ID="{07CE33BA-FEDC-4FF6-A19B-77B7BB3C0468}" ShortID="5007883">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="InitialDelay" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{0501CB25-CB7F-4E08-86D3-8DDD9607143B}"/>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<ActorMixer Name="SFX_Supply" ID="{DBF63567-3A23-473E-AE11-D70D164CE9CC}" ShortID="627351996">
 									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="ATT_Spotlight" ID="{ABE92749-D046-4968-A57D-3E0AABA73F68}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-										</Reference>
-									</ReferenceList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SFX_Spotlight_TurnOff" ID="{3525F1DD-E9E1-47EB-89B5-0CBDC7732915}" ShortID="222334262">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="InitialDelay" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{A045336F-9DD8-4905-A977-2744FC8D7308}"/>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="ATT_Spotlight" ID="{ABE92749-D046-4968-A57D-3E0AABA73F68}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-										</Reference>
-									</ReferenceList>
-								</RandomSequenceContainer>
-								<Sound Name="SFX_Spotlight_Buzz" ID="{DC29197F-4D63-4680-B86F-F8C1B29EFC2E}" ShortID="850712344">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="InitialDelay" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{8F421646-8C47-4D2F-968A-A86C77D58EAF}"/>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="ATT_Spotlight" ID="{ABE92749-D046-4968-A57D-3E0AABA73F68}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
-										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
 										</Reference>
@@ -929,39 +831,272 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Spotlight_Buzz" ID="{B4CF64D0-CC12-4DE3-A96E-833FEFD363B8}">
-											<Language>SFX</Language>
-											<AudioFile>Spotlight_Buzz.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="198956712"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<RandomSequenceContainer Name="SFX_Supply_FallOnGround" ID="{12DFB959-BFFB-43F2-9214-D5366DEB9ECD}" ShortID="692974827">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Rock_Impact_Ground_Roll_1 1" ID="{1926B114-1BFA-4BEA-9B8F-47EF10349AC5}" ShortID="182966470">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Rock_Impact_Ground_Roll_1 1" ID="{47D25C4E-A3C3-4F73-99AD-0A44D514C81D}">
+															<Language>SFX</Language>
+															<AudioFile>Rock_Impact_Ground_Roll_1 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="198954715"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Rock_Impact_Ground_Roll_1 1" ID="{47D25C4E-A3C3-4F73-99AD-0A44D514C81D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fight, Bodyfall, Outdoors Ground, Grass SND23806" ID="{029F5762-E0F6-4867-BB89-1BCA5F3E7BF6}" ShortID="194257381">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fight, Bodyfall, Outdoors Ground, Grass SND23806" ID="{8CCE65E2-209D-4904-A975-AD7E4C33B8E7}">
+															<Language>SFX</Language>
+															<AudioFile>Fight, Bodyfall, Outdoors Ground, Grass SND23806.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="164823044"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fight, Bodyfall, Outdoors Ground, Grass SND23806" ID="{8CCE65E2-209D-4904-A975-AD7E4C33B8E7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239" ID="{A3482F56-EA00-4E39-BBFC-91DDCF01111A}" ShortID="943751603">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239" ID="{80579ABA-3114-4B29-B376-825EC18FE252}">
+															<Language>SFX</Language>
+															<AudioFile>Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="769677458"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239" ID="{80579ABA-3114-4B29-B376-825EC18FE252}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_Supply_FallOnBox" ID="{381D18D4-D068-4232-9429-EE36D104BB45}" ShortID="152004281">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Bed O Nailz- Nail case hits  Gift Of Junk v1" ID="{1E2280DF-094F-4F83-8C53-BDD9DDF51F65}" ShortID="36134503">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1" ID="{07AB4CEB-23A8-4911-BB84-029C2133FF8B}">
+															<Language>SFX</Language>
+															<AudioFile>Bed O Nailz- Nail case hits  Gift Of Junk v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="675245965"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1" ID="{07AB4CEB-23A8-4911-BB84-029C2133FF8B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 1" ID="{11323136-D5EB-4FC0-BED0-C3548231BA2A}" ShortID="657192558">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 1" ID="{4C367FE4-8CEC-479D-AD07-089290B6DBA0}">
+															<Language>SFX</Language>
+															<AudioFile>Bed O Nailz- Nail case hits  Gift Of Junk v1 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="490944829"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 1" ID="{4C367FE4-8CEC-479D-AD07-089290B6DBA0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 2" ID="{EC828434-3D72-4C3D-9EA6-97B809F56F14}" ShortID="1064430655">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 2" ID="{99D79908-3352-4F58-BDD4-E76EBB44F6FB}">
+															<Language>SFX</Language>
+															<AudioFile>Bed O Nailz- Nail case hits  Gift Of Junk v1 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="247512179"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 2" ID="{99D79908-3352-4F58-BDD4-E76EBB44F6FB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 3" ID="{BA99076C-6665-4BE8-A36B-9F930A1AD312}" ShortID="723396376">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 3" ID="{EF3012E9-3747-4D67-A6DA-8461D36ACCB9}">
+															<Language>SFX</Language>
+															<AudioFile>Bed O Nailz- Nail case hits  Gift Of Junk v1 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="792666460"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bed O Nailz- Nail case hits  Gift Of Junk v1 3" ID="{EF3012E9-3747-4D67-A6DA-8461D36ACCB9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_Supply_Collect" ID="{1163D7B4-B942-41E1-B492-685A1DB92E63}" ShortID="734438997">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="GUNHndl GUNPis, grab, holster" ID="{30086DC6-0BD7-4655-8D29-BCF3D75B9ACB}" ShortID="308223272">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GUNHndl GUNPis, grab, holster" ID="{547E49FB-83C1-4AA6-9E7D-E62D62603C63}">
+															<Language>SFX</Language>
+															<AudioFile>GUNHndl GUNPis, grab, holster.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="729682944"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GUNHndl GUNPis, grab, holster" ID="{547E49FB-83C1-4AA6-9E7D-E62D62603C63}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GUNHndl GUNPis, grab, holster 2" ID="{8EE653AE-EE04-427C-B0B8-61F979A6A330}" ShortID="669066438">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GUNHndl GUNPis, grab, holster 2" ID="{2435A7C5-FE1B-4122-AC81-1EA5F450DDA0}">
+															<Language>SFX</Language>
+															<AudioFile>GUNHndl GUNPis, grab, holster 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="282319275"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GUNHndl GUNPis, grab, holster 2" ID="{2435A7C5-FE1B-4122-AC81-1EA5F450DDA0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GUNHndl GUNPis, grab, holster 3" ID="{8E73C944-CC90-4EC8-AB8D-24500097FC17}" ShortID="372936737">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GUNHndl GUNPis, grab, holster 3" ID="{5FE519CC-2A50-4A7F-9512-D8B9EA7D487E}">
+															<Language>SFX</Language>
+															<AudioFile>GUNHndl GUNPis, grab, holster 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="356817560"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GUNHndl GUNPis, grab, holster 3" ID="{5FE519CC-2A50-4A7F-9512-D8B9EA7D487E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
-									<PositioningInfo>
-										<Position Name="" ID="{F8F03339-AA0D-4CCB-9769-E0CE480E0669}"/>
-									</PositioningInfo>
-									<ActiveSourceList>
-										<ActiveSource Name="Spotlight_Buzz" ID="{B4CF64D0-CC12-4DE3-A96E-833FEFD363B8}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_Spotlight_Rotate" ID="{D45CB201-5079-4BA7-A94A-C85AF0B980A2}" ShortID="17687236">
+								</ActorMixer>
+								<ActorMixer Name="SFX_Spotlight" ID="{5914374A-58C6-46F7-AD24-3B8534856E07}" ShortID="422436139">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="InitialDelay" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{724089A9-E478-4A1F-ACA3-81A23C33E462}"/>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="ATT_Spotlight" ID="{ABE92749-D046-4968-A57D-3E0AABA73F68}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+											<ObjectRef Name="ATT_Radio" ID="{12028409-E16E-4E36-BAFB-4E41F6A7F2FD}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Ambience" ID="{6411546D-15EB-442F-98D7-F989DC2135B9}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
@@ -971,21 +1106,181 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Spotlight_Rotate" ID="{D2A1A6C4-FECA-4E1B-92D6-5ADD81C733FD}">
-											<Language>SFX</Language>
-											<AudioFile>Spotlight_Rotate.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="12129071"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<RandomSequenceContainer Name="SFX_Spotlight_TurnOff" ID="{3525F1DD-E9E1-47EB-89B5-0CBDC7732915}" ShortID="222334262">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A045336F-9DD8-4905-A977-2744FC8D7308}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="ATT_Spotlight" ID="{ABE92749-D046-4968-A57D-3E0AABA73F68}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Ambience" ID="{6411546D-15EB-442F-98D7-F989DC2135B9}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_Spotlight_TurnOn" ID="{07CE33BA-FEDC-4FF6-A19B-77B7BB3C0468}" ShortID="5007883">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0501CB25-CB7F-4E08-86D3-8DDD9607143B}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="ATT_Spotlight" ID="{ABE92749-D046-4968-A57D-3E0AABA73F68}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Ambience" ID="{6411546D-15EB-442F-98D7-F989DC2135B9}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<Sound Name="SFX_Spotlight_Buzz" ID="{DC29197F-4D63-4680-B86F-F8C1B29EFC2E}" ShortID="850712344">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8F421646-8C47-4D2F-968A-A86C77D58EAF}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="ATT_Spotlight" ID="{ABE92749-D046-4968-A57D-3E0AABA73F68}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Ambience" ID="{6411546D-15EB-442F-98D7-F989DC2135B9}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spotlight_Buzz" ID="{B4CF64D0-CC12-4DE3-A96E-833FEFD363B8}">
+													<Language>SFX</Language>
+													<AudioFile>Spotlight_Buzz.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="198956712"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{F8F03339-AA0D-4CCB-9769-E0CE480E0669}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Spotlight_Buzz" ID="{B4CF64D0-CC12-4DE3-A96E-833FEFD363B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Spotlight_Rotate" ID="{D45CB201-5079-4BA7-A94A-C85AF0B980A2}" ShortID="17687236">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{724089A9-E478-4A1F-ACA3-81A23C33E462}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="ATT_Spotlight" ID="{ABE92749-D046-4968-A57D-3E0AABA73F68}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Ambience" ID="{6411546D-15EB-442F-98D7-F989DC2135B9}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spotlight_Rotate" ID="{D2A1A6C4-FECA-4E1B-92D6-5ADD81C733FD}">
+													<Language>SFX</Language>
+													<AudioFile>Spotlight_Rotate.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="12129071"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{6BC8BA06-9E65-48E6-B627-F1EE52076BFC}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Spotlight_Rotate" ID="{D2A1A6C4-FECA-4E1B-92D6-5ADD81C733FD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<PositioningInfo>
-										<Position Name="" ID="{6BC8BA06-9E65-48E6-B627-F1EE52076BFC}"/>
-									</PositioningInfo>
-									<ActiveSourceList>
-										<ActiveSource Name="Spotlight_Rotate" ID="{D2A1A6C4-FECA-4E1B-92D6-5ADD81C733FD}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Player" ID="{1931679B-A441-46B0-B604-E1D18EBB6880}" ShortID="1073069532">
@@ -1300,6 +1595,11 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Player_FS_Wood" ID="{3A9853DB-E810-4C61-9A8F-8ABEE928E394}" ShortID="646150439">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -1481,6 +1781,11 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Player_FS_Sand" ID="{61ED40F3-CA03-415B-AFC8-CC14867A20E9}" ShortID="481609488">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -1655,7 +1960,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>5</Value>
+														<Value>9</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1841,7 +2146,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>1</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2134,6 +2439,140 @@
 										<ActiveSource Name="Doors, Wood, Glass Window, Open, Close, Hallway, Perspective SND1645 1" ID="{CC7C37E0-BD62-48E8-83CC-68860FC4BA9F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Player_Flashlight_Died" ID="{81053EDC-5FB9-4E25-B24F-0B4C852B29AC}" ShortID="174998376">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58" ID="{7BDCED2E-D4A2-4C50-8F0D-81C9BB1CADEB}" ShortID="881320815">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58" ID="{60E61CBD-5E38-46FE-86E7-3C2591718695}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0354098198198198"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.117651981981982"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="75552237"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58" ID="{60E61CBD-5E38-46FE-86E7-3C2591718695}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1" ID="{124A598F-C8E9-44C2-B9F9-30941103A1F2}" ShortID="778367259">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1" ID="{C87E1072-D05B-497B-A77B-3C4394328DCF}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0180850900900901"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0442608783783783"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.386925743243243"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="478459836"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 1" ID="{C87E1072-D05B-497B-A77B-3C4394328DCF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2" ID="{056937C8-BB3B-473F-9D5E-EB5A817730B4}" ShortID="749313640">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2" ID="{E4A48CBF-0109-4F5B-9253-31E39625106D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00970914414414415"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.121649864864865"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="145747875"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 2" ID="{E4A48CBF-0109-4F5B-9253-31E39625106D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3" ID="{C1EE529B-44C0-47AC-85FF-2C7DB0F798BB}" ShortID="58819843">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3" ID="{11D76B7D-3EEF-4DB6-A793-9C526B771208}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00685351351351352"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.185044864864865"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="948248000"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Electricity, Sparks, Small Ticking Sparks, Faulty Wire SND1815 - Pitch 58 3" ID="{11D76B7D-3EEF-4DB6-A793-9C526B771208}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="UI" ID="{BE335E1E-1873-4630-BF05-11808B629A49}" ShortID="928443457">
