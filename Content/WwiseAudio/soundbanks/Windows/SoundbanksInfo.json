@@ -123,7 +123,7 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{83870C17-5C19-D522-6AEE-C458A8C1D31F}",
+    "Hash": "{5C3A4E90-248A-F2A7-E12C-13955CA4FB3D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -328,12 +328,6 @@
      }
     ],
     "GameParameters": [
-     {
-      "Id": "1493153371",
-      "Name": "PlayerSpeed",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerSpeed",
-      "GUID": "{AEE8CEC8-9528-4769-897E-3905E0BB7871}"
-     },
      {
       "Id": "3673881719",
       "Name": "Volume_SFX",
@@ -985,7 +979,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{49E8E87E-4072-FDFA-64AF-856B321A23A6}",
+    "Hash": "{C1B385AB-DE62-88A7-A197-1E7D65B86B4B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -1105,12 +1099,6 @@
       "Name": "Battery_level",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Battery_level",
       "GUID": "{85E52567-E1CF-4E10-A789-60D1102E486D}"
-     },
-     {
-      "Id": "1493153371",
-      "Name": "PlayerSpeed",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerSpeed",
-      "GUID": "{AEE8CEC8-9528-4769-897E-3905E0BB7871}"
      },
      {
       "Id": "3673881719",
@@ -2623,6 +2611,6 @@
     }
    }
   ],
-  "FileHash": "{F730E6AE-EAD4-2F82-04D5-5F052E167662}"
+  "FileHash": "{03F6B055-24BF-86C2-F491-767677F031F8}"
  }
 }
