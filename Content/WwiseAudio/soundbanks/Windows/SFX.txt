@@ -5,9 +5,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	1996512908	SFX_Spotlight_TurnOn			\Default Work Unit\SFX\SFX_Spotlight_TurnOn	
 	2449090642	Enemy_Hello			\Default Work Unit\Enemy\Enemy_Hello	
 	2935187395	SFX_Spotlight_Rotate			\Default Work Unit\SFX\SFX_Spotlight_Rotate	
+	2938596226	SFX_Supply_FallOnGround			\Default Work Unit\SFX\SFX_Supply_FallOnGround	
+	3110777038	SFX_Supply_FallOnBox			\Default Work Unit\SFX\SFX_Supply_FallOnBox	
 	3287655183	Enemy_Desintegration_Stop			\Default Work Unit\Enemy\Enemy_Desintegration_Stop	
 	3469467677	SFX_Spotlight_Buzz			\Default Work Unit\SFX\SFX_Spotlight_Buzz	
 	3650406826	SFX_Spotlight_TurnOff			\Default Work Unit\SFX\SFX_Spotlight_TurnOff	
+	3707808127	SFX_Supply_Collect			\Default Work Unit\SFX\SFX_Supply_Collect	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
@@ -17,10 +20,20 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	919326698	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Hello\Silence\Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	12129071	SFX_Spotlight_Rotate	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Spotlight_Rotate_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Spotlight_Rotate		176010
-	198956712	SFX_Spotlight_Buzz	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Spotlight_Buzz_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Spotlight_Buzz		336663
+	12129071	SFX_Spotlight_Rotate	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Spotlight_Rotate_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Spotlight\SFX_Spotlight_Rotate		176010
+	164823044	Fight, Bodyfall, Outdoors Ground, Grass SND23806	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Fight, Bodyfall, Outdoors Ground, Grass SND23806_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_FallOnGround\Fight, Bodyfall, Outdoors Ground, Grass SND23806		6472
+	198954715	Rock_Impact_Ground_Roll_1 1	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Rock_Impact_Ground_Roll_1 1_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_FallOnGround\Rock_Impact_Ground_Roll_1 1		4479
+	198956712	SFX_Spotlight_Buzz	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Spotlight_Buzz_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Spotlight\SFX_Spotlight_Buzz		336663
+	247512179	Bed O Nailz- Nail case hits  Gift Of Junk v1 2	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Bed O Nailz- Nail case hits  Gift Of Junk v1 2_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_FallOnBox\Bed O Nailz- Nail case hits  Gift Of Junk v1 2		4556
 	252332590	Enemy_Hello	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Soundly Voice Designer, Davis 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Hello\Enemy_Hello		97392
+	282319275	GUNHndl GUNPis, grab, holster 2	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\GUNHndl GUNPis, grab, holster 2_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_Collect\GUNHndl GUNPis, grab, holster 2		8381
+	356817560	GUNHndl GUNPis, grab, holster 3	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\GUNHndl GUNPis, grab, holster 3_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_Collect\GUNHndl GUNPis, grab, holster 3		8314
 	384767374	Env_Radio_Noise	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Radio_Noise_lp_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Amb_Environment\Env_Radio_Noise		73303
+	490944829	Bed O Nailz- Nail case hits  Gift Of Junk v1 1	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Bed O Nailz- Nail case hits  Gift Of Junk v1 1_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_FallOnBox\Bed O Nailz- Nail case hits  Gift Of Junk v1 1		3227
 	647583695	Ba Dum Tss by SoundMaker25 Id-534937	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Ba Dum Tss by SoundMaker25 Id-534937_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Death\Ba Dum Tss by SoundMaker25 Id-534937		915552
+	675245965	Bed O Nailz- Nail case hits  Gift Of Junk v1	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Bed O Nailz- Nail case hits  Gift Of Junk v1_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_FallOnBox\Bed O Nailz- Nail case hits  Gift Of Junk v1		2953
+	729682944	GUNHndl GUNPis, grab, holster	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\GUNHndl GUNPis, grab, holster_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_Collect\GUNHndl GUNPis, grab, holster		9309
+	769677458	Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_FallOnGround\Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239		13268
+	792666460	Bed O Nailz- Nail case hits  Gift Of Junk v1 3	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Bed O Nailz- Nail case hits  Gift Of Junk v1 3_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_FallOnBox\Bed O Nailz- Nail case hits  Gift Of Junk v1 3		3889
 	832537893	Env_Radio_VO_Plot	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Radio_VO_Plot_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Amb_Environment\Env_Radio_VO_Plot\Env_Radio_VO_Plot		56542
 

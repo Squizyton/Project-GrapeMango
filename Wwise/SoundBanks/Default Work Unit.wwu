@@ -40,10 +40,7 @@
 						</Property>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="Player_Footsteps" ID="{1E4AE351-C9DC-4A7E-BD8F-954F94E3512C}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Player_Lighthouse_Teleport_Door" ID="{FD5E4DEA-7CED-4AD2-BC9E-98F3D2565733}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Player_Flashlight_Switch" ID="{22D16B5C-8A22-4B64-B13F-2CEF85B9425B}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Player_Lighthouse_Teleport_TrapDoor" ID="{2BDCEB94-73DC-4FA8-BA1A-4AA5695F1F89}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{FD813567-5031-40A4-BD29-A4DD92CD98C7}" WorkUnitID="{E79EEF75-646E-4275-8751-7FDD75278FAA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
