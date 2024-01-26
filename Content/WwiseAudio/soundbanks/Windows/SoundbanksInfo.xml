@@ -57,7 +57,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX" GUID="{695F585C-C471-4A5B-8170-892B77150803}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{D6020E59-2CF8-9FEB-4B5F-ED3B4AD7AF15}">
+		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{9BA3C8D8-9F52-E0C9-60A3-1C0B8CF1E357}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -86,13 +86,17 @@
 					<ShortName>Soundly Voice Designer, Davis 1.wav</ShortName>
 					<CachePath>SFX/Soundly Voice Designer, Davis 1_73361BA5.wem</CachePath>
 				</File>
+				<File Id="253102408" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spotlight_TurnedOff-002.wav</ShortName>
+					<CachePath>SFX/Spotlight_TurnedOff-002_B032A71E.wem</CachePath>
+				</File>
 				<File Id="282319275" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GUNHndl GUNPis, grab, holster 2.wav</ShortName>
-					<CachePath>SFX/GUNHndl GUNPis, grab, holster 2_B032A71E.wem</CachePath>
+					<CachePath>SFX/GUNHndl GUNPis, grab, holster 2_9894C172.wem</CachePath>
 				</File>
 				<File Id="356817560" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GUNHndl GUNPis, grab, holster 3.wav</ShortName>
-					<CachePath>SFX/GUNHndl GUNPis, grab, holster 3_B032A71E.wem</CachePath>
+					<CachePath>SFX/GUNHndl GUNPis, grab, holster 3_76D160C3.wem</CachePath>
 				</File>
 				<File Id="384767374" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Radio_Noise_lp.wav</ShortName>
@@ -102,17 +106,17 @@
 					<ShortName>Bed O Nailz- Nail case hits  Gift Of Junk v1 1.wav</ShortName>
 					<CachePath>SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 1_B032A71E.wem</CachePath>
 				</File>
-				<File Id="647583695" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Ba Dum Tss by SoundMaker25 Id-534937.wav</ShortName>
-					<CachePath>SFX/Ba Dum Tss by SoundMaker25 Id-534937_73361BA5.wem</CachePath>
-				</File>
 				<File Id="675245965" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bed O Nailz- Nail case hits  Gift Of Junk v1.wav</ShortName>
 					<CachePath>SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1_B032A71E.wem</CachePath>
 				</File>
+				<File Id="710814846" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy desintegration.wav</ShortName>
+					<CachePath>SFX/Enemy desintegration_B0E2D555.wem</CachePath>
+				</File>
 				<File Id="729682944" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GUNHndl GUNPis, grab, holster.wav</ShortName>
-					<CachePath>SFX/GUNHndl GUNPis, grab, holster_B032A71E.wem</CachePath>
+					<CachePath>SFX/GUNHndl GUNPis, grab, holster_79A984D9.wem</CachePath>
 				</File>
 				<File Id="769677458" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rocks, Impact, Fall, Hit Ground, Dry Leaves 02 SND30239.wav</ShortName>
@@ -122,9 +126,33 @@
 					<ShortName>Bed O Nailz- Nail case hits  Gift Of Junk v1 3.wav</ShortName>
 					<CachePath>SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 3_B032A71E.wem</CachePath>
 				</File>
+				<File Id="801464244" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spotlight_TurnedOff-004.wav</ShortName>
+					<CachePath>SFX/Spotlight_TurnedOff-004_B032A71E.wem</CachePath>
+				</File>
+				<File Id="826670196" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spotlight_TurnedOff-003.wav</ShortName>
+					<CachePath>SFX/Spotlight_TurnedOff-003_B032A71E.wem</CachePath>
+				</File>
 				<File Id="832537893" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Radio_VO_Plot.wav</ShortName>
 					<CachePath>SFX/Radio_VO_Plot_B032A71E.wem</CachePath>
+				</File>
+				<File Id="885798256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy Death-001.wav</ShortName>
+					<CachePath>SFX/Enemy Death-001_73361BA5.wem</CachePath>
+				</File>
+				<File Id="892008045" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy Death-002.wav</ShortName>
+					<CachePath>SFX/Enemy Death-002_73361BA5.wem</CachePath>
+				</File>
+				<File Id="922949616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy Death-004.wav</ShortName>
+					<CachePath>SFX/Enemy Death-004_73361BA5.wem</CachePath>
+				</File>
+				<File Id="1073393025" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy Death-003.wav</ShortName>
+					<CachePath>SFX/Enemy Death-003_73361BA5.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -134,14 +162,17 @@
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="1205999388" Name="Enemy_Death" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Death" GUID="{7521F7FB-923C-421D-9EF4-C71929EF91D3}" DurationType="OneShot" DurationMin="10.37932" DurationMax="10.37932">
+				<Event Id="1205999388" Name="Enemy_Death" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Death" GUID="{7521F7FB-923C-421D-9EF4-C71929EF91D3}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="1.8166667" DurationMax="2.0833333">
 					<MediaRefs>
-						<MediaRef Id="647583695"/>
+						<MediaRef Id="885798256"/>
+						<MediaRef Id="892008045"/>
+						<MediaRef Id="922949616"/>
+						<MediaRef Id="1073393025"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1891537485" Name="Enemy_Desintegration_Start" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Desintegration_Start" GUID="{EA52DEAA-804D-46C9-ABF3-D5FBDAFD8220}" MaxAttenuation="1000" DurationType="Infinite">
+				<Event Id="1891537485" Name="Enemy_Desintegration_Start" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Desintegration_Start" GUID="{EA52DEAA-804D-46C9-ABF3-D5FBDAFD8220}" MaxAttenuation="3000" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="384767374"/>
+						<MediaRef Id="710814846"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3287655183" Name="Enemy_Desintegration_Stop" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Desintegration_Stop" GUID="{2C551684-143B-4255-A4AE-DB6BE7B7F8A3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -176,9 +207,21 @@
 						<MediaRef Id="12129071"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3650406826" Name="SFX_Spotlight_TurnOff" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_TurnOff" GUID="{ADC3F3B7-A886-4281-A557-F5039DC369A5}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1996512908" Name="SFX_Spotlight_TurnOn" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_TurnOn" GUID="{A49205FC-8F2F-4EF7-8E4B-DDFAB532C70D}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3707808127" Name="SFX_Supply_Collect" ObjectPath="\Events\Default Work Unit\SFX\SFX_Supply_Collect" GUID="{9B069A2C-8E51-4031-B1EB-25D6132CED51}" DurationType="OneShot" DurationMin="0.53582764" DurationMax="0.70328796">
+				<Event Id="3650406826" Name="SFX_Spotlight_TurnOff" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_TurnOff" GUID="{ADC3F3B7-A886-4281-A557-F5039DC369A5}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="0.597206" DurationMax="0.66175556">
+					<MediaRefs>
+						<MediaRef Id="253102408"/>
+						<MediaRef Id="801464244"/>
+						<MediaRef Id="826670196"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1996512908" Name="SFX_Spotlight_TurnOn" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_TurnOn" GUID="{A49205FC-8F2F-4EF7-8E4B-DDFAB532C70D}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="0.597206" DurationMax="0.66175556">
+					<MediaRefs>
+						<MediaRef Id="253102408"/>
+						<MediaRef Id="801464244"/>
+						<MediaRef Id="826670196"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3707808127" Name="SFX_Supply_Collect" ObjectPath="\Events\Default Work Unit\SFX\SFX_Supply_Collect" GUID="{9B069A2C-8E51-4031-B1EB-25D6132CED51}" DurationType="OneShot" DurationMin="0.38851908" DurationMax="0.5489411">
 					<MediaRefs>
 						<MediaRef Id="282319275"/>
 						<MediaRef Id="356817560"/>
@@ -205,7 +248,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX" GUID="{695F585C-C471-4A5B-8170-892B77150803}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{CB3B3896-27DF-6CD8-7D78-5EF96270D49A}">
+		<SoundBank Id="1069431850" Type="User" GUID="{B3EB6A8D-EC90-46FD-B05C-145C084270BF}" Language="SFX" Hash="{2767D61E-1042-7CDB-C6C4-F7D5DD0584E4}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
@@ -296,7 +339,7 @@
 				</File>
 				<File Id="905662833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1.wav</ShortName>
-					<CachePath>SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1_216ED93F.wem</CachePath>
+					<CachePath>SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1_C576E6F2.wem</CachePath>
 				</File>
 				<File Id="923511576" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_FS_Dirt-005.wav</ShortName>
@@ -333,6 +376,7 @@
 						<MediaRef Id="905662833"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3391588144" Name="Player_Death_Stop" ObjectPath="\Events\Default Work Unit\Player\Player_Death_Stop" GUID="{EE1642A9-359C-4416-AA89-B2CB01E31B1C}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1402898218" Name="Player_Flashlight_BatteryInsert" ObjectPath="\Events\Default Work Unit\Player\Player_Flashlight_BatteryInsert" GUID="{76270462-4EB4-426C-9732-2F7742E0D358}" DurationType="OneShot" DurationMin="0.386375" DurationMax="0.42504168">
 					<MediaRefs>
 						<MediaRef Id="610651392"/>
@@ -770,5 +814,5 @@
 			</Plugins>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E393958B-BE98-78E8-BA10-F726CF84EECA}</FileHash>
+	<FileHash>{A63C6659-76D3-BAD6-901A-88EA1353E315}</FileHash>
 </SoundBanksInfo>

@@ -93,6 +93,21 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Player_Death_Stop" ID="{EE1642A9-359C-4416-AA89-B2CB01E31B1C}">
+							<ChildrenList>
+								<Action Name="" ID="{114540D5-BDC8-4A8A-BE8D-4B150E90521B}" ShortID="671384950">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Death" ID="{2B5B04FC-4760-4531-820C-837F9839D5A8}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambiences" ID="{F90213CA-A212-43F3-985A-4E1015156989}" ShortID="717138038">
@@ -391,6 +406,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{FF21F1CE-955E-4DFE-8BAB-51DE07574351}" ShortID="522305339">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Spotlight_TurnOff" ID="{3525F1DD-E9E1-47EB-89B5-0CBDC7732915}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="SFX_Supply_Collect" ID="{9B069A2C-8E51-4031-B1EB-25D6132CED51}">
@@ -444,9 +466,12 @@
 						<Event Name="Enemy_Desintegration_Start" ID="{EA52DEAA-804D-46C9-ABF3-D5FBDAFD8220}">
 							<ChildrenList>
 								<Action Name="" ID="{40FEE076-0272-4A5E-8111-7F15FF90AEDE}" ShortID="513501037">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Env_Radio_Noise" ID="{749B9BE6-F6D6-4FF3-AB1E-E528A2BFEB05}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+											<ObjectRef Name="Enemy_Desintegration" ID="{F58F12F7-783B-494A-A386-FA8BC3857117}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -468,10 +493,11 @@
 								<Action Name="" ID="{8E704016-4E1A-48EC-BF62-F1C342076A1F}" ShortID="283092507">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Env_Radio_Noise" ID="{749B9BE6-F6D6-4FF3-AB1E-E528A2BFEB05}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+											<ObjectRef Name="Enemy_Desintegration" ID="{F58F12F7-783B-494A-A386-FA8BC3857117}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

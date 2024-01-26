@@ -354,10 +354,15 @@
 						</ActorMixer>
 						<ActorMixer Name="Enemy" ID="{8FFE51A8-9506-4BF4-8226-2F3D80D55C56}" ShortID="317730044">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Color" Type="int16" Value="10"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Enemy" ID="{73BFE717-851D-4B2C-A6A8-4401ADC1B24D}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
 								</Reference>
@@ -396,16 +401,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Ba Dum Tss by SoundMaker25 Id-534937" ID="{E743ED18-58D6-4606-A7A8-5B889170ABC3}" ShortID="264407323">
-											<PropertyList>
-												<Property Name="InitialDelay" Type="Real64">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{C27A45A2-6813-4D64-8BF8-5701F41AA4DD}"/>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-											</PropertyList>
+										<Sound Name="Enemy Death-001" ID="{1C0EBDED-C877-4D22-8801-1C14C80B481B}" ShortID="310727559">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
@@ -415,70 +411,20 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ba Dum Tss by SoundMaker25 Id-534937" ID="{F4709C52-AA24-4CCA-91C0-4A557885E2A3}">
+												<AudioFileSource Name="Enemy Death-001" ID="{28DC8517-37B5-4B8B-9080-2387E9CB184B}">
 													<Language>SFX</Language>
-													<AudioFile>Ba Dum Tss by SoundMaker25 Id-534937.wav</AudioFile>
+													<AudioFile>Enemy Death-001.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="647583695"/>
+														<MediaID ID="885798256"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ba Dum Tss by SoundMaker25 Id-534937" ID="{F4709C52-AA24-4CCA-91C0-4A557885E2A3}" Platform="Linked"/>
+												<ActiveSource Name="Enemy Death-001" ID="{28DC8517-37B5-4B8B-9080-2387E9CB184B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Enemy_Desintegration" ID="{C4977157-17F3-4CA9-99AB-966A17C440A9}" ShortID="815752172">
-									<PropertyList>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Env_Radio_Noise" ID="{C9BDF104-AD36-4557-ABD4-D562EC89032E}" ShortID="728114899">
-											<PropertyList>
-												<Property Name="3DPosition" Type="int16" Value="2"/>
-												<Property Name="CenterPercentage" Type="int32">
-													<ValueList>
-														<Value>41</Value>
-													</ValueList>
-												</Property>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
-												<Property Name="LoopCount" Type="int32" Value="5"/>
-												<Property Name="MaxSoundPerInstance" Type="int16">
-													<ValueList>
-														<Value>1</Value>
-													</ValueList>
-												</Property>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-3</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
+										<Sound Name="Enemy Death-002" ID="{7B45BC10-6125-448D-A620-6C28DC78861B}" ShortID="365585418">
 											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="ATT_Radio" ID="{12028409-E16E-4E36-BAFB-4E41F6A7F2FD}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
-												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
 												</Reference>
@@ -487,25 +433,67 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Radio_Noise_lp" ID="{C7E4C402-FD95-4F69-A90C-A7DA5CED324A}">
+												<AudioFileSource Name="Enemy Death-002" ID="{5F287F96-C156-46E6-B31C-952EB381C80E}">
 													<Language>SFX</Language>
-													<AudioFile>Radio_Noise_lp.wav</AudioFile>
+													<AudioFile>Enemy Death-002.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="511881832"/>
+														<MediaID ID="892008045"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<PositioningInfo>
-												<Position Name="" ID="{3B7FEA47-9E03-4A50-BED8-B6EB504247BC}"/>
-											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="Radio_Noise_lp" ID="{C7E4C402-FD95-4F69-A90C-A7DA5CED324A}" Platform="Linked"/>
+												<ActiveSource Name="Enemy Death-002" ID="{5F287F96-C156-46E6-B31C-952EB381C80E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Enemy Death-003" ID="{15F3B339-9702-43E0-9179-34E7A75A2D1B}" ShortID="649124587">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Enemy Death-003" ID="{8D7068B9-CDA3-4AC2-8D79-1335122BF8F6}">
+													<Language>SFX</Language>
+													<AudioFile>Enemy Death-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1073393025"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Enemy Death-003" ID="{8D7068B9-CDA3-4AC2-8D79-1335122BF8F6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Enemy Death-004" ID="{547B2748-AB04-47D6-A9BC-B8DF580CA563}" ShortID="67753131">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Enemy Death-004" ID="{92FA6EA5-5328-4D58-969B-79BA682EAB3D}">
+													<Language>SFX</Language>
+													<AudioFile>Enemy Death-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="922949616"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Enemy Death-004" ID="{92FA6EA5-5328-4D58-969B-79BA682EAB3D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Enemy_Hello" ID="{6F65FFF1-DBB3-45B9-B6A0-DF2C79EFC2FA}" ShortID="135668571">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
@@ -600,6 +588,44 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="Enemy_Desintegration" ID="{F58F12F7-783B-494A-A386-FA8BC3857117}" ShortID="186744230">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_Enemy" ID="{73BFE717-851D-4B2C-A6A8-4401ADC1B24D}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy desintegration" ID="{0A45ECAC-FFB3-4B51-8B10-489F503D7610}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Enemy desintegration.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="710814846"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{9E3C6755-3C83-4FE4-AC6C-8E643A5FB0D3}"/>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy desintegration" ID="{0A45ECAC-FFB3-4B51-8B10-489F503D7610}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Environment" ID="{5B952E73-182B-40E8-893D-7D1F58764CF1}" ShortID="445826421">
@@ -917,7 +943,22 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="SFX_Supply_FallOnBox" ID="{381D18D4-D068-4232-9429-EE36D104BB45}" ShortID="152004281">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8F2F4233-9E19-4424-BDA7-B47BACCB21F9}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="ATT_SupplyBox" ID="{FC6782E9-7804-4921-AF2F-3AE3EAEBCE1B}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
 												</Reference>
@@ -1019,6 +1060,19 @@
 										<RandomSequenceContainer Name="SFX_Supply_Collect" ID="{1163D7B4-B942-41E1-B492-685A1DB92E63}" ShortID="734438997">
 											<PropertyList>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E4E77EE1-7D14-4F58-BCB0-246D047A2ECC}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1030,6 +1084,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="GUNHndl GUNPis, grab, holster" ID="{30086DC6-0BD7-4655-8D29-BCF3D75B9ACB}" ShortID="308223272">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>12</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{215D13F1-6409-4A16-ABB6-8FFA33F4312B}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
@@ -1040,6 +1106,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="GUNHndl GUNPis, grab, holster" ID="{547E49FB-83C1-4AA6-9E7D-E62D62603C63}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0467769320340749"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.118318122203836"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.548941055341055"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>GUNHndl GUNPis, grab, holster.wav</AudioFile>
 															<MediaIDList>
@@ -1052,6 +1124,18 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="GUNHndl GUNPis, grab, holster 2" ID="{8EE653AE-EE04-427C-B0B8-61F979A6A330}" ShortID="669066438">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>12</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{4D9E8809-4EA0-412C-A942-3A38A80A35DD}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
@@ -1062,6 +1146,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="GUNHndl GUNPis, grab, holster 2" ID="{2435A7C5-FE1B-4122-AC81-1EA5F450DDA0}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0631058405344119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.38851909051909"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>GUNHndl GUNPis, grab, holster 2.wav</AudioFile>
 															<MediaIDList>
@@ -1074,6 +1163,18 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="GUNHndl GUNPis, grab, holster 3" ID="{8E73C944-CC90-4EC8-AB8D-24500097FC17}" ShortID="372936737">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>12</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{9AB6365F-BFB4-40F2-A843-E10BA03007D8}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
@@ -1084,6 +1185,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="GUNHndl GUNPis, grab, holster 3" ID="{5FE519CC-2A50-4A7F-9512-D8B9EA7D487E}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0492382178096464"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.181312496169639"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.398539927682785"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>GUNHndl GUNPis, grab, holster 3.wav</AudioFile>
 															<MediaIDList>
@@ -1133,12 +1240,38 @@
 													</ValueList>
 												</Property>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1A745CE8-472F-47DF-AFE7-6B55FA55F3F6}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="101"/>
+																	<Property Name="Min" Type="Real64" Value="-76"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="UseMaxSoundPerInstance" Type="bool">
 													<ValueList>
 														<Value>True</Value>
 													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6E1A0838-5B48-464D-A55C-5B27434C6781}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -1152,6 +1285,103 @@
 													<ObjectRef Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Spotlight_TurnedOff-001" ID="{79F1AE85-D43C-47D6-945C-B225ECEC4604}" ShortID="9602644">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Spotlight_TurnedOff-001" ID="{58B737D2-D250-4BD2-BF47-CB113905C6F4}">
+															<Language>SFX</Language>
+															<AudioFile>Spotlight_TurnedOff-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="217379658"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Spotlight_TurnedOff-001" ID="{58B737D2-D250-4BD2-BF47-CB113905C6F4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Spotlight_TurnedOff-002" ID="{506BAF15-8173-4CDF-B92A-762C831E18A6}" ShortID="649356724">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Spotlight_TurnedOff-002" ID="{CFCAAA56-E8F4-41B1-B44A-7E2A148DEC20}">
+															<Language>SFX</Language>
+															<AudioFile>Spotlight_TurnedOff-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="253102408"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Spotlight_TurnedOff-002" ID="{CFCAAA56-E8F4-41B1-B44A-7E2A148DEC20}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Spotlight_TurnedOff-003" ID="{CCF7A12C-50A0-4169-9A94-531D5D342C84}" ShortID="232359144">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Spotlight_TurnedOff-003" ID="{A430B6D8-57D8-4AAE-8995-17C74E192D02}">
+															<Language>SFX</Language>
+															<AudioFile>Spotlight_TurnedOff-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="826670196"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Spotlight_TurnedOff-003" ID="{A430B6D8-57D8-4AAE-8995-17C74E192D02}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Spotlight_TurnedOff-004" ID="{C4974BFA-28C2-4CC1-A27D-985F4A2C5B72}" ShortID="79770603">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Spotlight_TurnedOff-004" ID="{86F377B1-583C-4B89-B853-F028720631A5}">
+															<Language>SFX</Language>
+															<AudioFile>Spotlight_TurnedOff-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="801464244"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Spotlight_TurnedOff-004" ID="{86F377B1-583C-4B89-B853-F028720631A5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="SFX_Spotlight_TurnOn" ID="{07CE33BA-FEDC-4FF6-A19B-77B7BB3C0468}" ShortID="5007883">
 											<PropertyList>

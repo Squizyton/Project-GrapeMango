@@ -123,7 +123,7 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{D6020E59-2CF8-9FEB-4B5F-ED3B4AD7AF15}",
+    "Hash": "{9BA3C8D8-9F52-E0C9-60A3-1C0B8CF1E357}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -177,12 +177,20 @@
       "CachePath": "SFX/Soundly Voice Designer, Davis 1_73361BA5.wem"
      },
      {
+      "Id": "253102408",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spotlight_TurnedOff-002.wav",
+      "CachePath": "SFX/Spotlight_TurnedOff-002_B032A71E.wem"
+     },
+     {
       "Id": "282319275",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "GUNHndl GUNPis, grab, holster 2.wav",
-      "CachePath": "SFX/GUNHndl GUNPis, grab, holster 2_B032A71E.wem"
+      "CachePath": "SFX/GUNHndl GUNPis, grab, holster 2_9894C172.wem"
      },
      {
       "Id": "356817560",
@@ -190,7 +198,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "GUNHndl GUNPis, grab, holster 3.wav",
-      "CachePath": "SFX/GUNHndl GUNPis, grab, holster 3_B032A71E.wem"
+      "CachePath": "SFX/GUNHndl GUNPis, grab, holster 3_76D160C3.wem"
      },
      {
       "Id": "384767374",
@@ -209,14 +217,6 @@
       "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 1_B032A71E.wem"
      },
      {
-      "Id": "647583695",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Ba Dum Tss by SoundMaker25 Id-534937.wav",
-      "CachePath": "SFX/Ba Dum Tss by SoundMaker25 Id-534937_73361BA5.wem"
-     },
-     {
       "Id": "675245965",
       "Language": "SFX",
       "Streaming": "false",
@@ -225,12 +225,20 @@
       "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1_B032A71E.wem"
      },
      {
+      "Id": "710814846",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy desintegration.wav",
+      "CachePath": "SFX/Enemy desintegration_B0E2D555.wem"
+     },
+     {
       "Id": "729682944",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "GUNHndl GUNPis, grab, holster.wav",
-      "CachePath": "SFX/GUNHndl GUNPis, grab, holster_B032A71E.wem"
+      "CachePath": "SFX/GUNHndl GUNPis, grab, holster_79A984D9.wem"
      },
      {
       "Id": "769677458",
@@ -249,12 +257,60 @@
       "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 3_B032A71E.wem"
      },
      {
+      "Id": "801464244",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spotlight_TurnedOff-004.wav",
+      "CachePath": "SFX/Spotlight_TurnedOff-004_B032A71E.wem"
+     },
+     {
+      "Id": "826670196",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spotlight_TurnedOff-003.wav",
+      "CachePath": "SFX/Spotlight_TurnedOff-003_B032A71E.wem"
+     },
+     {
       "Id": "832537893",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Radio_VO_Plot.wav",
       "CachePath": "SFX/Radio_VO_Plot_B032A71E.wem"
+     },
+     {
+      "Id": "885798256",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy Death-001.wav",
+      "CachePath": "SFX/Enemy Death-001_73361BA5.wem"
+     },
+     {
+      "Id": "892008045",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy Death-002.wav",
+      "CachePath": "SFX/Enemy Death-002_73361BA5.wem"
+     },
+     {
+      "Id": "922949616",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy Death-004.wav",
+      "CachePath": "SFX/Enemy Death-004_73361BA5.wem"
+     },
+     {
+      "Id": "1073393025",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy Death-003.wav",
+      "CachePath": "SFX/Enemy Death-003_73361BA5.wem"
      }
     ],
     "Plugins": {
@@ -283,12 +339,22 @@
       "Name": "Enemy_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Enemy_Death",
       "GUID": "{7521F7FB-923C-421D-9EF4-C71929EF91D3}",
+      "MaxAttenuation": "3000",
       "DurationType": "OneShot",
-      "DurationMin": "10.37932",
-      "DurationMax": "10.37932",
+      "DurationMin": "1.8166667",
+      "DurationMax": "2.0833333",
       "MediaRefs": [
        {
-        "Id": "647583695"
+        "Id": "885798256"
+       },
+       {
+        "Id": "892008045"
+       },
+       {
+        "Id": "922949616"
+       },
+       {
+        "Id": "1073393025"
        }
       ]
      },
@@ -297,11 +363,11 @@
       "Name": "Enemy_Desintegration_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Enemy_Desintegration_Start",
       "GUID": "{EA52DEAA-804D-46C9-ABF3-D5FBDAFD8220}",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "3000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "384767374"
+        "Id": "710814846"
        }
       ]
      },
@@ -393,8 +459,19 @@
       "GUID": "{ADC3F3B7-A886-4281-A557-F5039DC369A5}",
       "MaxAttenuation": "1000",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.597206",
+      "DurationMax": "0.66175556",
+      "MediaRefs": [
+       {
+        "Id": "253102408"
+       },
+       {
+        "Id": "801464244"
+       },
+       {
+        "Id": "826670196"
+       }
+      ]
      },
      {
       "Id": "1996512908",
@@ -403,8 +480,19 @@
       "GUID": "{A49205FC-8F2F-4EF7-8E4B-DDFAB532C70D}",
       "MaxAttenuation": "1000",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.597206",
+      "DurationMax": "0.66175556",
+      "MediaRefs": [
+       {
+        "Id": "253102408"
+       },
+       {
+        "Id": "801464244"
+       },
+       {
+        "Id": "826670196"
+       }
+      ]
      },
      {
       "Id": "3707808127",
@@ -412,8 +500,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Supply_Collect",
       "GUID": "{9B069A2C-8E51-4031-B1EB-25D6132CED51}",
       "DurationType": "OneShot",
-      "DurationMin": "0.53582764",
-      "DurationMax": "0.70328796",
+      "DurationMin": "0.38851908",
+      "DurationMax": "0.5489411",
       "MediaRefs": [
        {
         "Id": "282319275"
@@ -486,7 +574,7 @@
     "Type": "User",
     "GUID": "{B3EB6A8D-EC90-46FD-B05C-145C084270BF}",
     "Language": "SFX",
-    "Hash": "{CB3B3896-27DF-6CD8-7D78-5EF96270D49A}",
+    "Hash": "{2767D61E-1042-7CDB-C6C4-F7D5DD0584E4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player",
     "ShortName": "Player",
     "Path": "Player.bnk",
@@ -665,7 +753,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1.wav",
-      "CachePath": "SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1_216ED93F.wem"
+      "CachePath": "SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW 1_C576E6F2.wem"
      },
      {
       "Id": "923511576",
@@ -738,6 +826,16 @@
         "Id": "905662833"
        }
       ]
+     },
+     {
+      "Id": "3391588144",
+      "Name": "Player_Death_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Death_Stop",
+      "GUID": "{EE1642A9-359C-4416-AA89-B2CB01E31B1C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "1402898218",
@@ -2789,6 +2887,6 @@
     }
    }
   ],
-  "FileHash": "{F3878DD1-EFC8-C29D-622B-2E11EA235562}"
+  "FileHash": "{C5025DC9-2C57-3C63-641D-71292955527E}"
  }
 }
