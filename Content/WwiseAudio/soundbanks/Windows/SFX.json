@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{A88B0E89-64CB-6FD5-5CDA-E21BBA902614}",
+    "Hash": "{13179E92-D9F9-A2A1-1A3A-E4EBA4B52B53}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -102,6 +102,14 @@
       "Location": "Memory",
       "ShortName": "Bed O Nailz- Nail case hits  Gift Of Junk v1 1.wav",
       "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 1_B032A71E.wem"
+     },
+     {
+      "Id": "649675338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Musical, Loop, Horror, Pitch Sliding Strings 02 SND61423.wav",
+      "CachePath": "SFX/Musical, Loop, Horror, Pitch Sliding Strings 02 SND61423_0EB57883.wem"
      },
      {
       "Id": "675245965",
@@ -229,6 +237,19 @@
      ]
     },
     "Events": [
+     {
+      "Id": "1480007446",
+      "Name": "Enemy_Close",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Enemy_Close",
+      "GUID": "{45CC88D9-F619-4632-9FF4-8E71601AC500}",
+      "MaxAttenuation": "3000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "649675338"
+       }
+      ]
+     },
      {
       "Id": "1205999388",
       "Name": "Enemy_Death",
@@ -480,6 +501,6 @@
     ]
    }
   ],
-  "FileHash": "{800A804E-4F15-6D8E-810D-061F6C3DB61A}"
+  "FileHash": "{EA32423A-FE86-B8D6-AA72-32B2D1F602CA}"
  }
 }
