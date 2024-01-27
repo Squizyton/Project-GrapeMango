@@ -626,6 +626,31 @@
 										<ActiveSource Name="Enemy desintegration" ID="{0A45ECAC-FFB3-4B51-8B10-489F503D7610}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Enemy_Close" ID="{60BBCCF6-0EA8-42D4-9FE3-85E78FDAA02B}" ShortID="868176710">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Musical, Loop, Horror, Pitch Sliding Strings 02 SND61423" ID="{9D1134F1-4AFB-4640-B002-FE66A0CEC193}">
+											<Language>SFX</Language>
+											<AudioFile>Musical, Loop, Horror, Pitch Sliding Strings 02 SND61423.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="649675338"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Musical, Loop, Horror, Pitch Sliding Strings 02 SND61423" ID="{9D1134F1-4AFB-4640-B002-FE66A0CEC193}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Environment" ID="{5B952E73-182B-40E8-893D-7D1F58764CF1}" ShortID="445826421">
@@ -1556,13 +1581,6 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Spotlight_Instakill" ID="{F87EA2B6-59EF-480C-9B67-C80281E1C608}">
-													<PropertyList>
-														<Property Name="VolumeOffset" Type="Real64">
-															<ValueList>
-																<Value>5.4</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Spotlight_Instakill.wav</AudioFile>
 													<MediaIDList>

@@ -57,7 +57,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX" GUID="{695F585C-C471-4A5B-8170-892B77150803}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{A88B0E89-64CB-6FD5-5CDA-E21BBA902614}">
+		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{13179E92-D9F9-A2A1-1A3A-E4EBA4B52B53}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -105,6 +105,10 @@
 				<File Id="490944829" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bed O Nailz- Nail case hits  Gift Of Junk v1 1.wav</ShortName>
 					<CachePath>SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 1_B032A71E.wem</CachePath>
+				</File>
+				<File Id="649675338" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Musical, Loop, Horror, Pitch Sliding Strings 02 SND61423.wav</ShortName>
+					<CachePath>SFX/Musical, Loop, Horror, Pitch Sliding Strings 02 SND61423_0EB57883.wem</CachePath>
 				</File>
 				<File Id="675245965" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bed O Nailz- Nail case hits  Gift Of Junk v1.wav</ShortName>
@@ -166,6 +170,11 @@
 				</Custom>
 			</Plugins>
 			<Events>
+				<Event Id="1480007446" Name="Enemy_Close" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Close" GUID="{45CC88D9-F619-4632-9FF4-8E71601AC500}" MaxAttenuation="3000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="649675338"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1205999388" Name="Enemy_Death" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Death" GUID="{7521F7FB-923C-421D-9EF4-C71929EF91D3}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="1.8166667" DurationMax="2.0833333">
 					<MediaRefs>
 						<MediaRef Id="885798256"/>
@@ -823,5 +832,5 @@
 			</Plugins>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9E209FD7-DAEC-49D8-4E69-C3883301BD59}</FileHash>
+	<FileHash>{CF3447EA-44B1-5C9F-2E95-62AED66CE9EC}</FileHash>
 </SoundBanksInfo>
