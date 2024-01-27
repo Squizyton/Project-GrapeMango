@@ -43,6 +43,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	885798256	Enemy Death-001	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Enemy Death-001_73361BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Death\Enemy Death-001		24860
 	892008045	Enemy Death-002	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Enemy Death-002_73361BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Death\Enemy Death-002		22883
 	922949616	Enemy Death-004	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Enemy Death-004_73361BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Death\Enemy Death-004		21815
-	941179311	SFX_Spotlight_InstaKill	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Spotlight_Instakill_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Spotlight\SFX_Spotlight_InstaKill		62085
+	941179311	SFX_Spotlight_InstaKill	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Spotlight_Instakill_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Spotlight\SFX_Spotlight_InstaKill		65429
 	1073393025	Enemy Death-003	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Enemy Death-003_73361BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Death\Enemy Death-003		22407
 
