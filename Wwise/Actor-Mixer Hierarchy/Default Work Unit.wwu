@@ -1519,6 +1519,64 @@
 												<ActiveSource Name="Spotlight_Rotate" ID="{D2A1A6C4-FECA-4E1B-92D6-5ADD81C733FD}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="SFX_Spotlight_InstaKill" ID="{33EC457B-49E7-4CAC-B168-5912C30971F9}" ShortID="797664966">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{947447F4-9761-4B95-8E4A-900071F0FA8C}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="69"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="ATT_Spotlight" ID="{ABE92749-D046-4968-A57D-3E0AABA73F68}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Ambience" ID="{6411546D-15EB-442F-98D7-F989DC2135B9}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{6574157F-C9F7-443D-BAB2-453625FBFC01}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spotlight_Instakill" ID="{F87EA2B6-59EF-480C-9B67-C80281E1C608}">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>12.9</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Spotlight_Instakill.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="941179311"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{B05D4B57-FE4D-42C2-9821-AEDAC070B533}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Spotlight_Instakill" ID="{F87EA2B6-59EF-480C-9B67-C80281E1C608}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</ActorMixer>
 							</ChildrenList>
