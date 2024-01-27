@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	545193407	SFX_Spotlight_InstaKill			\Default Work Unit\SFX\SFX_Spotlight_InstaKill	
 	1132188758	Env_Radio			\Default Work Unit\SFX\Env_Radio	
 	1205999388	Enemy_Death			\Default Work Unit\Enemy\Enemy_Death	
+	1480007446	Enemy_Close			\Default Work Unit\Enemy\Enemy_Close	
 	1891537485	Enemy_Desintegration_Start			\Default Work Unit\Enemy\Enemy_Desintegration_Start	
 	1996512908	SFX_Spotlight_TurnOn			\Default Work Unit\SFX\SFX_Spotlight_TurnOn	
 	2449090642	Enemy_Hello			\Default Work Unit\Enemy\Enemy_Hello	
@@ -32,6 +33,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	356817560	GUNHndl GUNPis, grab, holster 3	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\GUNHndl GUNPis, grab, holster 3_FBBCA65E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_Collect\GUNHndl GUNPis, grab, holster 3		6695
 	384767374	Env_Radio_Noise	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Radio_Noise_lp_3B7822A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Amb_Environment\Env_Radio_Noise		73303
 	490944829	Bed O Nailz- Nail case hits  Gift Of Junk v1 1	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Bed O Nailz- Nail case hits  Gift Of Junk v1 1_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_FallOnBox\Bed O Nailz- Nail case hits  Gift Of Junk v1 1		3227
+	649675338	Enemy_Close	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Musical, Loop, Horror, Pitch Sliding Strings 02 SND61423_0EB57883.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Close		823049
 	675245965	Bed O Nailz- Nail case hits  Gift Of Junk v1	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Bed O Nailz- Nail case hits  Gift Of Junk v1_B032A71E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_FallOnBox\Bed O Nailz- Nail case hits  Gift Of Junk v1		2953
 	710814846	Enemy_Desintegration	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\Enemy desintegration_B0E2D555.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemy\Enemy_Desintegration		401125
 	729682944	GUNHndl GUNPis, grab, holster	D:\_Obecne Projekty\PirateSoftJam\UE Project\Project-GrapeMango\Wwise\.cache\Windows\SFX\GUNHndl GUNPis, grab, holster_09AC3017.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\SFX_Supply\SFX_Supply_Collect\GUNHndl GUNPis, grab, holster		8437
