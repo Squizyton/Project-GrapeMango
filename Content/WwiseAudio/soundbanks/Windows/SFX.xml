@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{058DED48-F435-B75D-C4F9-3F90CD906883}">
+		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{A88B0E89-64CB-6FD5-5CDA-E21BBA902614}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -94,6 +94,10 @@
 					<ShortName>Enemy Death-004.wav</ShortName>
 					<CachePath>SFX/Enemy Death-004_73361BA5.wem</CachePath>
 				</File>
+				<File Id="941179311" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spotlight_Instakill.wav</ShortName>
+					<CachePath>SFX/Spotlight_Instakill_B032A71E.wem</CachePath>
+				</File>
 				<File Id="1073393025" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy Death-003.wav</ShortName>
 					<CachePath>SFX/Enemy Death-003_73361BA5.wem</CachePath>
@@ -146,6 +150,11 @@
 						<MediaRef Id="198956712"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="545193407" Name="SFX_Spotlight_InstaKill" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_InstaKill" GUID="{5163DD5F-37B6-4395-ABD5-6846A7F152FD}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="5.1833334" DurationMax="5.1833334">
+					<MediaRefs>
+						<MediaRef Id="941179311"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2935187395" Name="SFX_Spotlight_Rotate" ObjectPath="\Events\Default Work Unit\SFX\SFX_Spotlight_Rotate" GUID="{DE74A12D-E153-44B8-BF2E-10820FDBAF9B}" MaxAttenuation="1000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="12129071"/>
@@ -193,5 +202,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{11F2DCE0-8A5E-1230-9A7C-7CFE80837456}</FileHash>
+	<FileHash>{A1AAE972-C0FF-A4FA-EE30-744A9F4EB844}</FileHash>
 </SoundBanksInfo>
