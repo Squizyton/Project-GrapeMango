@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{058DED48-F435-B75D-C4F9-3F90CD906883}",
+    "Hash": "{0CF0C0D6-65C2-A60E-5B79-6D65367920BD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -192,6 +192,14 @@
       "CachePath": "SFX/Enemy Death-004_73361BA5.wem"
      },
      {
+      "Id": "941179311",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spotlight_Instakill.wav",
+      "CachePath": "SFX/Spotlight_Instakill_B032A71E.wem"
+     },
+     {
       "Id": "1073393025",
       "Language": "SFX",
       "Streaming": "false",
@@ -327,6 +335,21 @@
       ]
      },
      {
+      "Id": "545193407",
+      "Name": "SFX_Spotlight_InstaKill",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_InstaKill",
+      "GUID": "{5163DD5F-37B6-4395-ABD5-6846A7F152FD}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "5.1833334",
+      "DurationMax": "5.1833334",
+      "MediaRefs": [
+       {
+        "Id": "941179311"
+       }
+      ]
+     },
+     {
       "Id": "2935187395",
       "Name": "SFX_Spotlight_Rotate",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SFX_Spotlight_Rotate",
@@ -457,6 +480,6 @@
     ]
    }
   ],
-  "FileHash": "{84BF4F9C-5F6B-9F2A-B779-B83549678AB0}"
+  "FileHash": "{45C0DF23-CA77-8268-0420-41C2DBA6C163}"
  }
 }

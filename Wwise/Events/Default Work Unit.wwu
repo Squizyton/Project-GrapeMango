@@ -448,6 +448,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="SFX_Spotlight_InstaKill" ID="{5163DD5F-37B6-4395-ABD5-6846A7F152FD}">
+							<ChildrenList>
+								<Action Name="" ID="{2B63FBF9-6663-4AD1-924B-EE62B1D10A84}" ShortID="864636755">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Spotlight_InstaKill" ID="{33EC457B-49E7-4CAC-B168-5912C30971F9}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemy" ID="{B0E4226D-D341-48E6-91BA-E8F6510B6DA0}" ShortID="532910148">
