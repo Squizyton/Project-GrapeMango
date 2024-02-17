@@ -3,7 +3,7 @@
   "Project": {
    "Name": "ProjectGrapeMango",
    "GUID": "{3C144A56-661A-4186-9959-6AF761DCA09A}",
-   "Generator": "2023.1.0.8367"
+   "Generator": "2023.1.1.8417"
   },
   "CacheRoot": "../../../Wwise/.cache",
   "Platforms": [
@@ -24,6 +24,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{38D19BAF-D76D-A9C3-B001-152CA1F756FF}"
+  "FileHash": "{D3421EDE-3280-CC42-0AD7-65BC084DCC64}"
  }
 }

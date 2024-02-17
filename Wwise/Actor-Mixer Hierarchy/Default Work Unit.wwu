@@ -651,6 +651,279 @@
 										<ActiveSource Name="Musical, Loop, Horror, Pitch Sliding Strings 02 SND61423" ID="{9D1134F1-4AFB-4640-B002-FE66A0CEC193}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Enemy_Footsteps" ID="{A4AAAD7B-E0AA-4FC7-BACD-1199DE9F5B39}" ShortID="151407720">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_EnemyFS" ID="{DAB1594E-5B83-4413-A27C-F41588E7D26D}" WorkUnitID="{6E54276F-F00E-48EB-B994-CB94DE051550}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Footsteps, Human, Carpet, Socks, Heavy SND17392" ID="{76F4EA20-6E99-4537-896F-921E9DD214DC}" ShortID="644875374">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392" ID="{000E6B18-5A21-4965-8DD7-BD3A6A47FC48}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00484057250221043"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0469535532714412"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Carpet, Socks, Heavy SND17392.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="472704767"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392" ID="{000E6B18-5A21-4965-8DD7-BD3A6A47FC48}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 1" ID="{B0E90F75-7E98-4CDA-BFBB-0A74AFDF83D6}" ShortID="732368378">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 1" ID="{27365171-FD8C-4B1F-AE4C-36AE8906B386}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00373886494252874"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0763796695402298"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Carpet, Socks, Heavy SND17392 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="491520101"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 1" ID="{27365171-FD8C-4B1F-AE4C-36AE8906B386}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 2" ID="{8C5A654A-659F-444A-AD1F-96674284A5F3}" ShortID="261711615">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 2" ID="{03E0C84B-ADAA-415B-B9B6-FAEC35FDA0C5}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00625298408488064"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0760779730327144"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Carpet, Socks, Heavy SND17392 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="254005356"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 2" ID="{03E0C84B-ADAA-415B-B9B6-FAEC35FDA0C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 3" ID="{D90A67A1-1BB8-42A1-8061-9EC4EEF1A7EC}" ShortID="917359789">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 3" ID="{BABE2930-D080-4DFB-A016-E586F1AF3EB6}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00515868147656941"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0567454962422635"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Carpet, Socks, Heavy SND17392 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1039577476"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 3" ID="{BABE2930-D080-4DFB-A016-E586F1AF3EB6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 4" ID="{CEC4F1FD-26D4-4C57-8427-FD83A1D4BE39}" ShortID="333321883">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 4" ID="{E14EDCD9-5F29-4196-8099-62656CA6B9B9}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00531498673740053"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0593506852343059"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Carpet, Socks, Heavy SND17392 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="406672074"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 4" ID="{E14EDCD9-5F29-4196-8099-62656CA6B9B9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 5" ID="{64B750F8-C65B-48CA-A946-017D878096BA}" ShortID="743228672">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 5" ID="{5942F0A6-784F-42DC-867B-5E281362CAB5}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00300931145004421"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0434200652077807"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Carpet, Socks, Heavy SND17392 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="950268915"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 5" ID="{5942F0A6-784F-42DC-867B-5E281362CAB5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 6" ID="{425ED63A-49FF-43B2-BFDC-6C6F2377E01D}" ShortID="257337829">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 6" ID="{923D7589-700F-4F70-9F7F-ED54AEC32380}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0104870137046861"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0984867374005305"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Carpet, Socks, Heavy SND17392 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="447301700"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 6" ID="{923D7589-700F-4F70-9F7F-ED54AEC32380}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 7" ID="{D860789B-7446-481B-A271-1ED10D871FDD}" ShortID="32218258">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 7" ID="{F381ECC5-0179-41CA-9282-0D491FA13D5E}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00703456564986737"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0628421198054819"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Carpet, Socks, Heavy SND17392 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="499050754"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 7" ID="{F381ECC5-0179-41CA-9282-0D491FA13D5E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 8" ID="{8EF78450-D3C6-47B6-90B2-764CD61ECE09}" ShortID="15123385">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A47BD3E-1006-4F01-858F-9BADF78E9598}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5801AA9-38E4-48B0-8F40-3FCED29C35BC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 8" ID="{4FAEE49D-C631-4E83-8AE8-C8D47C6FB307}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00337408819628647"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0607335875331565"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Footsteps, Human, Carpet, Socks, Heavy SND17392 8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="116997458"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Carpet, Socks, Heavy SND17392 8" ID="{4FAEE49D-C631-4E83-8AE8-C8D47C6FB307}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Environment" ID="{5B952E73-182B-40E8-893D-7D1F58764CF1}" ShortID="445826421">

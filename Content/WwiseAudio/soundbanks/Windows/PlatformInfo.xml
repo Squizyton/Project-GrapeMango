@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PlatformInfo>
-	<Platform Name="Windows" BasePlatform="Windows" Generator="2023.1.0.8367"/>
+	<Platform Name="Windows" BasePlatform="Windows" Generator="2023.1.1.8417"/>
 	<RootPaths>
 		<ProjectRoot>../../../../Wwise</ProjectRoot>
 		<SourceFilesRoot>../../../../Wwise/.cache/Windows</SourceFilesRoot>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>true</PrintObjectGuid>
 		<PrintObjectPath>true</PrintObjectPath>
 	</Settings>
-	<FileHash>{1D91BF59-AE27-E86E-25A4-B1027C9A3CEC}</FileHash>
+	<FileHash>{52EA6028-4A16-4A08-B9BE-D679DC24BE62}</FileHash>
 </PlatformInfo>
