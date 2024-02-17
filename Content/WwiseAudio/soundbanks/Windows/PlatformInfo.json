@@ -3,7 +3,7 @@
   "Platform": {
    "Name": "Windows",
    "BasePlatform": "Windows",
-   "Generator": "2023.1.0.8367"
+   "Generator": "2023.1.1.8417"
   },
   "RootPaths": {
    "ProjectRoot": "../../../../Wwise",
@@ -32,6 +32,6 @@
    "PrintObjectGuid": "true",
    "PrintObjectPath": "true"
   },
-  "FileHash": "{DB876E07-F97A-DA2B-E0A0-1586B16DD83C}"
+  "FileHash": "{49EB3F8F-2A2E-0943-BC71-83FD8B33251C}"
  }
 }

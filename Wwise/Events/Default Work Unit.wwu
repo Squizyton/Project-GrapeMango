@@ -525,6 +525,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Enemy_Footsteps" ID="{FB28C601-A79B-4BAA-981A-3991ACF4356A}">
+							<ChildrenList>
+								<Action Name="" ID="{8CC1BB11-9228-4C19-8E7D-322C02F970F0}" ShortID="254403147">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_Footsteps" ID="{A4AAAD7B-E0AA-4FC7-BACD-1199DE9F5B39}" WorkUnitID="{861CD79D-296B-436C-BAB4-776D303B0C43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{147D48FB-70B5-41AB-B36D-D2196B722A0F}" ShortID="818924828"/>

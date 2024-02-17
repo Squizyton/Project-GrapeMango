@@ -123,7 +123,7 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{C419826E-DA55-EA08-A22F-3A1829F37369}",
+    "Hash": "{B2C9532E-884B-C379-7DD5-CD38FAB91C56}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -135,6 +135,14 @@
       "Location": "Memory",
       "ShortName": "Spotlight_Rotate.wav",
       "CachePath": "SFX/Spotlight_Rotate_3B7822A8.wem"
+     },
+     {
+      "Id": "116997458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 8.wav",
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 8_87E3F572.wem"
      },
      {
       "Id": "164823044",
@@ -185,6 +193,14 @@
       "CachePath": "SFX/Spotlight_TurnedOff-002_B032A71E.wem"
      },
      {
+      "Id": "254005356",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 2.wav",
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 2_A7876491.wem"
+     },
+     {
       "Id": "282319275",
       "Language": "SFX",
       "Streaming": "false",
@@ -209,12 +225,52 @@
       "CachePath": "SFX/Radio_Noise_lp_3B7822A8.wem"
      },
      {
+      "Id": "406672074",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 4.wav",
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 4_CCC80AE0.wem"
+     },
+     {
+      "Id": "447301700",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 6.wav",
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 6_5D3DEBED.wem"
+     },
+     {
+      "Id": "472704767",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392.wav",
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392_56FA5FC3.wem"
+     },
+     {
       "Id": "490944829",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bed O Nailz- Nail case hits  Gift Of Junk v1 1.wav",
       "CachePath": "SFX/Bed O Nailz- Nail case hits  Gift Of Junk v1 1_B032A71E.wem"
+     },
+     {
+      "Id": "491520101",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 1.wav",
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 1_B5B8A79D.wem"
+     },
+     {
+      "Id": "499050754",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 7.wav",
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 7_49131579.wem"
      },
      {
       "Id": "649675338",
@@ -321,6 +377,22 @@
       "CachePath": "SFX/Spotlight_Instakill_B032A71E.wem"
      },
      {
+      "Id": "950268915",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 5.wav",
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 5_8A65FF79.wem"
+     },
+     {
+      "Id": "1039577476",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 3.wav",
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 3_9216F3E9.wem"
+     },
+     {
       "Id": "1073393025",
       "Language": "SFX",
       "Streaming": "false",
@@ -409,6 +481,45 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "3217092839",
+      "Name": "Enemy_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Enemy_Footsteps",
+      "GUID": "{FB28C601-A79B-4BAA-981A-3991ACF4356A}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.32414582",
+      "DurationMax": "0.40272915",
+      "MediaRefs": [
+       {
+        "Id": "116997458"
+       },
+       {
+        "Id": "254005356"
+       },
+       {
+        "Id": "406672074"
+       },
+       {
+        "Id": "447301700"
+       },
+       {
+        "Id": "472704767"
+       },
+       {
+        "Id": "491520101"
+       },
+       {
+        "Id": "499050754"
+       },
+       {
+        "Id": "950268915"
+       },
+       {
+        "Id": "1039577476"
+       }
+      ]
      },
      {
       "Id": "2449090642",
@@ -2931,6 +3042,6 @@
     }
    }
   ],
-  "FileHash": "{97F37E15-BB41-124B-FDED-406C09578AF9}"
+  "FileHash": "{16FD5F5A-CE49-59D0-941B-F2034CB9885A}"
  }
 }
