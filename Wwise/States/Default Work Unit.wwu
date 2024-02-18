@@ -10,6 +10,26 @@
 						<State Name="Lighthouse_Bottom" ID="{CD8040ED-C666-45A1-A3C3-97DD9EA79352}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="GamePaused" ID="{E0730B5A-C564-481D-8848-42C7F1D6B276}">
+					<ChildrenList>
+						<State Name="None" ID="{3FEBDE76-87D5-4F0E-B6DD-2FB12404E8BF}"/>
+						<State Name="Paused" ID="{38EDCBFB-A615-471C-8B90-8A2282B36AEB}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{3FEBDE76-87D5-4F0E-B6DD-2FB12404E8BF}"/>
+							<EndState Name="Paused" ID="{38EDCBFB-A615-471C-8B90-8A2282B36AEB}"/>
+							<Time>0.2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Paused" ID="{38EDCBFB-A615-471C-8B90-8A2282B36AEB}"/>
+							<EndState Name="None" ID="{3FEBDE76-87D5-4F0E-B6DD-2FB12404E8BF}"/>
+							<Time>0.2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
