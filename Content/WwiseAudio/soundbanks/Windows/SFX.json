@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}",
     "Language": "SFX",
-    "Hash": "{7EB39702-C8F0-6977-5220-AE3185319EA4}",
+    "Hash": "{E4AE880F-3BA2-C550-587F-8B8BEC085F42}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 8.wav",
-      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 8_87E3F572.wem"
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 8_84CD4717.wem"
      },
      {
       "Id": "164823044",
@@ -85,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 2.wav",
-      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 2_A7876491.wem"
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 2_6699BDE0.wem"
      },
      {
       "Id": "282319275",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 4.wav",
-      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 4_CCC80AE0.wem"
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 4_542A9DFD.wem"
      },
      {
       "Id": "447301700",
@@ -125,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 6.wav",
-      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 6_5D3DEBED.wem"
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 6_7A1E5EEE.wem"
      },
      {
       "Id": "472704767",
@@ -133,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392.wav",
-      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392_56FA5FC3.wem"
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392_439735D4.wem"
      },
      {
       "Id": "490944829",
@@ -149,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 1.wav",
-      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 1_B5B8A79D.wem"
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 1_435BB193.wem"
      },
      {
       "Id": "499050754",
@@ -157,7 +157,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 7.wav",
-      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 7_49131579.wem"
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 7_7E502CE1.wem"
      },
      {
       "Id": "649675338",
@@ -269,7 +269,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 5.wav",
-      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 5_8A65FF79.wem"
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 5_094E8F45.wem"
      },
      {
       "Id": "1039577476",
@@ -277,7 +277,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Carpet, Socks, Heavy SND17392 3.wav",
-      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 3_9216F3E9.wem"
+      "CachePath": "SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 3_F1F05063.wem"
      },
      {
       "Id": "1073393025",
@@ -374,7 +374,7 @@
       "Name": "Enemy_Footsteps",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Enemy_Footsteps",
       "GUID": "{FB28C601-A79B-4BAA-981A-3991ACF4356A}",
-      "MaxAttenuation": "2000",
+      "MaxAttenuation": "3000",
       "DurationType": "OneShot",
       "DurationMin": "0.32414582",
       "DurationMax": "0.40272915",
@@ -612,6 +612,6 @@
     ]
    }
   ],
-  "FileHash": "{2EA4F562-B9C2-7976-AF0C-7E1D037972F3}"
+  "FileHash": "{1F90C7EF-D625-7525-5258-16CA28BCF8B8}"
  }
 }

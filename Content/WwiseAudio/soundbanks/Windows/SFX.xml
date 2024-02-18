@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{7EB39702-C8F0-6977-5220-AE3185319EA4}">
+		<SoundBank Id="393239870" Type="User" GUID="{FAAF6CC1-9F41-4804-8D18-CC80F13B0533}" Language="SFX" Hash="{E4AE880F-3BA2-C550-587F-8B8BEC085F42}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -12,7 +12,7 @@
 				</File>
 				<File Id="116997458" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Carpet, Socks, Heavy SND17392 8.wav</ShortName>
-					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 8_87E3F572.wem</CachePath>
+					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 8_84CD4717.wem</CachePath>
 				</File>
 				<File Id="164823044" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fight, Bodyfall, Outdoors Ground, Grass SND23806.wav</ShortName>
@@ -40,7 +40,7 @@
 				</File>
 				<File Id="254005356" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Carpet, Socks, Heavy SND17392 2.wav</ShortName>
-					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 2_A7876491.wem</CachePath>
+					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 2_6699BDE0.wem</CachePath>
 				</File>
 				<File Id="282319275" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GUNHndl GUNPis, grab, holster 2.wav</ShortName>
@@ -56,15 +56,15 @@
 				</File>
 				<File Id="406672074" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Carpet, Socks, Heavy SND17392 4.wav</ShortName>
-					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 4_CCC80AE0.wem</CachePath>
+					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 4_542A9DFD.wem</CachePath>
 				</File>
 				<File Id="447301700" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Carpet, Socks, Heavy SND17392 6.wav</ShortName>
-					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 6_5D3DEBED.wem</CachePath>
+					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 6_7A1E5EEE.wem</CachePath>
 				</File>
 				<File Id="472704767" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Carpet, Socks, Heavy SND17392.wav</ShortName>
-					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392_56FA5FC3.wem</CachePath>
+					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392_439735D4.wem</CachePath>
 				</File>
 				<File Id="490944829" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bed O Nailz- Nail case hits  Gift Of Junk v1 1.wav</ShortName>
@@ -72,11 +72,11 @@
 				</File>
 				<File Id="491520101" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Carpet, Socks, Heavy SND17392 1.wav</ShortName>
-					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 1_B5B8A79D.wem</CachePath>
+					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 1_435BB193.wem</CachePath>
 				</File>
 				<File Id="499050754" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Carpet, Socks, Heavy SND17392 7.wav</ShortName>
-					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 7_49131579.wem</CachePath>
+					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 7_7E502CE1.wem</CachePath>
 				</File>
 				<File Id="649675338" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musical, Loop, Horror, Pitch Sliding Strings 02 SND61423.wav</ShortName>
@@ -132,11 +132,11 @@
 				</File>
 				<File Id="950268915" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Carpet, Socks, Heavy SND17392 5.wav</ShortName>
-					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 5_8A65FF79.wem</CachePath>
+					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 5_094E8F45.wem</CachePath>
 				</File>
 				<File Id="1039577476" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Carpet, Socks, Heavy SND17392 3.wav</ShortName>
-					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 3_9216F3E9.wem</CachePath>
+					<CachePath>SFX/Footsteps, Human, Carpet, Socks, Heavy SND17392 3_F1F05063.wem</CachePath>
 				</File>
 				<File Id="1073393025" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy Death-003.wav</ShortName>
@@ -169,7 +169,7 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="3287655183" Name="Enemy_Desintegration_Stop" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Desintegration_Stop" GUID="{2C551684-143B-4255-A4AE-DB6BE7B7F8A3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3217092839" Name="Enemy_Footsteps" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Footsteps" GUID="{FB28C601-A79B-4BAA-981A-3991ACF4356A}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="0.32414582" DurationMax="0.40272915">
+				<Event Id="3217092839" Name="Enemy_Footsteps" ObjectPath="\Events\Default Work Unit\Enemy\Enemy_Footsteps" GUID="{FB28C601-A79B-4BAA-981A-3991ACF4356A}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0.32414582" DurationMax="0.40272915">
 					<MediaRefs>
 						<MediaRef Id="116997458"/>
 						<MediaRef Id="254005356"/>
@@ -260,5 +260,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AE2B3DDB-E476-F189-9F7B-ADBC1E335BBE}</FileHash>
+	<FileHash>{B3AFBBEB-3972-104B-FF4A-E66D5E538823}</FileHash>
 </SoundBanksInfo>
