@@ -1,7 +1,10 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	935463065	GamePaused			\Default Work Unit\GamePaused	
 	2782712965	Level			\Default Work Unit\Level	
 
 State	ID	Name	State Group			Notes
+	319258907	Paused	GamePaused			
+	748895195	None	GamePaused			
 	748895195	None	Level			
 	2901545865	Lighthouse_Top	Level			
 	3533817249	Lighthouse_Bottom	Level			

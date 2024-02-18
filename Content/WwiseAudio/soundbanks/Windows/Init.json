@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{0B53DC42-CF0F-D812-786D-5A5F2C4C05C6}",
+    "Hash": "{2572E925-CD20-46A3-F620-75549096DA97}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -140,6 +140,26 @@
     ],
     "StateGroups": [
      {
+      "Id": "935463065",
+      "Name": "GamePaused",
+      "ObjectPath": "\\States\\Default Work Unit\\GamePaused",
+      "GUID": "{E0730B5A-C564-481D-8848-42C7F1D6B276}",
+      "States": [
+       {
+        "Id": "319258907",
+        "Name": "Paused",
+        "ObjectPath": "\\States\\Default Work Unit\\GamePaused\\Paused",
+        "GUID": "{38EDCBFB-A615-471C-8B90-8A2282B36AEB}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GamePaused\\None",
+        "GUID": "{3FEBDE76-87D5-4F0E-B6DD-2FB12404E8BF}"
+       }
+      ]
+     },
+     {
       "Id": "2782712965",
       "Name": "Level",
       "ObjectPath": "\\States\\Default Work Unit\\Level",
@@ -220,6 +240,6 @@
     ]
    }
   ],
-  "FileHash": "{880AB818-9AB5-3638-2368-1E34F50ED81F}"
+  "FileHash": "{B44A2B39-0CBA-7A33-4BD4-DCE7DC62E6C1}"
  }
 }
